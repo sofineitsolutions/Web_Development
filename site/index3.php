@@ -34,7 +34,7 @@
 <![endif]-->
 </head>
 <body id="top">
-<?php include("new.php"); ?>
+<?php include("variable5.php"); ?>
 <!--==============================
               header
 =================================-->
@@ -46,49 +46,49 @@
   <div class="container">
     <div class="row">
       <div class="grid_7">
-        <h3 class="ta__center">Blog</h3>
+        <?php echo("<h3 class='ta__center'>$title</h3>"); ?>
         <div class="blog">
-            <div class="text1"><a href="#">Lueiverra Mertolo Dertomertolino Mel</a></div>
-            <div class="blog_links">Submitted by
-              <a href="#">Admin</a> on
-              <time datetime="2014-01-01">11 June, 2014</time>
+            <?php echo("<div class='text1'><a href='#'>$blog_tit </a></div>"); ?>
+    <?php echo("<div class='blog_links'>$blog_sub
+              <a href='#'>$blog_sub1</a> on
+              <time datetime='2014-01-01'>$blog_date</time>"); ?>
             </div>
             <img src="images/page4_img1.jpg" alt="" class="img_inner fleft">
             <div class="extra_wrapper">
               <p><?php echo($blog1); ?>
               <br>
-              <a href="#" class="btn">more</a>
+              <?php echo("<a href='#' class='btn'>$button</a>"); ?>
             </div>
           </div>
           <div class="blog">
-            <div class="text1"><a href="#">Hoeiverra Tertolo Gertomertolino </a></div>
-            <div class="blog_links">Submitted by
-              <a href="#">Admin</a> on
-              <time datetime="2014-01-01">14 June, 2014</time>
+            <?php echo("<div class='text1'><a href='#'>$blog_tit1 </a></div>"); ?>
+    <?php echo("<div class='blog_links'>$blog_sub2
+              <a href='#'>$blog_sub3</a> on
+              <time datetime='2014-01-01'>$blog_date1</time>"); ?>
             </div>
             <img src="images/page4_img2.jpg" alt="" class="img_inner fleft">
             <div class="extra_wrapper">
               <p><?php echo($blog2); ?>
               <br>
-              <a href="#" class="btn">more</a>
+              <?php echo("<a href='#' class='btn'>$button1</a>");  ?>
             </div>
           </div>
           <div class="blog">
-            <div class="text1"><a href="#">Mertolo Dertomertolino Melonwe</a></div>
-            <div class="blog_links">Submitted by
-              <a href="#">Admin</a> on
-              <time datetime="2014-01-01">18 June, 2014</time>
+          <?php echo("<div class='text1'><a href='#'>$blog_tit2</a></div>
+            <div class='blog_links'>$blog_sub4
+              <a href='#'>$blog_sub5</a> on
+              <time datetime='2014-01-01'>$blog_date2</time>"); ?>
             </div>
             <img src="images/page4_img3.jpg" alt="" class="img_inner fleft">
             <div class="extra_wrapper">
              <?php echo($blog3); ?>
               <br>
-              <a href="#" class="btn">more</a>
+              <?php echo("<a href='#' class='btn'>$button2</a>"); ?>
             </div>
           </div>
       </div>
       <div class="grid_4 preffix_1">
-        <h3>Search</h3>
+        <?php echo("<h3>$search</h3>"); ?>
         <form id="search" action="search.php" method="GET">
         <div class="rel">
           <label>
@@ -98,43 +98,44 @@
         </div>
          <div class="clear"></div>
        </form>
-       <h3>Categories</h3>
+       <?php echo("<h3>$cat</h3>"); ?>
        <ul class="list color1">
-         <li><a href="#">Besit ametconsecteturertolom  werto monikosit </a></li>
-         <li><a href="#">Amet ultricies erateroli me rutruma auctorerttu </a></li>
-         <li><a href="#">Terolp sadertto mertoInteger convawertolo  </a></li>
-         <li><a href="#">Amertoloolaoreetatwertlim wernom fertolom </a></li>
-         <li><a href="#">Dolor sit amsecteturertolom  lid be</a></li>
-         <li><a href="#">Moniko lomon dertlosit amet ultricies erater </a></li>
-         <li><a href="#">Rutruma auctorert retlomoni molokintromoli</a></li>
-         <li><a href="#">Convallis orci vel mi laoreetat terolo </a></li>
+        <?php echo("<li><a href='#'>$cat1</a></li>
+         <li><a href='#'>$cat2 </a></li>
+         <li><a href='#'>$cat3  </a></li>
+         <li><a href='#'>$cat4 </a></li>
+         <li><a href='#'>$cat5</a></li>
+         <li><a href='#'>$cat6 </a></li>
+         <li><a href='#'>$cat7</a></li>
+         <li><a href='#'>$cat8 </a></li>"); ?>
        </ul>
-       <h3>Poll</h3>
+      <?php echo("<h3>$poll</h3>"); ?>
        <ul class="rate">
          <li>
-           <span>Super</span>
-           <span>39%</span>
+           <?php echo("<span>$poll1</span>
+           <span>  $poll_per</span>"); ?>
            <div class="bar">
              <div class="scale"></div>
            </div>
          </li>
          <li>
-           <span>Good</span>
-           <span>31%</span>
+          <?php echo("<span>$poll2</span>
+           <span>$poll_per1</span>"); ?>
            <div class="bar">
              <div class="scale"></div>
            </div>
          </li>
          <li>
-           <span>Normal</span>
-           <span>20%</span>
+           <?php echo("<span>$poll3</span>
+           <span>$poll_per2</span>"); ?>
            <div class="bar">
              <div class="scale"></div>
            </div>
          </li>
          <li>
-           <span>Bad </span>
-           <span>11%</span>
+          <?php echo("<span>$poll4</span>
+           <span>$poll_per3</span>"); ?>
+
            <div class="bar">
              <div class="scale"></div>
            </div>

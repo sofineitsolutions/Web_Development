@@ -1,7 +1,8 @@
 
 /*<!------------------------------------------------- contact.php ------->*/
 <?php
-
+$title="Our Location";
+$title1="Contact Form";
 $tit13="Drop Us A Note";             
 $des13="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, quibusdam.";
 $button4="Send Message";

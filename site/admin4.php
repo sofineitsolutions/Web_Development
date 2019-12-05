@@ -53,7 +53,7 @@
 <section class="contact-form">
     <div class="container">
         <div class="row">
-            <form id="contact-form"  action="insert3.php" method="POST">
+            <form id="contact-form"  action="insert4.php" method="POST">
                 <div class="col-md-6 col-sm-12">
                     <div class="block">
                         
@@ -61,53 +61,33 @@
                             <input name="title" type="text" class="form-control" placeholder="Enter title">
                         </div>
                          <div class="form-group">
-                            <input name="tit1" type="text" class="form-control" placeholder="title1">
+                            <input name="title1" type="text" class="form-control" placeholder="title1">
                         </div>
                         <div class="form-group">
-                            <input name="portfolio1" type="text" class="form-control" placeholder="portfolio1">
+                            <input name="head" type="text" class="form-control" placeholder="Head">
                         </div>
                         <div class="form-group">
-                            <input name="tit2" type="text" class="form-control" placeholder="title2">
+                            <input name="line1" type="text" class="form-control" placeholder="line1">
                         </div>
                         <div class="form-group">
-                            <input name="portfolio2" type="text" class="form-control" placeholder="portfolio2">
+                            <input name="line2" type="text" class="form-control" placeholder="line2">
                         </div>
                         <div class="form-group">
-                            <input name="tit3" type="text" class="form-control" placeholder="title3">
+                            <input name="line3" type="text" class="form-control" placeholder="line3">
                         </div>
                         <div class="form-group">
-                            <input name="portfolio3" type="text" class="form-control" placeholder="portfolio3">
+                            <input name="line4" type="text" class="form-control" placeholder="line4">
                         </div>
                         <div class="form-group">
-                            <input name="tit4" type="text" class="form-control" placeholder="title4">
+                            <input name="contact" type="text" class="form-control" placeholder="contact">
                         </div>
                         <div class="form-group">
-                            <input name="portfolio4" type="text" class="form-control" placeholder="portfolio4">
+                            <input name="email" type="text" class="form-control" placeholder="email">
                         </div>
                         <div class="form-group">
-                            <input name="tit5" type="text" class="form-control" placeholder="title5">
+                            <input name="email1" type="text" class="form-control" placeholder="email1">
                         </div>
-                        <div class="form-group">
-                            <input name="portfolio5" type="text" class="form-control" placeholder="portfolio5">
-                        </div>
-                        <div class="form-group">
-                            <input name="tit6" type="text" class="form-control" placeholder="title6">
-                        </div>
-                        <div class="form-group">
-                            <input name="portfolio6" type="text" class="form-control" placeholder="portfolio6">
-                        </div>
-                        <div class="form-group">
-                            <input name="tit7" type="text" class="form-control" placeholder="title7">
-                        </div>
-                        <div class="form-group">
-                            <input name="portfolio7" type="text" class="form-control" placeholder="portfolio7">
-                        </div>
-                        <div class="form-group">
-                            <input name="tit8" type="text" class="form-control" placeholder="title8">
-                        </div>
-                        <div class="form-group">
-                            <input name="portfolio8" type="text" class="form-control" placeholder="portfolio8">
-                        </div>
+                        
                        
                 <div class="col-md-6 col-sm-12">
                     <div class="block">

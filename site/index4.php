@@ -37,7 +37,7 @@
 <![endif]-->
 </head>
 <body id="top">
-<?php include("new.php");  ?>
+<?php include("variable4.php");  ?>
 <!--==============================
               header
 =================================-->
@@ -49,7 +49,7 @@
   <div class="container">
     <div class="row">
       <div class="grid_12">
-        <h3 class="ta__center">Our Location</h3>
+        <?php echo("<h3 class='ta__center'>$title</h3>"); ?>
         <div class="map">
           <figure class="">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094" style="border:0"></iframe>
@@ -57,7 +57,7 @@
         </div>
       </div>
       <div class="grid_6">
-        <div class="text1 tx__1">Contact Form</div>
+        <?php echo("<div class='text1 tx__1'>$title1</div>"); ?>
           <form id="form" >
             <div class="form_spinner">
               <img src="images/Preloader_4.gif" alt="">
@@ -104,11 +104,11 @@
           </form>
       </div>
       <div class="grid_6">
-        <div class="text1 tx__1">Contact Information</div>
-        <p>We offer you 24/7 support for all <span class="color1 fw1"><a href="http://www.templatemonster.com/" rel="nofollow">premium templates</a></span>. </p>
-        <p>If you need help in customization of freebies, ask guys from <span class="color1 fw1"><a href="http://www.templatetuning.com/" rel="nofollow">TemplateTuning</a></span>.</p>
+        <?php echo("<div class='text1 tx__1'>$head</div>"); ?>
+       <?php echo(" <p>$line1<span class='color1 fw1'><a href='http://www.templatemonster.com/' rel='nofollow'>$line2</a></span>. </p>"); ?>
+        <?php echo("<p>$line3 <span class='color1 fw1'><a href='http://www.templatetuning.com/' rel='nofollow'>$line4</a></span>.</p>"); ?>
         <p><?php echo($contact); ?>
-        E-mail: <a href="#">mail@demolink.org</a>
+        <?php echo("$email <a href='#'>$email1</a>"); ?>
       </div>
     </div>
   </div>
