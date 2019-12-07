@@ -37,7 +37,7 @@
 <body id="body">
 
 <?php include("header.php"); ?>
-<?php include("variable3.php"); ?>
+<?php include("variable6.php"); ?>
 <?php include("cont.php"); ?>
 <section class="page-title bg-2">
   <div class="container">
@@ -55,7 +55,7 @@
 <section class="contact-form">
     <div class="container">
         <div class="row">
-            <form id="contact-form"  action="insert2.php" method="POST">
+            <form id="contact-form"  action="insert5.php" method="POST">
                 <div class="col-md-6 col-sm-12">
                     <div class="block">
                         
@@ -66,95 +66,139 @@
                             <input name="des" type="text" class="form-control" placeholder="description">
                         </div>
                         <div class="form-group">
-                            <input name="theme_tit" type="text" class="form-control" placeholder="Theme Title">
+                            <input name="date1" type="text" class="form-control" placeholder="blog date1">
                         </div>
                         <div class="form-group">
-                            <input name="theme_des" type="text" class="form-control" placeholder="Theme description">
+                            <input name="des1" type="text" class="form-control" placeholder=" description1">
                         </div>
                         <div class="form-group">
-                            <input name="list1" type="text" class="form-control" placeholder="list1">
+                            <input name="des2" type="text" class="form-control" placeholder="description2">
                         </div>
                         <div class="form-group">
-                            <input name="list2" type="text" class="form-control" placeholder="list2">
+                            <input name="des3" type="text" class="form-control" placeholder="description3">
                         </div>
                         <div class="form-group">
-                            <input name="list3" type="text" class="form-control" placeholder="list3">
+                            <input name="des4" type="text" class="form-control" placeholder="description4">
                         </div>
                         <div class="form-group">
-                            <input name="list4" type="text" class="form-control" placeholder="list4">
+                            <input name="heading1" type="text" class="form-control" placeholder="blog Title1">
                         </div>
                         <div class="form-group">
-                            <input name="list5" type="text" class="form-control" placeholder="list5">
+                            <input name="para1" type="text" class="form-control" placeholder="blog description1">
+                        </div>
+
+                        <div class="form-group">
+                            <input name="date2" type="text" class="form-control" placeholder="blog date2">
                         </div>
                         <div class="form-group">
-                            <input name="list6" type="text" class="form-control" placeholder="list6">
+                            <input name="des5" type="text" class="form-control" placeholder=" description5">
                         </div>
                         <div class="form-group">
-                            <input name="block_tit" type="text" class="form-control" placeholder="Block Title">
+                            <input name="des6" type="text" class="form-control" placeholder="description6">
                         </div>
                         <div class="form-group">
-                            <input name="block1_tit" type="text" class="form-control" placeholder="Block1 Title">
+                            <input name="des7" type="text" class="form-control" placeholder="description7">
                         </div>
                         <div class="form-group">
-                            <input name="block1_des" type="text" class="form-control" placeholder="Block1 description">
+                            <input name="des8" type="text" class="form-control" placeholder="description8">
                         </div>
                         <div class="form-group">
-                            <input name="block2_tit" type="text" class="form-control" placeholder="Blcok2 Title">
+                            <input name="heading2" type="text" class="form-control" placeholder="blog Title2">
                         </div>
                         <div class="form-group">
-                            <input name="block2_des" type="text" class="form-control" placeholder="Block2 description">
+                            <input name="para2" type="text" class="form-control" placeholder="blog description2">
+                        </div>
+
+                        <div class="form-group">
+                            <input name="date3" type="text" class="form-control" placeholder="blog date3">
                         </div>
                         <div class="form-group">
-                            <input name="block3_tit" type="text" class="form-control" placeholder="Block3 Title">
+                            <input name="des9" type="text" class="form-control" placeholder=" description9">
                         </div>
                         <div class="form-group">
-                            <input name="block3_des" type="text" class="form-control" placeholder="Block3 description">
+                            <input name="des10" type="text" class="form-control" placeholder="description10">
                         </div>
                         <div class="form-group">
-                            <input name="block4_tit" type="text" class="form-control" placeholder="Block4 Title">
+                            <input name="des11" type="text" class="form-control" placeholder="description11">
                         </div>
                         <div class="form-group">
-                            <input name="block4_des" type="text" class="form-control" placeholder="Block4 description">
+                            <input name="des12" type="text" class="form-control" placeholder="description12">
                         </div>
                         <div class="form-group">
-                            <input name="block5_tit" type="text" class="form-control" placeholder="Block5 Title">
+                            <input name="heading3" type="text" class="form-control" placeholder="blog Title3">
                         </div>
                         <div class="form-group">
-                            <input name="block5_des" type="text" class="form-control" placeholder="Block5 description">
+                            <input name="para3" type="text" class="form-control" placeholder="blog description3">
+                        </div>
+
+                        <div class="form-group">
+                            <input name="date4" type="text" class="form-control" placeholder="blog date4">
                         </div>
                         <div class="form-group">
-                            <input name="block6_tit" type="text" class="form-control" placeholder="Block6 Title">
+                            <input name="des13" type="text" class="form-control" placeholder=" description13">
                         </div>
                         <div class="form-group">
-                            <input name="block6_des" type="text" class="form-control" placeholder="Block6 description">
+                            <input name="des14" type="text" class="form-control" placeholder="description14">
                         </div>
                         <div class="form-group">
-                            <input name="view1" type="text" class="form-control" placeholder="view1">
+                            <input name="des15" type="text" class="form-control" placeholder="description17">
                         </div>
                         <div class="form-group">
-                            <input name="view2" type="text" class="form-control" placeholder="view2">
+                            <input name="des16" type="text" class="form-control" placeholder="description16">
                         </div>
                         <div class="form-group">
-                            <input name="view3" type="text" class="form-control" placeholder="view3">
+                            <input name="heading4" type="text" class="form-control" placeholder="blog Title4">
                         </div>
                         <div class="form-group">
-                            <input name="view4" type="text" class="form-control" placeholder="view4">
+                            <input name="para4" type="text" class="form-control" placeholder="blog description4">
+                        </div>
+
+                        <div class="form-group">
+                            <input name="date5" type="text" class="form-control" placeholder="blog date5">
                         </div>
                         <div class="form-group">
-                            <input name="vision" type="text" class="form-control" placeholder="vision">
+                            <input name="des17" type="text" class="form-control" placeholder=" description17">
                         </div>
                         <div class="form-group">
-                            <input name="mission" type="text" class="form-control" placeholder="mission">
+                            <input name="des18" type="text" class="form-control" placeholder="description18">
                         </div>
                         <div class="form-group">
-                            <input name="approch" type="text" class="form-control" placeholder="approch">
+                            <input name="des19" type="text" class="form-control" placeholder="description19">
                         </div>
                         <div class="form-group">
-                            <input name="exp_tit" type="text" class="form-control" placeholder="Experiance_title">
+                            <input name="des20" type="text" class="form-control" placeholder="description20">
                         </div>
                         <div class="form-group">
-                            <input name="exp_des" type="text" class="form-control" placeholder="Experiance_description">
+                            <input name="heading5" type="text" class="form-control" placeholder="blog Title5">
                         </div>
+                        <div class="form-group">
+                            <input name="para5" type="text" class="form-control" placeholder="blog description5">
+                        </div>
+
+                        <div class="form-group">
+                            <input name="date6" type="text" class="form-control" placeholder="blog date6">
+                        </div>
+                        <div class="form-group">
+                            <input name="des21" type="text" class="form-control" placeholder=" description21">
+                        </div>
+                        <div class="form-group">
+                            <input name="des22" type="text" class="form-control" placeholder="description22">
+                        </div>
+                        <div class="form-group">
+                            <input name="des23" type="text" class="form-control" placeholder="description23">
+                        </div>
+                        <div class="form-group">
+                            <input name="des24" type="text" class="form-control" placeholder="description24">
+                        </div>
+                        <div class="form-group">
+                            <input name="heading6" type="text" class="form-control" placeholder="blog Title6">
+                        </div>
+                        <div class="form-group">
+                            <input name="para6" type="text" class="form-control" placeholder="blog description6">
+                        </div>
+
+
+                        
                         
                    
                 <div class="col-md-6 col-sm-12">
