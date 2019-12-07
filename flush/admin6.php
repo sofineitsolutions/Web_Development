@@ -20,18 +20,20 @@
         <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
+        
     <?php include("variable6.php");
             include("h.php");?>
+        
         <!--================Home Banner Area =================-->
         <section class="banner_area">
             <div class="box_1620">
 				<div class="banner_inner d-flex align-items-center">
 					<div class="container">
 						<div class="banner_content text-center">
-						<?php echo	"<h2>".$contact_us."</h2>";?>
+						<h2>Contact Us</h2>
 							<div class="page_link">
-							<?Php echo	"<a href='index.html'>".$home."</a>";
-							echo	"<a href='contact.html'>".$contact_us."</a>";?>
+								<a href="index.html">Home</a>
+								<a href="contact.html">Contact Us</a>
 							</div>
 						</div>
 					</div>
@@ -52,43 +54,43 @@
                     data-mlon="-74.1522848">
                 </div>
                 <div class="row">
-                    <div class="col-lg-3">
-                        <div class="contact_info">
-                            <div class="info_item">
-                                <i class="lnr lnr-home"></i>
-                             <?php echo   "<h6>".$add1."</h6>";
-                                echo "<p>".$add2."</p>";?>
-                            </div>
-                            <div class="info_item">
-                                <i class="lnr lnr-phone-handset"></i>
-                              <?Php  echo "<h6><a href='#'>".$mobile_no."</a></h6>";
-                                echo "<p>".$time."</p>";?>
-                            </div>
-                            <div class="info_item">
-                                <i class="lnr lnr-envelope"></i>
-                               <?php echo "<h6><a href='#'>".$email."</a></h6>";
-                                echo "<p>".$quotes."</p>";?>
-                            </div>
-                        </div>
-                    </div>
+                    
                     <div class="col-lg-9">
-                        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <form class="row contact_form" action="insert6.php" method="post">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                                    <input type="text" class="form-control" id="name" name="contact_us" placeholder="blog details">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
+                                    <input type="text" class="form-control" id="name" name="home" placeholder="home">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
+                                    <input type="text" class="form-control" id="name" name="contact_us" placeholder="blog">
                                 </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="add1" placeholder="blog details">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="add2" placeholder="Enter blog title">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="mobile_no" placeholder="Enter discription">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="time" placeholder="Enter discription">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="email" placeholder="Enter discription">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="quotes" placeholder="food">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="insta" placeholder="technology">
+                                </div>
+                                
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
-                                </div>
-                            </div>
+                            
                             <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
                             </div>
@@ -99,41 +101,10 @@
         </section>
         <!--================Contact Area =================-->
         
-        <!--================Instagram Area =================-->
-        <section class="instagram_area">
-        	<div class="container box_1620">
-        		<div class="insta_btn">
-        		<?php echo	"<a class='btn theme_btn' href='#'>".$insta."</a>";?>
-        		</div>
-        		<div class="instagram_image row m0">
-        			<a href="#"><img src="img/instagram/ins-1.jpg" alt=""></a>
-        			<a href="#"><img src="img/instagram/ins-2.jpg" alt=""></a>
-        			<a href="#"><img src="img/instagram/ins-3.jpg" alt=""></a>
-        			<a href="#"><img src="img/instagram/ins-4.jpg" alt=""></a>
-        			<a href="#"><img src="img/instagram/ins-5.jpg" alt=""></a>
-        			<a href="#"><img src="img/instagram/ins-6.jpg" alt=""></a>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Instagram Area =================-->
         
-      <?php include("f.php");?>
+      
         
-        <!--================Contact Success and Error message Area =================-->
-        <div id="success" class="modal modal-message fade" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <i class="fa fa-close"></i>
-                        </button>
-                        <h2>Thank you</h2>
-                        <p>Your message is successfully sent...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        
         <!-- Modals error -->
 
         <div id="error" class="modal modal-message fade" role="dialog">
