@@ -37,7 +37,7 @@
 
 
 <?php include("header.php"); ?>
-<?php include("cont1.php"); ?>
+<?php include("variable6.php"); ?>
 
 
 <section class="page-title bg-2">
@@ -46,7 +46,7 @@
       <div class="col-md-12">
         <div class="block">
           <h1><?php echo($tit1); ?></h1>
-          <p><?php echo($des1); ?></p>
+          <p><?php echo($des); ?></p>
         </div>
       </div>
     </div>
@@ -63,18 +63,18 @@
 			<img src="images/blog/blog-post-1.jpg" alt="">
 		</a>
 	</div>
-	<h3 class="post-title"><a href="blog-single.html"><?php echo($h1); ?></a></h3>
-	<div class="post-meta">
+<?php echo("<h3 class='post-title'><a href='blog-single.html'>$h1</a></h3>
+  <div class='post-meta'>
         <ul>
           <li>
-            <i class="ion-calendar"></i> <?php echo($date); ?>
+            <i class='ion-calendar'></i>$date1
           </li>
           <li>
-            <i class="ion-android-people"></i> <?php echo($des); ?>
+            <i class='ion-android-people'></i>$des1
           </li>
           <li>
-            <a href=""><i class="ion-pricetags"></i><?php echo($des1); ?></a>,<a href=""> <?php echo($des2); ?></a>, <a
-            href=""><?php echo($des3); ?></a>
+            <a href=''><i class='ion-pricetags'></i>$des2</a>,<a href=''> des3</a>, <a
+            href=''>$des4</a>"); ?>
           </li>
           
         </ul>
@@ -95,19 +95,19 @@
 	<div class="post-meta">
         <ul>
           <li>
-            <i class="ion-calendar"></i> <?php echo($date); ?>
+            <i class="ion-calendar"></i> <?php echo($date2); ?>
           </li>
           <li>
-            <i class="ion-android-people"></i><?php echo($des); ?>
+            <i class="ion-android-people"></i><?php echo($des5); ?>
           <li>
-            <a href=""><i class="ion-pricetags"></i> <?php echo($des1); ?></a>,<a href=""> <?php echo($des2); ?></a>, <a
-            href=""><?php echo($des3); ?></a>
+            <a href=""><i class="ion-pricetags"></i> <?php echo($des6); ?></a>,<a href=""> <?php echo($des7); ?></a>, <a
+            href=""><?php echo($des8); ?></a>
           </li>
           
         </ul>
     </div>
 	<div class="post-content">
-		<p><?php echo($para1); ?></p>
+		<p><?php echo($para2); ?></p>
 		<a href="blog-single.html" class="btn btn-main">Continue Reading</a>
 	</div>
 </div>
@@ -121,20 +121,20 @@
 	<div class="post-meta">
         <ul>
           <li>
-            <i class="ion-calendar"></i><?php echo($date); ?>
+            <i class="ion-calendar"></i><?php echo($date3); ?>
           </li>
           <li>
-            <i class="ion-android-people"></i><?php echo($des); ?>IN
+            <i class="ion-android-people"></i><?php echo($des9); ?>IN
           </li>
           <li>
-            <a href=""><i class="ion-pricetags"></i> <?php echo($des1); ?></a>,<a href=""> <?php echo($des2); ?></a>, <a
-            href=""><?php echo($des3); ?></a>
+            <a href=""><i class="ion-pricetags"></i> <?php echo($des10); ?></a>,<a href=""> <?php echo($des11); ?></a>, <a
+            href=""><?php echo($des12); ?></a>
           </li>
           
         </ul>
     </div>
 	<div class="post-content">
-		<p><?php echo($para1); ?></p>
+		<p><?php echo($para3); ?></p>
 		<a href="blog-single.html" class="btn btn-main">Continue Reading</a>
 	</div>
 </div>
@@ -144,20 +144,20 @@
 	<div class="post-meta">
         <ul>
           <li>
-            <i class="ion-calendar"></i> <?php echo($date); ?>
+            <i class="ion-calendar"></i> <?php echo($date4); ?>
           </li>
           <li>
-            <i class="ion-android-people"></i><?php echo($des); ?>
+            <i class="ion-android-people"></i><?php echo($des13); ?>
           </li>
           <li>
-            <a href=""><i class="ion-pricetags"></i> <?php echo($des1); ?></a>,<a href=""> <?php echo($des2); ?></a>, <a
-            href=""><?php echo($des3); ?></a>
+            <a href=""><i class="ion-pricetags"></i> <?php echo($des14); ?></a>,<a href=""> <?php echo($des15); ?></a>, <a
+            href=""><?php echo($des16); ?></a>
           </li>
           
         </ul>
     </div>
 	<div class="post-content">
-		<p><?php echo($para1); ?></p>
+		<p><?php echo($para4); ?></p>
 		<a href="blog-single.html" class="btn btn-main">Continue Reading</a>
 	</div>
 </div>
@@ -169,20 +169,20 @@
 	<div class="post-meta">
         <ul>
           <li>
-            <i class="ion-calendar"></i> <?php echo($date); ?>
+            <i class="ion-calendar"></i> <?php echo($date5); ?>
           </li>
           <li>
-            <i class="ion-android-people"></i> <?php echo($des); ?>
+            <i class="ion-android-people"></i> <?php echo($des17); ?>
           </li>
           <li>
-            <a href=""><i class="ion-pricetags"></i> <?php echo($des1); ?></a>,<a href=""> <?php echo($des2); ?></a>, <a
-            href=""><?php echo($des3); ?></a>
+            <a href=""><i class="ion-pricetags"></i> <?php echo($des18); ?></a>,<a href=""> <?php echo($des19); ?></a>, <a
+            href=""><?php echo($des20); ?></a>
           </li>
           
         </ul>
     </div>
 	<div class="post-content">
-		<p><?php echo($para1); ?></p>
+		<p><?php echo($para5); ?></p>
 		<a href="blog-single.html" class="btn btn-main">Continue Reading</a>
 	</div>
 </div>
@@ -194,20 +194,20 @@
 	<div class="post-meta">
         <ul>
           <li>
-            <i class="ion-calendar"></i><?php echo($date); ?>
+            <i class="ion-calendar"></i><?php echo($date6); ?>
           </li>
           <li>
-            <i class="ion-android-people"></i><?php echo($des); ?>
+            <i class="ion-android-people"></i><?php echo($des21); ?>
           </li>
           <li>
-            <a href=""><i class="ion-pricetags"></i><?php echo($des1); ?></a>,<a href=""> <?php echo($des2); ?></a>, <a
-            href=""><?php echo($des3); ?></a>
+            <a href=""><i class="ion-pricetags"></i><?php echo($des22); ?></a>,<a href=""> <?php echo($des23); ?></a>, <a
+            href=""><?php echo($des24); ?></a>
           </li>
           
         </ul>
     </div>
 	<div class="post-content">
-		<p><?php echo($para1); ?></p>
+		<p><?php echo($para6); ?></p>
 		<a href="blog-single.html" class="btn btn-main">Continue Reading</a>
 	</div>
 </div>
