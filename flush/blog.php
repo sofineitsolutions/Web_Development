@@ -21,7 +21,7 @@
     </head>
     <body>
         
-    <?php include("variable.php");
+    <?php include("variable4.php");
             include("h.php");?>
         
         <!--================Home Banner Area =================-->
@@ -30,9 +30,9 @@
            		<div class="banner_inner d-flex align-items-center">
 					<div class="container">
 						<div class="banner_content text-center">
-                        <?php echo "<h3>".$a. "<br />".$b."</h3>";
-						 echo"<p>".$c."</p>";
-						echo "<a class='main_btn' href='#'>".$d."</a>";?>
+                        <?php echo "<h3>".$title."</h3>";
+						 echo"<p>".$des."</p>";
+						echo "<a class='main_btn' href='#'>".$button1."</a>";?>
 						</div>
 					</div>
 				</div>
@@ -49,9 +49,9 @@
                             <img src="img/blog/cat-post/cat-post-3.jpg" alt="post">
                             <div class="categories_details">
                                 <div class="categories_text">
-                                <?php echo  "<a href='blog-details.html'><h5>".$gg."</h5></a>";?>
+                                <?php echo  "<a href='blog-details.html'><h5>".$social."</h5></a>";?>
                                     <div class="border_line"></div>
-                               <?php echo"<p>".$hh."</p>";?>
+                               <?php echo"<p>".$social_life."</p>";?>
                                 </div>
                             </div>
                         </div>
@@ -61,9 +61,9 @@
                             <img src="img/blog/cat-post/cat-post-2.jpg" alt="post">
                             <div class="categories_details">
                                 <div class="categories_text">
-                                 <?php echo   "<a href='blog-details.html'><h5>".$ii."</h5></a>";?>
+                                 <?php echo   "<a href='blog-details.html'><h5>".$politics."</h5></a>";?>
                                     <div class="border_line"></div>
-                                <?php echo "<p>".$jj."</p>";?>
+                                <?php echo "<p>".$part_politics."</p>";?>
                                 </div>
                             </div>
                         </div>
@@ -73,9 +73,9 @@
                             <img src="img/blog/cat-post/cat-post-1.jpg" alt="post">
                             <div class="categories_details">
                                 <div class="categories_text">
-                                 <?php echo "<a href='blog-details.html'><h5>".$kk."</h5></a>";?>
+                                 <?php echo "<a href='blog-details.html'><h5>".$food."</h5></a>";?>
                                     <div class="border_line"></div>
-                                 <?php echo "<p>".$ll."</p>";?>
+                                 <?php echo "<p>".$food_finished."</p>";?>
                                 </div>
                             </div>
                         </div>
@@ -95,16 +95,16 @@
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                         <?php echo "<a href='#'>".$mm."</a>";
-                                         echo"<a class='active href='#>".$nn."</a>";
-                                           echo "<a href='#'>".$oo."</a>";
-                                           echo "<a href='#'>".$pp."</a>";?>
+                                         <?php echo "<a href='#'>".$food1."</a>";
+                                         echo"<a class='active href='#>".$tech1."</a>";
+                                           echo "<a href='#'>".$politics1."</a>";
+                                           echo "<a href='#'>".$lifestyle1."</a>";?>
                                         </div>
                                         <ul class="blog_meta list">
-                                        <?php echo "<li><a href='#'>".$qq."<i class='lnr lnr-user'></i></a></li>";
-                                        echo "<li><a href='#'>".$rr."<i class='lnr lnr-calendar-full'></i></a></li>";
-                                         echo "<li><a href='#'>".$ss."<i class='lnr lnr-eye'></i></a></li>";
-                                          echo "<li><a href='#'>".$tt."<i class='lnr lnr-bubble'></i></a></li>";?>
+                                        <?php echo "<li><a href='#'>".$name1."<i class='lnr lnr-user'></i></a></li>";
+                                        echo "<li><a href='#'>".$date1."<i class='lnr lnr-calendar-full'></i></a></li>";
+                                         echo "<li><a href='#'>".$views1."<i class='lnr lnr-eye'></i></a></li>";
+                                          echo "<li><a href='#'>".$comments1."<i class='lnr lnr-bubble'></i></a></li>";?>
                                         </ul>
                                     </div>
                                </div>
@@ -112,9 +112,9 @@
                                     <div class="blog_post">
                                         <img src="img/blog/main-blog/m-blog-1.jpg" alt="">
                                         <div class="blog_details">
-                                        <?php echo "<a href='single-blog.html'><h2>".$uu."</h2></a>";
-                                           echo "<p>".$vv."</p>";
-                                          echo "<a href='single-blog.html' class='white_bg_btn'>".$xx."</a>";?>
+                                        <?php echo "<a href='single-blog.html'><h2>".$blog1."</h2></a>";
+                                           echo "<p>".$des1."</p>";
+                                          echo "<a href='single-blog.html' class='white_bg_btn'>".$view_more1."</a>";?>
                                         </div>
                                     </div>
                                 </div>
@@ -123,16 +123,16 @@
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                        <?php echo "<a href='#'>".$mm."</a>";
-                                         echo"<a class='active href='#>".$nn."</a>";
-                                           echo "<a href='#'>".$oo."</a>";
-                                           echo "<a href='#'>".$pp."</a>";?>
+                                        <?php echo "<a href='#'>".$food2."</a>";
+                                         echo"<a class='active href='#>".$tech2."</a>";
+                                           echo "<a href='#'>".$politics2."</a>";
+                                           echo "<a href='#'>".$lifestyle2."</a>";?>
                                         </div>
                                         <ul class="blog_meta list">
-                                        <?php echo "<li><a href='#'>".$qq."<i class='lnr lnr-user'></i></a></li>";
-                                        echo "<li><a href='#'>".$rr."<i class='lnr lnr-calendar-full'></i></a></li>";
-                                         echo "<li><a href='#'>".$ss."<i class='lnr lnr-eye'></i></a></li>";
-                                          echo "<li><a href='#'>".$tt."<i class='lnr lnr-bubble'></i></a></li>";?>
+                                        <?php echo "<li><a href='#'>".$name2."<i class='lnr lnr-user'></i></a></li>";
+                                        echo "<li><a href='#'>".$date2."<i class='lnr lnr-calendar-full'></i></a></li>";
+                                         echo "<li><a href='#'>".$views2."<i class='lnr lnr-eye'></i></a></li>";
+                                          echo "<li><a href='#'>".$comments2."<i class='lnr lnr-bubble'></i></a></li>";?>
                                         </ul>
                                     </div>
                                </div>
@@ -140,9 +140,9 @@
                                     <div class="blog_post">
                                         <img src="img/blog/main-blog/m-blog-2.jpg" alt="">
                                         <div class="blog_details">
-                                        <?php echo "<a href='single-blog.html'><h2>".$yy."</h2></a>";
-                                            echo "<p>".$vv."</p>";
-                                          echo "<a href='single-blog.html' class='white_bg_btn'>".$xx."</a>";?>
+                                        <?php echo "<a href='single-blog.html'><h2>".$blog2."</h2></a>";
+                                            echo "<p>".$des2."</p>";
+                                          echo "<a href='single-blog.html' class='white_bg_btn'>".$view_more2."</a>";?>
                                         </div>
                                     </div>
                                 </div>
@@ -151,16 +151,16 @@
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                        <?php echo "<a href='#'>".$mm."</a>";
-                                         echo"<a class='active href='#>".$nn."</a>";
-                                           echo "<a href='#'>".$oo."</a>";
-                                           echo "<a href='#'>".$pp."</a>";?>
+                                        <?php echo "<a href='#'>".$food3."</a>";
+                                         echo"<a class='active href='#>".$tech3."</a>";
+                                           echo "<a href='#'>".$politics3."</a>";
+                                           echo "<a href='#'>".$lifestyle3."</a>";?>
                                         </div>
                                         <ul class="blog_meta list">
-                                        <?php echo "<li><a href='#'>".$qq."<i class='lnr lnr-user'></i></a></li>";
-                                        echo "<li><a href='#'>".$rr."<i class='lnr lnr-calendar-full'></i></a></li>";
-                                         echo "<li><a href='#'>".$ss."<i class='lnr lnr-eye'></i></a></li>";
-                                          echo "<li><a href='#'>".$tt."<i class='lnr lnr-bubble'></i></a></li>";?>
+                                        <?php echo "<li><a href='#'>".$name3."<i class='lnr lnr-user'></i></a></li>";
+                                        echo "<li><a href='#'>".$date3."<i class='lnr lnr-calendar-full'></i></a></li>";
+                                         echo "<li><a href='#'>".$views3."<i class='lnr lnr-eye'></i></a></li>";
+                                          echo "<li><a href='#'>".$comments3."<i class='lnr lnr-bubble'></i></a></li>";?>
                                         </ul>
                                     </div>
                                </div>
@@ -168,9 +168,9 @@
                                     <div class="blog_post">
                                         <img src="img/blog/main-blog/m-blog-3.jpg" alt="">
                                         <div class="blog_details">
-                                        <?php echo "<a href='single-blog.html'><h2>".$zz."</h2></a>";
-                                            echo "<p>".$vv."</p>";
-                                          echo "<a href='single-blog.html' class='white_bg_btn'>".$xx."</a>";?>
+                                        <?php echo "<a href='single-blog.html'><h2>".$blog3."</h2></a>";
+                                            echo "<p>".$des3."</p>";
+                                          echo "<a href='single-blog.html' class='white_bg_btn'>".$view_more3."</a>";?>
                                         </div>
                                     </div>
                                 </div>
@@ -179,16 +179,16 @@
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                        <?php echo "<a href='#'>".$mm."</a>";
-                                         echo"<a class='active href='#>".$nn."</a>";
-                                           echo "<a href='#'>".$oo."</a>";
-                                           echo "<a href='#'>".$pp."</a>";?>
+                                        <?php echo "<a href='#'>".$food4."</a>";
+                                         echo"<a class='active href='#>".$tech4."</a>";
+                                           echo "<a href='#'>".$politics4."</a>";
+                                           echo "<a href='#'>".$lifestyle4."</a>";?>
                                         </div>
                                         <ul class="blog_meta list">
-                                        <?php echo "<li><a href='#'>".$qq."<i class='lnr lnr-user'></i></a></li>";
-                                        echo "<li><a href='#'>".$rr."<i class='lnr lnr-calendar-full'></i></a></li>";
-                                         echo "<li><a href='#'>".$ss."<i class='lnr lnr-eye'></i></a></li>";
-                                          echo "<li><a href='#'>".$tt."<i class='lnr lnr-bubble'></i></a></li>";?>
+                                        <?php echo "<li><a href='#'>".$name4."<i class='lnr lnr-user'></i></a></li>";
+                                        echo "<li><a href='#'>".$date4."<i class='lnr lnr-calendar-full'></i></a></li>";
+                                         echo "<li><a href='#'>".$views4."<i class='lnr lnr-eye'></i></a></li>";
+                                          echo "<li><a href='#'>".$comments4."<i class='lnr lnr-bubble'></i></a></li>";?>
                                         </ul>
                                     </div>
                                </div>
@@ -196,9 +196,9 @@
                                     <div class="blog_post">
                                         <img src="img/blog/main-blog/m-blog-4.jpg" alt="">
                                         <div class="blog_details">
-                                        <?php echo "<a href='single-blog.html'><h2>".$a1."</h2></a>";
-                                            echo "<p>".$vv."</p>";
-                                          echo "<a href='single-blog.html' class='white_bg_btn'>".$xx."</a>";?>
+                                        <?php echo "<a href='single-blog.html'><h2>".$blog4."</h2></a>";
+                                            echo "<p>".$des4."</p>";
+                                          echo "<a href='single-blog.html' class='white_bg_btn'>".$view_more4."</a>";?>
                                         </div>
                                     </div>
                                 </div>
@@ -207,16 +207,16 @@
                                <div class="col-md-3">
                                    <div class="blog_info text-right">
                                         <div class="post_tag">
-                                        <?php echo "<a href='#'>".$mm."</a>";
-                                         echo"<a class='active href='#>".$nn."</a>";
-                                           echo "<a href='#'>".$oo."</a>";
-                                           echo "<a href='#'>".$pp."</a>";?>
+                                        <?php echo "<a href='#'>".$food5."</a>";
+                                         echo"<a class='active href='#>".$tech5."</a>";
+                                           echo "<a href='#'>".$politics5."</a>";
+                                           echo "<a href='#'>".$lifestyle5."</a>";?>
                                         </div>
                                         <ul class="blog_meta list">
-                                        <?php echo "<li><a href='#'>".$qq."<i class='lnr lnr-user'></i></a></li>";
-                                        echo "<li><a href='#'>".$rr."<i class='lnr lnr-calendar-full'></i></a></li>";
-                                         echo "<li><a href='#'>".$ss."<i class='lnr lnr-eye'></i></a></li>";
-                                          echo "<li><a href='#'>".$tt."<i class='lnr lnr-bubble'></i></a></li>";?>
+                                        <?php echo "<li><a href='#'>".$name5."<i class='lnr lnr-user'></i></a></li>";
+                                        echo "<li><a href='#'>".$date5."<i class='lnr lnr-calendar-full'></i></a></li>";
+                                         echo "<li><a href='#'>".$views5."<i class='lnr lnr-eye'></i></a></li>";
+                                          echo "<li><a href='#'>".$comments5."<i class='lnr lnr-bubble'></i></a></li>";?>
                                         </ul>
                                     </div>
                                </div>
@@ -224,9 +224,9 @@
                                     <div class="blog_post">
                                         <img src="img/blog/main-blog/m-blog-5.jpg" alt="">
                                         <div class="blog_details">
-                                        <?php echo "<a href='single-blog.html'><h2>".$a2."</h2></a>";
-                                            echo "<p>".$vv."</p>";
-                                          echo "<a href='single-blog.html' class='white_bg_btn'>".$xx."</a>";?>
+                                        <?php echo "<a href='single-blog.html'><h2>".$blog5."</h2></a>";
+                                            echo "<p>".$des5."</p>";
+                                          echo "<a href='single-blog.html' class='white_bg_btn'>".$view_more5."</a>";?>
                                         </div>
                                     </div>
                                 </div>
@@ -240,11 +240,11 @@
 		                                    </span>
 		                                </a>
 		                            </li>
-		                            <?php echo "<li class='page-item'><a href='#' class='page-link'>".$a3."</a></li>";?>
-		                            <?php  echo "<li class='page-item active'><a href='#' class='page-link'>".$a4."</a></li>";?>
-		                            <?php echo "<li class='page-item'><a href='#' class='page-link'>".$a5."</a></li>";?>
-                                    <?php echo "<li class='page-item'><a href='#' class='page-link'>".$a6."</a></li>";?>
-		                            <?php echo "<li class='page-item'><a href='#' class='page-link'>".$a7."</a></li>";?>
+                                    <li class="page-item"><a href="#" class="page-link">01</a></li>
+		                            <li class="page-item active"><a href="#" class="page-link">02</a></li>
+		                            <li class="page-item"><a href="#" class="page-link">03</a></li>
+		                            <li class="page-item"><a href="#" class="page-link">04</a></li>
+		                            <li class="page-item"><a href="#" class="page-link">09</a></li>
 		                            <li class="page-item">
 		                                <a href="#" class="page-link" aria-label="Next">
 		                                    <span aria-hidden="true">
@@ -269,45 +269,45 @@
                             </aside>
                             <aside class="single_sidebar_widget author_widget">
                                 <img class="author_img rounded-circle" src="img/blog/author.png" alt="">
-                               <?php echo "<h4>".$a7."</h4>";
-                                echo "<p>".$a8."</p>";?>
+                               <?php echo "<h4>".$name6."</h4>";
+                                echo "<p>".$prof."</p>";?>
                                 <div class="social_icon">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
                                     <a href="#"><i class="fa fa-github"></i></a>
                                     <a href="#"><i class="fa fa-behance"></i></a>
                                 </div>
-                                <?php echo "<p>".$a9."</p>";?>
+                                <?php echo "<p>".$des6."</p>";?>
                                 <div class="br"></div>
                             </aside>
                             <aside class="single_sidebar_widget popular_post_widget">
-                               <?php echo "<h3 class='widget_title'>".$a10."</h3>";?>
+                            <h3 class="widget_title">Popular Posts</h3>
                                 <div class="media post_item">
                                     <img src="img/blog/popular-post/post1.jpg" alt="post">
                                     <div class="media-body">
-                                       <?php echo "<a href='blog-details.html'><h3>".$b1."</h3></a>";?>
-                                       <?php echo "<p>".$b2."</p>";?>
+                                    <a href="blog-details.html"><h3>Space The Final Frontier</h3></a>
+                                        <p>02 Hours ago</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
                                     <img src="img/blog/popular-post/post2.jpg" alt="post">
                                     <div class="media-body">
-                                        <?php echo "<a href='blog-details.html'><h3>".$b3."</h3></a>";?>
-                                        <?php echo "<p>".$b2."</p>";?>
+                                    <a href="blog-details.html"><h3>The Amazing Hubble</h3></a>
+                                        <p>02 Hours ago</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
                                     <img src="img/blog/popular-post/post3.jpg" alt="post">
                                     <div class="media-body">
-                                    <?php echo "<a href='blog-details.html'><h3>".$b4."</h3></a>";?>
-                                    <?php echo "<p>".$b5."</p>";?>
+                                    <a href="blog-details.html"><h3>Astronomy Or Astrology</h3></a>
+                                        <p>03 Hours ago</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
                                     <img src="img/blog/popular-post/post4.jpg" alt="post">
                                     <div class="media-body">
-                                    <?php echo "<a href='blog-details.html'><h3>".$b6."</h3></a>";?>
-                                    <?php echo "<p>".$b7."</p>";?>
+                                    <a href="blog-details.html"><h3>Asteroids telescope</h3></a>
+                                        <p>01 Hours ago</p>
                                     </div>
                                 </div>
                                 <div class="br"></div>
@@ -317,57 +317,56 @@
                                 <div class="br"></div>
                             </aside>
                             <aside class="single_sidebar_widget post_category_widget">
-                               <?php echo "<h4 class='widget_title'>".$b8."</h4>";?>
+                            <h4 class="widget_title">Post Catgories</h4>
                                 <ul class="list cat-list">
                                     <li>
                                         <a href="#" class="d-flex justify-content-between">
-                                           <?php echo "<p>".$b9."</p>";
-                                            echo "<p>".$b10."</p>";?>
+                                        <p>Technology</p>
+                                            <p>37</p>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="d-flex justify-content-between">
-                                        <?php echo "<p>".$c1."</p>";
-                                            echo "<p>".$c2."</p>";?>
+                                        <p>Lifestyle</p>
+                                            <p>24</p>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="d-flex justify-content-between">
-                                        <?php echo "<p>".$c3."</p>";
-                                            echo "<p>".$c4."</p>";?>
+                                        <p>Fashion</p>
+                                            <p>59</p>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="d-flex justify-content-between">
-                                        <?php echo "<p>".$c5."</p>";
-                                            echo "<p>".$c6."</p>";?>
+                                        <p>Art</p>
+                                            <p>29</p>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="d-flex justify-content-between">
-                                        <?php echo "<p>".$c7."</p>";
-                                            echo "<p>".$c8."</p>";?>
+                                        <p>Food</p>
+                                            <p>15</p>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="d-flex justify-content-between">
-                                        <?php echo "<p>".$c9."</p>";
-                                            echo "<p>".$c10."</p>";?>
+                                        <p>Architecture</p>
+                                            <p>09</p>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" class="d-flex justify-content-between">
-                                        <?php echo "<p>".$d1."</p>";
-                                            echo "<p>".$d2."</p>";?>
+                                        <p>Adventure</p>
+                                            <p>44</p>
                                         </a>
                                     </li>															
                                 </ul>
                                 <div class="br"></div>
                             </aside>
                             <aside class="single-sidebar-widget newsletter_widget">
-                            <?php echo  "<h4 class='widget_title'>".$d3."</h4>";
-                                echo "<p>".$d4.
-                                "</p>";?>
+                            <?php echo  "<h4 class='widget_title'>".$news."</h4>";
+                                echo "<p>".$des7. "</p>";?>
                                 <div class="form-group d-flex flex-row">
                                     <div class="input-group">
                                         <div class="input-group-prepend">
@@ -375,26 +374,26 @@
                                         </div>
                                         <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Enter email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email'">
                                     </div>
-                                <?php echo "<a href='#' class='bbtns'>".$d5."</a>";?>
+                                    <a href="#" class="bbtns">Subcribe</a>
                                 </div>	
-                                <?php echo "<p class='text-bottom'>".$d6."</p>";?>	
+                                <p class="text-bottom">You can unsubscribe at any time</p>	
                                 <div class="br"></div>							
                             </aside>
                             <aside class="single-sidebar-widget tag_cloud_widget">
-                              <?php echo "<h4 class='widget_title'>".$d7."</h4>";?>
+                              <?php echo "<h4 class='widget_title'>".$tag."</h4>";?>
                                 <ul class="list">
-                                   <?php echo "<li><a href='#'>".$b9."</a></li>";?>
-                                     <?php echo "<li><a href='#'>".$c3."</a></li>";?>
-                                     <?php echo "<li><a href='#'>".$c9."</a></li>";?>
-                                     <?php echo "<li><a href='#'>".$c3."</a></li>";?>
-                                     <?php echo "<li><a href='#'>".$c7."</a></li>";?>
-                                     <?php echo "<li><a href='#'>".$b9."</a></li>";?>
-                                     <?php echo "<li><a href='#'>".$c1."</a></li>";?>
-                                     <?php echo "<li><a href='#'>".$c5."</a></li>";?>
-                                     <?php echo "<li><a href='#'>".$d1."</a></li>";?>
-                                     <?php echo "<li><a href='#'>".$c7."</a></li>";?>
-                                     <?php echo "<li><a href='#'>".$c1."</a></li>";?>
-                                    <?php echo "<li><a href='#'>".$d1."</a></li>";?>
+                                   <?php echo "<li><a href='#'>".$tech6."</a></li>";?>
+                                     <?php echo "<li><a href='#'>".$fash."</a></li>";?>
+                                     <?php echo "<li><a href='#'>".$art."</a></li>";?>
+                                     <?php echo "<li><a href='#'>".$fash."</a></li>";?>
+                                     <?php echo "<li><a href='#'>".$food6."</a></li>";?>
+                                     <?php echo "<li><a href='#'>".$tech6."</a></li>";?>
+                                     <?php echo "<li><a href='#'>".$lifestyle6."</a></li>";?>
+                                     <?php echo "<li><a href='#'>".$art."</a></li>";?>
+                                     <?php echo "<li><a href='#'>".$adven."</a></li>";?>
+                                     <?php echo "<li><a href='#'>".$food6."</a></li>";?>
+                                     <?php echo "<li><a href='#'>".$lifestyle6."</a></li>";?>
+                                    <?php echo "<li><a href='#'>".$adven."</a></li>";?>
                                 </ul>
                             </aside>
                         </div>
@@ -408,7 +407,7 @@
         <section class="instagram_area">
         	<div class="container box_1620">
         		<div class="insta_btn">
-        		<?php echo 	"<a class='btn theme_btn' href='#'>".$p."</a>";?>
+        		<?php echo 	"<a class='btn theme_btn' href='#'>".$insta."</a>";?>
         		</div>
         		<div class="instagram_image row m0">
         			<a href="#"><img src="img/instagram/ins-1.jpg" alt=""></a>

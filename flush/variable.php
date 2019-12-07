@@ -97,10 +97,7 @@ $link->close();
 // //instagram
 // $insta="Follow us on instagram";
 
-
-
-$social="Social Life";
-
+/******************h.php **************/
 $q="About Me";
 $r="Do you want to be even more successful? Learn to love learning and growth.
 The more effort you put into improving your skills,";
@@ -268,7 +265,7 @@ $j8="Annie Stephens";
 $j9="Maria Luna";
 $j10="Ina Hayes";
 $k1="Post Comment";
-$k2="harlie Barber";
+$k2="charlie Barber";
 $k3="Senior blog writer";
 $k4="Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to 
 spend money on boot camp when you can get. Boot camps have itssuppor ters andits detractors.";
