@@ -81,42 +81,9 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row1">
-  <header id="header" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div id="logo" class="fl_left">
-      <h1><a href="index.html">Doggax</a></h1>
-    </div>
-    <nav id="mainav" class="fl_right">
-      <ul class="clear">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a class="drop" href="#">Pages</a>
-          <ul>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="full-width.html">Full Width</a></li>
-            <li><a href="sidebar-left.html">Sidebar Left</a></li>
-            <li><a href="sidebar-right.html">Sidebar Right</a></li>
-            <li><a href="basic-grid.html">Basic Grid</a></li>
-          </ul>
-        </li>
-        <li><a class="drop" href="#">Dropdown</a>
-          <ul>
-            <li><a href="#">Level 2</a></li>
-            <li><a class="drop" href="#">Level 2 + Drop</a>
-              <ul>
-                <li><a href="#">Level 3</a></li>
-                <li><a href="#">Level 3</a></li>
-                <li><a href="#">Level 3</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Level 2</a></li>
-          </ul>
-        </li>
-        <li><a href="#">Link Text</a></li>
-        <li><a href="#">Link Text</a></li>
-      </ul>
-    </nav>
-    <!-- ################################################################################################ -->
-  </header>
+ <?php
+    include("f.php"); 
+ ?>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -126,9 +93,9 @@ Licence URI: https://www.os-templates.com/template-terms
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="one_half first">
-      <h3 class="heading font-x2">Aenean vel venenatis</h3>
-      <p>Massa etiam congue a urna nec cursus integer nunc dolor rutrum vel rutrum id auctor non lorem nullam ac felis id felis ultrices cursus tempus sodales neque et ornare aliquam vitae placerat ipsum sed lacinia in diam non lacinia integer non turpis a orci scelerisque luctus donec fringilla gravida condimentum sed dignissim diam eget augue auctor molestie in id dapibus arcu.</p>
-      <p>Erat ut libero leo eleifend at sagittis vitae elementum nec risus quisque vel lacinia diam aenean quis felis ultricies maximus sem eu pharetra odio morbi sed neque eget tellus malesuada placerat sit amet ut augue proin tempor ante lorem dictum.</p>
+      <?php echo("<h3 class='heading font-x2'>" . $b1_title1 . "</h3>");
+      echo("<p>" . $b1_dec1 . "</p>");
+      echo("<p>" . $b1_dec2 . "</p>"); ?>
     </div>
     <figure class="one_half">
       <ul class="nospace group">
@@ -151,9 +118,9 @@ Licence URI: https://www.os-templates.com/template-terms
 <div class="wrapper bgded overlay" style="background-image:url('../images/demo/backgrounds/02.png');">
   <article class="hoc container center"> 
     <!-- ################################################################################################ -->
-    <h6 class="heading font-x3">Aliquet justo fusce</h6>
-    <p class="btmspace-30">Aliquet justo sagittis et curabitur est elit aliquam sit amet tellus euismod</p>
-    <footer><a class="btn" href="#">Sagittis nibh &raquo;</a></footer>
+   <?php echo("<h6 class='heading font-x3'>" . $b2_title1 . "</h6>");
+    echo("<p class='btmspace-30'>" . $b2_dec1 . "</p>");
+    echo("<footer><a class='btn' href='#'>" . $b2_btn1 . "</a></footer>"); ?>
     <!-- ################################################################################################ -->
   </article>
 </div>
@@ -164,29 +131,29 @@ Licence URI: https://www.os-templates.com/template-terms
   <section class="hoc container clear"> 
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h3 class="heading">Ante leo bibendum</h3>
-      <p>Nec libero tempus sit amet aliquet enim dignissim suspendisse.</p>
+      <?php echo("<h3 class='heading'>" . $b2_title2 . "</h3>");
+      echo("<p>" . $b2_dec2 . "</p>"); ?>
     </div>
     <ul class="nospace group services">
       <li class="one_third first">
         <article><a href="#"><i class="icon fa fa-ils"></i></a>
-          <h6 class="heading">Nulla facilisi nunc</h6>
-          <p>Eget auctor sit amet bibendum in quam quisque sit amet posuere felis eget sollicitudin sem [&hellip;]</p>
-          <footer><a href="#">Read More &raquo;</a></footer>
+          <?php echo("<h6 class='heading'>" . $b2_subtitle1 . "</h6>");
+          echo("<p>" . $b2_dec3 . "[&hellip;]</p>");
+          echo("<footer><a href='#'>" . $b2_btn2 .  " &raquo;</a></footer>"); ?>
         </article>
       </li>
       <li class="one_third">
         <article><a href="#"><i class="icon fa fa-ioxhost"></i></a>
-          <h6 class="heading">Sit amet sollicitudin</h6>
-          <p>Massa in a massa a mauris euismod bibendum id et purus aenean posuere placerat dui vitae [&hellip;]</p>
-          <footer><a href="#">Read More &raquo;</a></footer>
+          <?php echo("<h6 class='heading'>" . $b2_subtitle2 . "</h6>");
+          echo("<p>" . $b2_dec4 . "[&hellip;]</p>");
+          echo("<footer><a href='#'>" . $b2_btn2 . "&raquo;</a></footer>"); ?>
         </article>
       </li>
       <li class="one_third">
         <article><a href="#"><i class="icon fa fa-yelp"></i></a>
-          <h6 class="heading">Ligula at consectetur</h6>
-          <p>Elementum sed pretium neque vitae diam suscipit eu vehicula nisl aliquet habitant morbi [&hellip;]</p>
-          <footer><a href="#">Read More &raquo;</a></footer>
+          <?php echo("<h6 class='heading'>" . $b2_subtitle3 . "</h6>");
+          echo("<p>" . $b2_dec5 . "[&hellip;]</p>");
+          echo("<footer><a href='#'>" . $b2_btn2 . "&raquo;</a></footer>"); ?>
         </article>
       </li>
     </ul>
@@ -201,17 +168,17 @@ Licence URI: https://www.os-templates.com/template-terms
   <article class="hoc container"> 
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h3 class="heading">Nunc lobortis non</h3>
-      <p>Tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+      <?php echo("<h3 class='heading'>" . $b3_title1 . "</h3>");
+      echo("<p>" . $b3_subtitle1 . "</p>"); ?>
     </div>
     <ul class="nospace group">
       <li class="one_half first borderedbox inspace-15">
-        <blockquote>Ligula a commodo fusce sed aliquam dolor suspendisse eleifend dignissim mi quis malesuada sed a commodo sem nulla consequat erat at risus fringilla ac accumsan odio tempor proin viverra eros non elit</blockquote>
-        <p class="right bold">John Doe / CEO</p>
+        <?php echo("<blockquote>" . $b3_con1 . "</blockquote>");
+        echo("<p class='right bold'>" . $b3_name . "</p>"); ?>
       </li>
       <li class="one_half borderedbox inspace-15">
-        <blockquote>Lacinia quis consectetur dolor dignissim vestibulum iaculis quam vel commodo dictum quisque efficitur vestibulum odio sed facilisis nullam justo ipsum maximus sed ullamcorper vitae aliquam eget augue</blockquote>
-        <p class="right bold">Jane Doe / CEO</p>
+        <?php echo("<blockquote>" . $b3_con2 . "</blockquote>");
+        echo("<p class='right bold'>" . $b3_name . "</p>"); ?>
       </li>
     </ul>
     <!-- ################################################################################################ -->
@@ -224,22 +191,22 @@ Licence URI: https://www.os-templates.com/template-terms
   <article class="hoc container clear"> 
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h3 class="heading">Malesuada eget lacus</h3>
-      <p>Ut auctor nulla ac mauris et nibh quis metus proin sed libero.</p>
+      <?php echo("<h3 class='heading'>" . $b4_title1 . "</h3>");
+      echo("<p>" . $b4_subtitle1 . "</p>"); ?>
     </div>
     <figure>
       <ul class="nospace group">
         <li class="one_quarter first"><a href="#"><img src="../images/demo/222x200.png" alt=""></a>
-          <p>Viverra</p>
+          <?php echo("<p>" . $b4_dec1 . "</p>"); ?>
         </li>
         <li class="one_quarter"><a href="#"><img src="../images/demo/222x200.png" alt=""></a>
-          <p>Maximus</p>
+          <?php echo("<p>" . $b4_dec2 . "</p>"); ?>
         </li>
         <li class="one_quarter"><a href="#"><img src="../images/demo/222x200.png" alt=""></a>
-          <p>Dignissim</p>
+          <?php echo("<p>" . $b4_dec3 . "</p>"); ?>
         </li>
         <li class="one_quarter"><a href="#"><img src="../images/demo/222x200.png" alt=""></a>
-          <p>Sagittis</p>
+         <?php echo("<p>" . $b4_dec4 . "</p>"); ?>
         </li>
       </ul>
     </figure>
@@ -253,8 +220,8 @@ Licence URI: https://www.os-templates.com/template-terms
   <section class="hoc container clear"> 
     <!-- ################################################################################################ -->
     <div class="sectiontitle">
-      <h3 class="heading">Vitae ante venenatis</h3>
-      <p>Auctor in mattis nisl sed finibus eu dui eget scelerisque dolor.</p>
+      <?php echo("<h3 class='heading'>" . $b5_title1 . "</h3>");
+      echo("<p>" . $b5_subtitle1 . "</p>"); ?>
     </div>
     <ul class="nospace group">
       <li class="one_third first">
@@ -263,8 +230,8 @@ Licence URI: https://www.os-templates.com/template-terms
             <li><i class="fa fa-calendar-o"></i> 06/01/45</li>
             <li><i class="fa fa-comments"></i> <a href="#">4</a></li>
           </ul>
-          <h6 class="heading font-x1">Purus accumsan quis gravida ac vulputate sed&hellip;</h6>
-          <footer><a class="btn" href="#">Read More &raquo;</a></footer>
+          <?php echo("<h6 class='heading font-x1'>" . $b5_dec1 . "&hellip;</h6>");
+          echo("<footer><a class='btn' href='#'>" . $b2_btn2 . "&raquo;</a></footer>"); ?>
         </article>
       </li>
       <li class="one_third">
@@ -273,8 +240,8 @@ Licence URI: https://www.os-templates.com/template-terms
             <li><i class="fa fa-calendar-o"></i> 06/01/45</li>
             <li><i class="fa fa-comments"></i> <a href="#">4</a></li>
           </ul>
-          <h6 class="heading font-x1">Turpis donec id pulvinar metus donec malesuada&hellip;</h6>
-          <footer><a class="btn" href="#">Read More &raquo;</a></footer>
+          <?php echo("<h6 class='heading font-x1'>" . $b5_dec2 . "&hellip;</h6>");
+          echo("<footer><a class='btn' href='#'>" . $b2_btn2 . "&raquo;</a></footer>"); ?>
         </article>
       </li>
       <li class="one_third">
@@ -283,8 +250,8 @@ Licence URI: https://www.os-templates.com/template-terms
             <li><i class="fa fa-calendar-o"></i> 06/01/45</li>
             <li><i class="fa fa-comments"></i> <a href="#">4</a></li>
           </ul>
-          <h6 class="heading font-x1">Nisl facilisis arcu faucibus eleifend nullam&hellip;</h6>
-          <footer><a class="btn" href="#">Read More &raquo;</a></footer>
+          <?php echo("<h6 class='heading font-x1'>" . $b5_dec3 . "&hellip;</h6>"); 
+          echo("<footer><a class='btn' href='#''>" . $b2_btn2 . "&raquo;</a></footer>"); ?>
         </article>
       </li>
     </ul>
@@ -295,54 +262,9 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row4 bgded overlay" style="background-image:url('../images/demo/backgrounds/05.png');">
-  <footer id="footer" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div class="one_third first">
-      <h6 class="heading">Quis vestibulum ligula</h6>
-      <ul class="nospace linklist contact">
-        <li><i class="fa fa-map-marker"></i>
-          <address>
-          Street Name &amp; Number, Town, Postcode/Zip
-          </address>
-        </li>
-        <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
-        <li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
-        <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
-      </ul>
-    </div>
-    <div class="one_third">
-      <h6 class="heading">Pharetra eget nulla</h6>
-      <p class="nospace btmspace-30">Feugiat tellus orci eget maximus est posuere quis nunc ornare erat lorem.</p>
-      <form method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
-    </div>
-    <div class="one_third">
-      <h6 class="heading">Viverra justo nec maximus</h6>
-      <ul class="nospace linklist">
-        <li>
-          <article>
-            <h2 class="nospace font-x1"><a href="#">Dictum vivamus condimentum</a></h2>
-            <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
-            <p class="nospace">Velit consequat sit amet praesent consectetur lacinia nulla vitae [&hellip;]</p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <h2 class="nospace font-x1"><a href="#">Massa arcu quis imperdiet</a></h2>
-            <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
-            <p class="nospace">Bibendum ipsum mattis a mauris ut nibh non sem iaculis finibus nullam [&hellip;]</p>
-          </article>
-        </li>
-      </ul>
-    </div>
-    <!-- ################################################################################################ -->
-  </footer>
+ <?php
+    include("H.php"); 
+ ?>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
