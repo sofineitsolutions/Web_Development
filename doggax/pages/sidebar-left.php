@@ -43,7 +43,7 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row1">
- 
+ <?php include("f.php"); ?>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -71,53 +71,41 @@ Licence URI: https://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <div class="sidebar one_quarter first"> 
       <!-- ################################################################################################ -->
-      <h6>Lorem ipsum dolor</h6>
+     <?php  echo("<h6>" . $title1 . "</h6>"); ?>
       <nav class="sdb_holder">
         <ul>
-          <li><a href="#">Navigation - Level 1</a></li>
-          <li><a href="#">Navigation - Level 1</a>
+          <?php echo("<li><a href='#'>" . $con1 . "</a></li><li><a href='#'>" . $con1 . "</a>"); ?>
             <ul>
-              <li><a href="#">Navigation - Level 2</a></li>
-              <li><a href="#">Navigation - Level 2</a></li>
+              <?php echo("<li><a href='#'>" . $con2 . "</a></li><li><a href='#'>" . $con2 . "</a></li>"); ?>
             </ul>
           </li>
-          <li><a href="#">Navigation - Level 1</a>
+          <li> <?php echo("<a href='#'>" . $con1 . "</a>"); ?>
             <ul>
-              <li><a href="#">Navigation - Level 2</a></li>
-              <li><a href="#">Navigation - Level 2</a>
+              <?php echo("<li><a href='#'>" . $con2 . "</a></li>"); ?>
+              <li><?php echo("<a href='#'>" . $con2 . "</a>"); ?>
                 <ul>
-                  <li><a href="#">Navigation - Level 3</a></li>
-                  <li><a href="#">Navigation - Level 3</a></li>
+                <?php   echo("<li><a href='#'>" . $con3 . "</a></li><li><a href='#'>" . $con3 . "</a></li>"); ?>
                 </ul>
               </li>
             </ul>
           </li>
-          <li><a href="#">Navigation - Level 1</a></li>
+          <?php echo("<li><a href='#'>" . $con1 . "</a></li>"); ?>
         </ul>
       </nav>
       <div class="sdb_holder">
-        <h6>Lorem ipsum dolor</h6>
+        <?php echo("<h6>" . $title1 . "</h6>"); ?>
         <address>
-        Full Name<br>
-        Address Line 1<br>
-        Address Line 2<br>
-        Town/City<br>
-        Postcode/Zip<br>
-        <br>
-        Tel: xxxx xxxx xxxxxx<br>
-        Email: <a href="#">contact@domain.com</a>
+
+        <?php echo(" " . $con4 . "<br>" . $con5 . "<br>" . $con6 . "<br>" . $con7 . "<br>" . $con8 . "<br><br>" . $con9 . "<br>" . $con10 . "<a href='#'>" . $con11 . "</a>"); ?>
         </address>
       </div>
       <div class="sdb_holder">
         <article>
-          <h6>Lorem ipsum dolor</h6>
-          <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed.</p>
+          <?php echo("<h6>" . $title1 . "</h6><p>" . $con12 . "</p>"); ?>
           <ul>
-            <li><a href="#">Lorem ipsum dolor sit</a></li>
-            <li>Etiam vel sapien et</li>
-            <li><a href="#">Etiam vel sapien et</a></li>
+            <?php echo("<li><a href='#'>" . $con13 . "</a></li><li>" . $con14 . "</li><li><a href='#'>" . $con14 . "</a></li>"); ?>
           </ul>
-          <p>Nuncsed sed conseque a at quismodo tris mauristibus sed habiturpiscinia sed. Condimentumsantincidunt dui mattis magna intesque purus orci augue lor nibh.</p>
+          <?php echo("<p>" . $con15 . "</p>"); ?>
           <p class="more"><a href="#">Continue Reading &raquo;</a></p>
         </article>
       </div>
@@ -127,14 +115,11 @@ Licence URI: https://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <div class="content three_quarter"> 
       <!-- ################################################################################################ -->
-      <?php echo("<h1>&lt;h1&gt; to &lt;h6&gt; - Headline Colour and Size Are All The Same</h1>")
+      <?php echo("<h1>&lt;" . $subtitle1 . "&gt;" . $subtitle2 . "&lt;" . $subtitle3 . "&gt;" . $subtitle4 . "</h1>"); ?> 
       <img class="imgr borderedbox inspace-5" src="../images/demo/imgr.gif" alt="">
-      <p>Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.</p>
-      <p>Dapiensociis <a href="#">temper donec auctortortis cumsan</a> et curabitur condis lorem loborttis leo. Ipsumcommodo libero nunc at in velis tincidunt pellentum tincidunt vel lorem.</p>
+      <?php echo("<p>" . $dec1 . "</p><p>" . $dec2 . "<a href='#'>" . $dec3 . "</a>" . $dec4 . "</p>"); ?>
       <img class="imgl borderedbox inspace-5" src="../images/demo/imgl.gif" alt="">
-      <p>This is a W3C compliant free website template from <a href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a>. For full terms of use of this template please read our <a href="https://www.os-templates.com/template-terms">website template licence</a>.</p>
-      <p>You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more website templates visit our <a href="https://www.os-templates.com/">free website templates</a> section.</p>
-      <p>Portortornec condimenterdum eget consectetuer condis consequam pretium pellus sed mauris enim. Puruselit mauris nulla hendimentesque elit semper nam a sapien urna sempus.</p>
+      <?php echo("<p>" . $dec5 . "<a href='https://www.os-templates.com/' title='Free Website Templates'>" . $dec6 . "</a>" . $dec7 . " <a href='https://www.os-templates.com/template-terms'>" . $dec8 . "</a>.</p><p>" . $dec9 .  "<a href='https://www.os-templates.com/'>" . $dec10 . "</a>" . $dec11 . "</p><p>" . $dec12 . "</p>"); ?>
       <h1>Table(s)</h1>
       <div class="scrollable">
         <table>
@@ -182,12 +167,12 @@ Licence URI: https://www.os-templates.com/template-terms
               <header>
                 <figure class="avatar"><img src="../images/demo/avatar.png" alt=""></figure>
                 <address>
-                By <a href="#">A Name</a>
+                By <?php echo("<a href='#'>" . $subtitle5 . "</a>"); ?>
                 </address>
                 <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
               </header>
               <div class="comcont">
-                <p>This is an example of a comment made on a post. You can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or to share what you are thinking.</p>
+                <?php echo("<p>" . $dec13 . "</p>"); ?> 
               </div>
             </article>
           </li>
@@ -196,12 +181,12 @@ Licence URI: https://www.os-templates.com/template-terms
               <header>
                 <figure class="avatar"><img src="../images/demo/avatar.png" alt=""></figure>
                 <address>
-                By <a href="#">A Name</a>
+                By <?php echo("<a href='#'>" . $subtitle5 . "</a>"); ?>
                 </address>
                 <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
               </header>
               <div class="comcont">
-                <p>This is an example of a comment made on a post. You can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or to share what you are thinking.</p>
+                <?php echo("<p>" . $dec13 . "</p>"); ?>
               </div>
             </article>
           </li>
@@ -210,12 +195,12 @@ Licence URI: https://www.os-templates.com/template-terms
               <header>
                 <figure class="avatar"><img src="../images/demo/avatar.png" alt=""></figure>
                 <address>
-                By <a href="#">A Name</a>
+                By <?php echo("<a href='#'>" . $subtitle5 . "</a>"); ?>
                 </address>
                 <time datetime="2045-04-06T08:15+00:00">Friday, 6<sup>th</sup> April 2045 @08:15:00</time>
               </header>
               <div class="comcont">
-                <p>This is an example of a comment made on a post. You can either edit the comment, delete the comment or reply to the comment. Use this as a place to respond to the post or to share what you are thinking.</p>
+                <?php echo("<p>" . $dec13 . "</p>"); ?>
               </div>
             </article>
           </li>
@@ -256,54 +241,7 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row4 bgded overlay" style="background-image:url('../images/demo/backgrounds/05.png');">
-  <footer id="footer" class="hoc clear"> 
-    <!-- ################################################################################################ -->
-    <div class="one_third first">
-      <h6 class="heading">Quis vestibulum ligula</h6>
-      <ul class="nospace linklist contact">
-        <li><i class="fa fa-map-marker"></i>
-          <address>
-          Street Name &amp; Number, Town, Postcode/Zip
-          </address>
-        </li>
-        <li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
-        <li><i class="fa fa-fax"></i> +00 (123) 456 7890</li>
-        <li><i class="fa fa-envelope-o"></i> info@domain.com</li>
-      </ul>
-    </div>
-    <div class="one_third">
-      <h6 class="heading">Pharetra eget nulla</h6>
-      <p class="nospace btmspace-30">Feugiat tellus orci eget maximus est posuere quis nunc ornare erat lorem.</p>
-      <form method="post" action="#">
-        <fieldset>
-          <legend>Newsletter:</legend>
-          <input class="btmspace-15" type="text" value="" placeholder="Name">
-          <input class="btmspace-15" type="text" value="" placeholder="Email">
-          <button type="submit" value="submit">Submit</button>
-        </fieldset>
-      </form>
-    </div>
-    <div class="one_third">
-      <h6 class="heading">Viverra justo nec maximus</h6>
-      <ul class="nospace linklist">
-        <li>
-          <article>
-            <h2 class="nospace font-x1"><a href="#">Dictum vivamus condimentum</a></h2>
-            <time class="font-xs block btmspace-10" datetime="2045-04-06">Friday, 6<sup>th</sup> April 2045</time>
-            <p class="nospace">Velit consequat sit amet praesent consectetur lacinia nulla vitae [&hellip;]</p>
-          </article>
-        </li>
-        <li>
-          <article>
-            <h2 class="nospace font-x1"><a href="#">Massa arcu quis imperdiet</a></h2>
-            <time class="font-xs block btmspace-10" datetime="2045-04-05">Thursday, 5<sup>th</sup> April 2045</time>
-            <p class="nospace">Bibendum ipsum mattis a mauris ut nibh non sem iaculis finibus nullam [&hellip;]</p>
-          </article>
-        </li>
-      </ul>
-    </div>
-    <!-- ################################################################################################ -->
-  </footer>
+ <?php include("H.php"); ?>
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
