@@ -4,25 +4,25 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="img/favicon.png" type="image/png">
+        <link rel="icon" href="../img/favicon.png" type="image/png">
         <title>Flash Photography</title>
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="vendors/linericon/style.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-        <link rel="stylesheet" href="vendors/animate-css/animate.css">
-        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../vendors/linericon/style.css">
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="../vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="../vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="../vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="../vendors/popup/magnific-popup.css">
         <!-- main css -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/responsive.css">
     </head>
     <body>
         
-    <?php include("variable.php");
-            include("h.php");?>
+    <?php include("../variable.php");
+            include("../h.php");?>
         
         <!--================Home Banner Area =================-->
         <section class="banner_area">
@@ -32,8 +32,8 @@
 						<div class="banner_content text-center">
 						<h2>Contact Us</h2>
 							<div class="page_link">
-								<a href="index.html">Home</a>
-								<a href="contact.html">Contact Us</a>
+								<a href="../index.html">Home</a>
+								<a href="../contact.html">Contact Us</a>
 							</div>
 						</div>
 					</div>
@@ -45,23 +45,26 @@
         <!--================Contact Area =================-->
         <section class="contact_area p_120">
             <div class="container">
-                <div id="mapBox" class="mapBox" 
+                <!-- <div id="mapBox" class="mapBox" 
                     data-lat="40.701083" 
                     data-lon="-74.1522848" 
                     data-zoom="13" 
                     data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
                     data-mlat="40.701083"
                     data-mlon="-74.1522848">
-                </div>
-                <div class="row">
-                    
+                </div> -->
+                <div class="row">    
                     <div class="col-lg-9">
-                        <form class="row contact_form" action="insert.php" method="post">
+                        <form class="row contact_form" action="../insert.php" method="post">
                             <div class="col-md-6">
-                                <div class="form-group">
+                            
+                            <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="title" placeholder="Enter your website title">
+                                    <div class="d-flex">
+                            <img class="img-fluid" src="../img/admin/t1.png" alt="">
+                            </div>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group" >
                                     <input type="text" class="form-control" id="name" name="des" placeholder="Enter description">
                                 </div>
                                 <div class="form-group">
@@ -169,9 +172,7 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="insta" placeholder="instagram">
                                 </div>
-
                             </div>
-                            
                             <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
                             </div>
@@ -181,13 +182,8 @@
             </div>
         </section>
         <!--================Contact Area =================-->
-        
-        
-      
-        
-        
-        <!-- Modals error -->
 
+        <!-- Modals error -->
         <div id="error" class="modal modal-message fade" role="dialog">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -202,33 +198,29 @@
             </div>
         </div>
         <!--================End Contact Success and Error message Area =================-->
-        
-        
-        
-        
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery-3.3.1.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/stellar.js"></script>
-        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
-        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
-        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
-        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/mail-script.js"></script>
-        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-        <script src="vendors/counter-up/jquery.counterup.js"></script>
+        <script src="../js/jquery-3.3.1.min.js"></script>
+        <script src="../js/popper.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/stellar.js"></script>
+        <script src="../vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="../vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="../vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="../vendors/isotope/isotope.pkgd.min.js"></script>
+        <script src="../vendors/popup/jquery.magnific-popup.min.js"></script>
+        <script src="../vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="../js/jquery.ajaxchimp.min.js"></script>
+        <script src="../js/mail-script.js"></script>
+        <script src="../vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="../vendors/counter-up/jquery.counterup.js"></script>
         <!-- contact js -->
-        <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/contact.js"></script>
+        <script src="../js/jquery.form.js"></script>
+        <script src="../js/jquery.validate.min.js"></script>
+        <script src="../js/contact.js"></script>
         <!--gmaps Js-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-        <script src="js/gmaps.min.js"></script>
-        <script src="js/theme.js"></script>
+        <script src="../https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+        <script src="../js/gmaps.min.js"></script>
+        <script src="../js/theme.js"></script>
     </body>
 </html>
