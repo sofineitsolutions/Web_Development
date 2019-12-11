@@ -34,7 +34,7 @@
 </head>
 
 <body id="body">
-<?php include("cont4.php");  ?>
+<?php include("variable8.php");  ?>
 
 <!-- Header Start -->
 <?php include("header.php");  ?>
@@ -43,8 +43,8 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1><?php echo($title4);  ?></h1>
-          <p><?php echo($describe1); ?></p>
+          <h1><?php echo($title);  ?></h1>
+          <p><?php echo($des1); ?></p>
         </div>
       </div>
     </div>
@@ -60,14 +60,14 @@
 					<div class="post-meta">
 			            <ul>
 			              <li>
-			                <i class="ion-calendar"></i> 20, MAR 2017
+			          <?php echo("<i class='ion-calendar'></i>$ddate
 			              </li>
 			              <li>
-			                <i class="ion-android-people"></i> POSTED BY ADMIN
+			                <i class='ion-android-people'></i>$dadmin
 			              </li>
 			              <li>
-			                <a href=""><i class="ion-pricetags"></i> LIFESTYLE</a>,<a href=""> TRAVEL</a>, <a
-			                href="">FASHION</a>
+			                <a href=''><i class='ion-pricetags'></i>$dlife</a>,<a href=''>$dtravel</a>, <a
+			                href=''>$dfashion</a>"); ?>
 			              </li>
 			              
 			            </ul>
@@ -232,7 +232,7 @@
 				    </div>
 
 				    <div class="post-comments-form">
-				    	<h3 class="post-sub-heading"><?php echo($post); ?></h3>
+				    	<h3 class="post-sub-heading"><?php echo($post1); ?></h3>
 				    	<form method="post" action="#" id="form" role="form" >
 
 				            <div class="row">

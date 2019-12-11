@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -10,7 +10,8 @@
   
   <meta name="author" content="Themefisher.com">
 
-  <title>Airspace | Creative Agency Bootstrap template</title>
+  <title>Airspace | Creative Agency Bootstrap template(about.php)</title>
+
 
   <!-- Mobile Specific Meta-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,85 +38,73 @@
 
 <?php include("header.php"); ?>
 <?php include("variable10.php"); ?>
-
-<section class="portfolio-single-page section-sm">
+<?php include("cont.php"); ?>
+<section class="page-title bg-2">
   <div class="container">
-    <div class="row">
-      <div class="col-md-8">
-        <div class="portfolio-single-slider owl-carousel owl-theme">
-          <div><img src="images/portfolio/portfolio-big-1.jpg"></div>
-          <div><img src="images/portfolio/portfolio-big-2.jpg"></div>
-          <div><img src="images/portfolio/portfolio-big-3.jpg"></div>
-          <div><img src="images/portfolio/portfolio-big-4.jpg"></div>
-          <div><img src="images/portfolio/portfolio-big-5.jpg"></div>
-          <div><img src="images/portfolio/portfolio-big-6.jpg"></div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="project-details mt-50">
-          <?php echo("<h4>$tit1</h4>"); ?>
-          <ul>
-            <li><span><i class="fa fa-shirtsinbulk "></i> Client</span><strong>Jannie Kelonsky</strong></li>
-            <li><span><i class="fa fa-shield "></i> What We Did</span><strong>Website Redesign</strong></li>
-            <li><span><i class="fa fa-ils "></i> Tools Used</span><strong>Photoshop,Illustrator</strong></li>
-            <li><span><i class="icon-calendar3"></i>Completed on:</span> 17th March 2014</li>
-            <li><span><i class="icon-lightbulb"></i>Skills:</span> HTML5 / PHP / CSS3</li>
-            <li><span><i class="icon-link"></i>Client:</span> <a href="#">Google</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-12">
-        <div class="project-content mt-50">
-          <h2><?php echo($port);  ?></h2>
-          <?php echo($port1);  ?>
-          <iframe width="100%" height="400" src="https://www.youtube.com/embed/LKFuXETZUsI" frameborder="0" allowfullscreen></iframe>
-          <p><?php echo($port2); ?></p>
-        </div>
-      </div>
-      <div class="col-md-5">
-        
-      </div>
-    </div>
-    
-  </div>
-</section>
-<section class="related-projects section-sm bg-gray">
-  <div class="container">
-    <div class="row">
-      <div class="title">
-        <h2><?php echo($port3); ?></h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="content">
-          <img class="img-responsive" src="images/portfolio/portfolio-big-2.jpg">
-          <div class="content">
-            <h4><?php echo($port4); ?></h4>
-            <p><?php echo($port5); ?></p>
-            <a href="#" class="btn btn-small">View Case Study</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="content">
-          <img class="img-responsive" src="images/portfolio/portfolio-big-3.jpg">
-          <div class="content">
-            <h4><?php echo($port6); ?></h4>
-            <p><?php echo($port7); ?></p>
-            <a href="#" class="btn btn-small">View Case Study</a>
-          </div>
+        <div class="block">
+          <h1><?php echo($tit13); ?></h1>
+          <p><?php echo($des13); ?></p>
         </div>
       </div>
     </div>
   </div>
 </section>
+<!-- contact form start -->
+<section class="contact-form">
+    <div class="container">
+        <div class="row">
+            <form id="contact-form"  action="insert9.php" method="POST">
+                <div class="col-md-6 col-sm-12">
+                    <div class="block">
+                        
+                        <div class="form-group">
+                            <input name="tit1" type="text" class="form-control" placeholder="Your Title">
+                        </div>
+                        <div class="form-group">
+                            <input name="port" type="text" class="form-control" placeholder="port">
+                        </div>
+                        <div class="form-group">
+                            <input name="port1" type="text" class="form-control" placeholder="port1">
+                        </div>
+                        <div class="form-group">
+                            <input name="port2" type="text" class="form-control" placeholder="port2">
+                        </div>
+                        <div class="form-group">
+                            <input name="port3" type="text" class="form-control" placeholder="port3">
+                        </div>
+                        <div class="form-group">
+                            <input name="port4" type="text" class="form-control" placeholder="port4">
+                        </div>
+                        <div class="form-group">
+                            <input name="port5" type="text" class="form-control" placeholder="port5">
+                        </div>
+                        <div class="form-group">
+                            <input name="port6" type="text" class="form-control" placeholder="port6">
+                        </div>
+                        <div class="form-group">
+                            <input name="port7" type="text" class="form-control" placeholder="port7">
+                        </div>
+                          
+                         
+                <div class="col-md-6 col-sm-12">
+                    <div class="block">
+                        
+                            <button class="btn btn-default" type="submit" ><?php echo($button4); ?></button>
+                   </div> 
+                </div>
+                <div class="error" id="error">Sorry Msg dose not sent</div>
+                <div class="success" id="success">Message Sent</div>
+                 </div>
+                </div>
+            </form>
+        </div>
+       </div>
 
-
-
-<?php include("footer.php"); ?>
+ 
+            
+</section>
 
     <!-- 
     Essential Scripts
