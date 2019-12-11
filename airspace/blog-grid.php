@@ -36,7 +36,7 @@
 <body id="body">
 
 <?php include("header.php"); ?>
-<?php include("cont1.php"); ?>
+<?php include("variable9.php"); ?>
 
 <section class="page-title bg-2">
   <div class="container">
@@ -44,7 +44,7 @@
       <div class="col-md-12">
         <div class="block">
           <h1><?php echo($tit1); ?></h1>
-          <p><?php echo($des2); ?></p>
+          <p><?php echo($tit2); ?></p>
         </div>
       </div>
     </div>
@@ -62,7 +62,7 @@
 		              <img class="img-responsive" src="images/blog/blog-post-1.jpg" alt="">
 		            </a>
 		          </div>
-		          <h3 class="post-title"><a href=""><?php echo($i1); ?></a></h3>
+		          <h3 class="post-title"><a href=""><?php echo($h); ?></a></h3>
 		          <div class="post-meta">
 		            <ul>
 		              <li>
@@ -79,7 +79,7 @@
 		            </ul>
 		          </div>
 		          <div class="post-content">
-		            <p><?php echo($info1); ?> </p>
+		            <p><?php echo($info); ?> </p>
 		            <a href="blog-single.html" class="btn btn-main">Read More</a>
 		          </div>
 				</div>
@@ -95,14 +95,14 @@
 	          <div class="post-meta">
 	            <ul>
 	              <li>
-	                <i class="ion-calendar"></i><?php echo($date); ?>
+	                <i class="ion-calendar"></i><?php echo($date1); ?>
 	              </li>
 	              <li>
-	                <i class="ion-android-people"></i> <?php echo($des); ?>
+	                <i class="ion-android-people"></i> <?php echo($des4); ?>
 	              </li>
 	              <li>
-	                <a href=""><i class="ion-pricetags"></i> <?php echo($des1); ?></a>,<a href=""> <?php echo($des2); ?></a>, <a
-	                href=""><?php echo($des3); ?></a>
+	                <a href=""><i class="ion-pricetags"></i> <?php echo($des5); ?></a>,<a href=""> <?php echo($des6); ?></a>, <a
+	                href=""><?php echo($des7); ?></a>
 	              </li>
 	            </ul>
 	          </div>
@@ -123,18 +123,18 @@
 					<div class="post-meta">
 						<ul>
 							<li>
-								<i class="ion-calendar"></i> <?php echo($date); ?>
+								<i class="ion-calendar"></i> <?php echo($date2); ?>
 							</li>
 							<li>
-								<i class="ion-android-people"></i> <?php echo($des); ?>
+								<i class="ion-android-people"></i> <?php echo($des8); ?>
 							</li>
 							<li>
-								<a href=""><i class="ion-pricetags"></i> <?php echo($des1); ?></a>,<a href=""> <?php echo($des2); ?></a>, <a href=""><?php echo($des3); ?></a>
+								<a href=""><i class="ion-pricetags"></i> <?php echo($des9); ?></a>,<a href=""> <?php echo($des10); ?></a>, <a href=""><?php echo($des11); ?></a>
 							</li>
 						</ul>
 					</div>
 					<div class="post-content">
-						<p><?php echo($info1); ?></p>
+						<p><?php echo($info2); ?></p>
 						<a href="blog-single.html" class="btn btn-main">Read More</a>
 					</div>
 				</div>
@@ -150,18 +150,18 @@
 					<div class="post-meta">
 						<ul>
 							<li>
-								<i class="ion-calendar"></i> <?php echo($date); ?>
+								<i class="ion-calendar"></i> <?php echo($date3); ?>
 							</li>
 							<li>
-								<i class="ion-android-people"></i><?php echo($des); ?>
+								<i class="ion-android-people"></i><?php echo($des12); ?>
 							</li>
 							<li>
-								<a href=""><i class="ion-pricetags"></i> <?php echo($des1); ?></a>,<a href=""> <?php echo($des2); ?></a>, <a href=""><?php echo($des3); ?></a>
+								<a href=""><i class="ion-pricetags"></i> <?php echo($des13); ?></a>,<a href=""> <?php echo($des14); ?></a>, <a href=""><?php echo($des15); ?></a>
 							</li>
 						</ul>
 					</div>
 					<div class="post-content">
-						<p><?php echo($info1); ?></p>
+						<p><?php echo($info3); ?></p>
 						<a href="blog-single.html" class="btn btn-main">Read More</a>
 					</div>
 				</div>
@@ -175,18 +175,18 @@
 					<div class="post-meta">
 						<ul>
 							<li>
-								<i class="ion-calendar"></i> <?php echo($date); ?>7
+								<i class="ion-calendar"></i> <?php echo($date4); ?>7
 							</li>
 							<li>
-								<i class="ion-android-people"></i> <?php echo($des); ?>
+								<i class="ion-android-people"></i> <?php echo($des16); ?>
 							</li>
 							<li>
-								<a href=""><i class="ion-pricetags"></i> <?php echo($des1); ?></a>,<a href=""> <?php echo($des2); ?></a>, <a href=""><?php echo($des3); ?></a>
+								<a href=""><i class="ion-pricetags"></i> <?php echo($des17); ?></a>,<a href=""> <?php echo($des18); ?></a>, <a href=""><?php echo($des19); ?></a>
 							</li>
 						</ul>
 					</div>
 					<div class="post-content">
-						<p><?php echo($info1); ?></p>
+						<p><?php echo($info4); ?></p>
 						<a href="blog-single.html" class="btn btn-main">Read More</a>
 					</div>
 				</div>
@@ -200,18 +200,18 @@
 					<div class="post-meta">
 						<ul>
 							<li>
-								<i class="ion-calendar"></i> <?php echo($date); ?>
+								<i class="ion-calendar"></i> <?php echo($date5); ?>
 							</li>
 							<li>
-								<i class="ion-android-people"></i><?php echo($des); ?>
+								<i class="ion-android-people"></i><?php echo($des20); ?>
 							</li>
 							<li>
-								<a href=""><i class="ion-pricetags"></i> <?php echo($des1); ?></a>,<a href=""> <?php echo($des2); ?></a>, <a href=""><?php echo($des3); ?></a>
+								<a href=""><i class="ion-pricetags"></i> <?php echo($des21); ?></a>,<a href=""> <?php echo($des22); ?></a>, <a href=""><?php echo($des23); ?></a>
 							</li>
 						</ul>
 					</div>
 					<div class="post-content">
-						<p><?php echo($info1); ?></p>
+						<p><?php echo($info5); ?></p>
 						<a href="blog-single.html" class="btn btn-main">Read More</a>
 					</div>
 				</div>

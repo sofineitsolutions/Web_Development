@@ -37,15 +37,15 @@
 
 
 <?php include("header.php"); ?>
-<?php include("variable11.php"); ?>
+<?php include("cont1.php"); ?>
 
 <section class="page-title bg-2">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1><?php echo($tit1); ?></h1>
-          <p><?php echo($des); ?></p>
+          <h1><?php echo($sub); ?></h1>
+          <p><?php echo($tit3); ?></p>
         </div>
       </div>
     </div>
@@ -66,13 +66,22 @@
 				<img class="media-object" src="images/blog/post-thumb.jpg" alt="Image">
 			</a>
 			<div class="media-body">
+				<h4 class="media-heading"><a href="blog-single.html"><?php echo($stit); ?></a></h4>
+				<p><?php echo($sdes); ?></p>
+			</div>
+		</div>
+		<div class="media">
+			<a class="pull-left" href="blog-single.html">
+				<img class="media-object" src="images/blog/post-thumb-2.jpg" alt="Image">
+			</a>
+			<div class="media-body">
 				<h4 class="media-heading"><a href="blog-single.html"><?php echo($stit1); ?></a></h4>
 				<p><?php echo($sdes1); ?></p>
 			</div>
 		</div>
 		<div class="media">
 			<a class="pull-left" href="blog-single.html">
-				<img class="media-object" src="images/blog/post-thumb-2.jpg" alt="Image">
+				<img class="media-object" src="images/blog/post-thumb-3.jpg" alt="Image">
 			</a>
 			<div class="media-body">
 				<h4 class="media-heading"><a href="blog-single.html"><?php echo($stit2); ?></a></h4>
@@ -81,20 +90,11 @@
 		</div>
 		<div class="media">
 			<a class="pull-left" href="blog-single.html">
-				<img class="media-object" src="images/blog/post-thumb-3.jpg" alt="Image">
+				<img class="media-object" src="images/blog/post-thumb-4.jpg" alt="Image">
 			</a>
 			<div class="media-body">
 				<h4 class="media-heading"><a href="blog-single.html"><?php echo($stit3); ?></a></h4>
 				<p><?php echo($sdes3); ?></p>
-			</div>
-		</div>
-		<div class="media">
-			<a class="pull-left" href="blog-single.html">
-				<img class="media-object" src="images/blog/post-thumb-4.jpg" alt="Image">
-			</a>
-			<div class="media-body">
-				<h4 class="media-heading"><a href="blog-single.html"><?php echo($stit4); ?></a></h4>
-				<p><?php echo($sdes4); ?></p>
 			</div>
 		</div>
 	</div>
@@ -134,6 +134,11 @@
 	    </ul>
 	</div> <!-- End tag  -->
 
+	
+
+
+
+
 
 </aside>
       		</div>
@@ -144,23 +149,24 @@
 			<img src="images/blog/blog-post-1.jpg" alt="">
 		</a>
 	</div>
-	<h3 class="post-title"><a href="blog-single.html"><?php echo($h1); ?></a></h3>
+	<h3 class="post-title"><a href="blog-single.html"><?php echo($blog1); ?></a></h3>
 	<div class="post-meta">
         <ul>
           <li>
-          <?php echo  "<i class='ion-calendar'></i>".$date1;?>
+            <i class="ion-calendar"></i> 20, MAR 2017
           </li>
           <li>
-           <?php echo "<i class='ion-android-people'></i>" .$des1;?>
+            <i class="ion-android-people"></i> POSTED BY ADMIN
           </li>
           <li>
-		  <?php echo "<a href=''><i class='ion-pricetags'></i>" .$des2."</a>,<a href=''>".$des3."</a>,<a href=''>".$des4."</a>";?>
+            <a href=""><i class="ion-pricetags"></i> LIFESTYLE</a>,<a href=""> TRAVEL</a>, <a
+            href="">FASHION</a>
           </li>
           
         </ul>
     </div>
 	<div class="post-content">
-		<p><?php echo($para1); ?></p>
+		<p><?php echo($blog_des1); ?></p>
 		<a href="blog-single.html" class="btn btn-main">Continue Reading</a>
 	</div>
 
@@ -171,23 +177,24 @@
 			<img src="images/blog/blog-post-2.jpg" alt="">
 		</a>
 	</div>
-	<h3 class="post-title"><a href="blog-single.html"><?php echo($h2); ?></a></h3>
+	<h3 class="post-title"><a href="blog-single.html"><?php echo($blog2); ?></a></h3>
 	<div class="post-meta">
         <ul>
-		<li>
-          <?php echo  "<i class='ion-calendar'></i>".$date2;?>
+          <li>
+            <i class="ion-calendar"></i> 20, MAR 2017
           </li>
           <li>
-           <?php echo "<i class='ion-android-people'></i>" .$des5;?>
+            <i class="ion-android-people"></i> POSTED BY ADMIN
           </li>
           <li>
-		  <?php echo "<a href=''><i class='ion-pricetags'></i>" .$des6."</a>,<a href=''>".$des7."</a>,<a href=''>".$des8."</a>";?>
+            <a href=""><i class="ion-pricetags"></i> LIFESTYLE</a>,<a href=""> TRAVEL</a>, <a
+            href="">FASHION</a>
           </li>
           
         </ul>
     </div>
 	<div class="post-content">
-		<p><?php echo($para2); ?></p>
+		<p><?php echo($blog_des1); ?></p>
 		<a href="blog-single.html" class="btn btn-main">Continue Reading</a>
 	</div>
 </div>
@@ -197,45 +204,47 @@
 			<img src="images/blog/blog-post-3.jpg" alt="">
 		</a>
 	</div>
-	<h3 class="post-title"><a href="blog-single.html"><?php echo($h3); ?></a></h3>
+	<h3 class="post-title"><a href="blog-single.html"><?php echo($blog3); ?></a></h3>
 	<div class="post-meta">
         <ul>
-        <li>
-          <?php echo  "<i class='ion-calendar'></i>".$date3;?>
+          <li>
+            <i class="ion-calendar"></i> 20, MAR 2017
           </li>
           <li>
-           <?php echo "<i class='ion-android-people'></i>" .$des8;?>
+            <i class="ion-android-people"></i> POSTED BY ADMIN
           </li>
           <li>
-		  <?php echo "<a href=''><i class='ion-pricetags'></i>" .$des10."</a>,<a href=''>".$des11."</a>,<a href=''>".$des12."</a>";?>
+            <a href=""><i class="ion-pricetags"></i> LIFESTYLE</a>,<a href=""> TRAVEL</a>, <a
+            href="">FASHION</a>
           </li>
           
         </ul>
     </div>
 	<div class="post-content">
-		<p><?php echo($para3); ?></p>
+		<p><?php echo($blog_des1); ?></p>
 		<a href="blog-single.html" class="btn btn-main">Continue Reading</a>
 	</div>
 </div>
 
 <div class="post">
-	<h3 class="post-title"><a href="blog-single.html"><?php echo($h4); ?></a></h3>
+	<h3 class="post-title"><a href="blog-single.html"><?php echo($blog4); ?></a></h3>
 	<div class="post-meta">
         <ul>
-		<li>
-          <?php echo  "<i class='ion-calendar'></i>".$date4;?>
+          <li>
+            <i class="ion-calendar"></i> 20, MAR 2017
           </li>
           <li>
-           <?php echo "<i class='ion-android-people'></i>" .$des13;?>
+            <i class="ion-android-people"></i> POSTED BY ADMIN
           </li>
           <li>
-		  <?php echo "<a href=''><i class='ion-pricetags'></i>" .$des14."</a>,<a href=''>".$des15."</a>,<a href=''>".$des16."</a>";?>
+            <a href=""><i class="ion-pricetags"></i> LIFESTYLE</a>,<a href=""> TRAVEL</a>, <a
+            href="">FASHION</a>
           </li>
           
         </ul>
     </div>
 	<div class="post-content">
-		<p><?php echo($para4); ?></p>
+		<p><?php echo($blog_des1); ?></p>
 		<a href="blog-single.html" class="btn btn-main">Continue Reading</a>
 	</div>
 </div>
@@ -243,23 +252,24 @@
 	<div class="post-media post-media-audio">
 		<iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/115637399&amp;color=ff5500&amp;auto_play=false&amp;show_artwork=true" class="DRAGDIS_iframe"></iframe>
 	</div>
-	<h3 class="post-title"><a href="blog-single.html"><?php echo($h5); ?></a></h3>
+	<h3 class="post-title"><a href="blog-single.html"><?php echo($blog5); ?></a></h3>
 	<div class="post-meta">
         <ul>
-		<li>
-          <?php echo  "<i class='ion-calendar'></i>".$date5;?>
+          <li>
+            <i class="ion-calendar"></i> 20, MAR 2017
           </li>
           <li>
-           <?php echo "<i class='ion-android-people'></i>" .$des17;?>
+            <i class="ion-android-people"></i> POSTED BY ADMIN
           </li>
           <li>
-		  <?php echo "<a href=''><i class='ion-pricetags'></i>" .$des18."</a>,<a href=''>".$des19."</a>,<a href=''>".$des20."</a>";?>
+            <a href=""><i class="ion-pricetags"></i> LIFESTYLE</a>,<a href=""> TRAVEL</a>, <a
+            href="">FASHION</a>
           </li>
           
         </ul>
     </div>
 	<div class="post-content">
-		<p><?php echo($para5); ?></p>
+		<p><?php echo($blog_des1); ?></p>
 		<a href="blog-single.html" class="btn btn-main">Continue Reading</a>
 	</div>
 </div>
@@ -267,23 +277,24 @@
 	<div class="post-media post-media-audio">
 		<iframe height="400" src="https://www.youtube.com/embed/Ljik3zsGNF4"  allowfullscreen></iframe>
 	</div>
-	<h3 class="post-title"><a href="blog-single.html"><?php echo($h6); ?></a></h3>
+	<h3 class="post-title"><a href="blog-single.html"><?php echo($blog6); ?></a></h3>
 	<div class="post-meta">
         <ul>
-		<li>
-          <?php echo  "<i class='ion-calendar'></i>".$date6;?>
+          <li>
+            <i class="ion-calendar"></i> 20, MAR 2017
           </li>
           <li>
-           <?php echo "<i class='ion-android-people'></i>" .$des21;?>
+            <i class="ion-android-people"></i> POSTED BY ADMIN
           </li>
           <li>
-		  <?php echo "<a href=''><i class='ion-pricetags'></i>" .$des22."</a>,<a href=''>".$des23."</a>,<a href=''>".$des24."</a>";?>
+            <a href=""><i class="ion-pricetags"></i> LIFESTYLE</a>,<a href=""> TRAVEL</a>, <a
+            href="">FASHION</a>
           </li>
           
         </ul>
     </div>
 	<div class="post-content">
-		<p><?php echo($para6); ?></p>
+		<p><?php echo($blog_des1); ?></p>
 		<a href="blog-single.html" class="btn btn-main">Continue Reading</a>
 	</div>
 </div>

@@ -35,17 +35,17 @@
 
 <body id="body">
 <?php include("header.php"); ?>
-<?php include("cont3.php"); ?>
+<?php include("variable7.php"); ?>
 
 <section class="page-header">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="content">
-					<h1 class="page-name">Typography</h1>
-					<ol class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li class="active">typography</li>
+				<?php echo("<h1 class='page-name'>$title</h1>"); ?>
+					<ol class='breadcrumb'>
+					<?php echo("<li><a href='#'>$dir</a></li>
+						<li class='active'>$dir1</li>");  ?>
 					</ol>
 				</div>
 			</div>
