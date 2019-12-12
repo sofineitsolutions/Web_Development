@@ -74,7 +74,7 @@
             </a>
           </div>
           <div class="clear"></div>
-          <?php echo("<h3>$about</h3>"); ?>"
+          <?php echo("<h3>$about</h3>"); ?>
           <div class="row">
             <div class="grid_8 preffix_2">
               <div class="st1"> <?php echo($content); ?> </div>
@@ -96,7 +96,7 @@
         <div class="extra_wrapper">
           <div class="text1">
             <?php echo("<time datetime='2014-01-01'> </time>"); ?>
-            <?php echo("<a href='#''>$date</a>"); ?>
+            <?php echo("<a href='#'>$date</a>"); ?>
           </div><?php  echo($news1); ?>
         </div>
         <div class="clear"></div>
@@ -106,7 +106,7 @@
         <div class="extra_wrapper">
           <div class="text1">
             <time datetime="2014-01-01"></time>
-            <?php echo("<a href='#''>$date1</a>"); ?>
+            <?php echo("<a href='#'>$date1</a>"); ?>
           </div>
           <?php  echo($news2); ?>
         </div>
@@ -118,7 +118,7 @@
   <div class="container">
     <div class="row">
       <div class="grid_12">
-        <?php echo("<h3>$project</h3>"); ?>"
+        <?php echo("<h3>$project</h3>"); ?>
       </div>
       <div class="grid_3">
         <div class="ih-item circle effect2 left_to_right"><a href="#">
