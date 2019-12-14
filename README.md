@@ -3,6 +3,6 @@
 
 ## Project Name and inchargee person <br>
 <br>
-shivani - flush <br>
-priyanka - airspace,site <br>
+shivani - flush,daren <br>
+priyanka - airspace,site,opium <br>
 sakshi - Doggax <br>
