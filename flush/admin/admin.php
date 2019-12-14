@@ -61,7 +61,7 @@
                             <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="title" placeholder="Enter your website title">
                                     <div class="d-flex">
-                            <img class="img-fluid" src="../img/admin/t1.png" alt="">
+                            
                             </div>
                                 </div>
                                 <div class="form-group" >
@@ -176,6 +176,7 @@
                             <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
                             </div>
+                            <a class="nav-link" href="admin.php">update</a> 
                         </form>
                     </div>
                 </div>
