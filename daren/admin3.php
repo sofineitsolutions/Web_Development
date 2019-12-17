@@ -81,7 +81,7 @@
                         <input type="text" class="form-control" id="name" name="like" placeholder="Enter description">
                     </div>
                     <div class="form-group" >
-                        <input type="text" class="form-control" id="name" name="Prev_Pos" placeholder="Enter description">
+                        <input type="text" class="form-control" id="name" name="Prev_Post" placeholder="Enter description">
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control" id="name" name="Prev_post1" placeholder="click on">
