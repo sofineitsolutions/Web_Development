@@ -4,36 +4,69 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="img/favicon.png" type="image/png">
+        <link rel="icon" href="../img/favicon.png" type="image/png">
         <title>Opium Blog</title>
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="vendors/linericon/style.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-        <link rel="stylesheet" href="vendors/animate-css/animate.css">
-        <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../vendors/linericon/style.css">
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="../vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="../vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="../vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="../vendors/jquery-ui/jquery-ui.css">
         <!-- main css -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/responsive.css">
     </head>
     <body>
         
-       <?php include("header.php"); ?>
         
+      
+ <?php include("../header.php"); ?>
+<?php include("variable1.php"); ?>
         <!--================Home Banner Area =================-->
-        <section class="banner_area">
+        <section class="home_banner_area">
         	<div class="container">
-				<div class="row banner_inner">
+				<div class="row">
 					<div class="col-lg-5"></div>
 					<div class="col-lg-7">
-						<div class="banner_content text-center">
-							<h2>Post Archive</h2>
-							<div class="page_link">
-								<a href="index.html">Home</a>
-								<a href="archive.html">Archive</a>
+						<div class="blog_text_slider owl-carousel">
+							<div class="item">
+								<div class="blog_text">
+									<div class="cat">
+										<?php echo("<a class='cat_btn' href='#'>$gad</a>"); ?>
+										<?php echo("<a href='#'><i class='fa fa-calendar' aria-hidden='true'></i> $date</a>"); ?>
+										<?php echo("<a href='#'><i class='fa fa-comments-o' aria-hidden='true'></i> $no</a>"); ?>
+									</div>
+									<?php echo("<a href='#'><h4>$tag</h4></a>"); ?>
+									<?php echo("<p>$des</p>"); ?>
+									<a class="blog_btn" href="#">Read More</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="blog_text">
+									<div class="cat">
+									<?php echo("<a class='cat_btn' href='#'>$gad1</a>"); ?>
+									<?php echo("<a href='#'><i class='fa fa-calendar' aria-hidden='true'></i>$date1</a>"); ?>
+									<?php echo("<a href='#'><i class='fa fa-comments-o' aria-hidden='true'></i>$no1</a>"); ?>
+									</div>
+									<?php echo("<a href='#'><h4>$tag1</h4></a>"); ?>
+									<?php echo("<p>$des1</p>"); ?>
+									<a class="blog_btn" href="#">Read More</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="blog_text">
+									<div class="cat">
+										<?php echo("<a class='cat_btn' href='#'>$gad2</a>"); ?>
+										<?php echo("<a href='#'><i class='fa fa-calendar' aria-hidden='true'></i> $date2</a>"); ?>
+										<?php echo("<a href='#'><i class='fa fa-comments-o' aria-hidden='true'></i>$no2</a>"); ?>
+									</div>
+									<?php echo("<a href='#'><h4>$tag2</h4></a>"); ?>
+									<?php echo("<p>$des2</p>"); ?>
+									<a class="blog_btn" href="#">Read More</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -48,22 +81,39 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blog_left_sidebar">
+                            <article class="blog_style1">
+                            	<div class="blog_img">
+                            		<img class="img-fluid" src="../img/home-blog/blog-1.jpg" alt="">
+                            	</div>
+                            	<div class="blog_text">
+									<div class="blog_text_inner">
+										<div class="cat">
+											<?php echo("<a class='cat_btn' href='#'>$blog</a>"); ?>
+									<?php echo("<a href='#'><i class='fa fa-calendar' aria-hidden='true'></i>$blog_date</a>"); ?>
+											<?php echo("<a href='#'><i class='fa fa-comments-o' aria-hidden='true'></i>$blog_no</a>"); ?>
+										</div>
+										<?php echo("<a href='#'><h4>$blog_tag</h4></a>"); ?>
+										<?php echo("<p>$blog_des</p>"); ?>
+										<a class="blog_btn" href="#">Read More</a>
+									</div>
+								</div>
+                            </article>
                             <div class="row">
                             	<div class="col-md-6">
                             		<article class="blog_style1 small">
 										<div class="blog_img">
-											<img class="img-fluid" src="img/home-blog/blog-small-1.jpg" alt="">
+											<img class="img-fluid" src="../img/home-blog/blog-small-1.jpg" alt="">
 										</div>
 										<div class="blog_text">
 											<div class="blog_text_inner">
 												<div class="cat">
-													<a class="cat_btn" href="#">Gadgets</a>
-													<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
-													<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
-												</div>
-												<a href="single-blog.html"><h4>Nest Protect 2nd Gen Smoke CO Alarm</h4></a>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid unt ut labore et dolore magna aliqua.</p>
-												<a class="blog_btn" href="#">Read More</a>
+													<?php echo("<a class='cat_btn' href='#'>$blog1</a>"); ?>
+									<?php echo("<a href='#'><i class='fa fa-calendar' aria-hidden='true'></i>$blog_date1</a>"); ?>
+											<?php echo("<a href='#'><i class='fa fa-comments-o' aria-hidden='true'></i>$blog_no1</a>"); ?>
+										</div>
+										<?php echo("<a href='#'><h4>$blog_tag1</h4></a>"); ?>
+										<?php echo("<p>$blog_des1</p>"); ?>
+										<a class="blog_btn" href="#">Read More</a>
 											</div>
 										</div>
 									</article>
@@ -71,18 +121,75 @@
                             	<div class="col-md-6">
                             		<article class="blog_style1 small">
 										<div class="blog_img">
-											<img class="img-fluid" src="img/home-blog/blog-small-2.jpg" alt="">
+											<img class="img-fluid" src="../img/home-blog/blog-small-2.jpg" alt="">
 										</div>
 										<div class="blog_text">
 											<div class="blog_text_inner">
 												<div class="cat">
-													<a class="cat_btn" href="#">Gadgets</a>
-													<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
-													<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
-												</div>
-												<a href="single-blog.html"><h4>Nest Protect 2nd Gen Smoke CO Alarm</h4></a>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid unt ut labore et dolore magna aliqua.</p>
-												<a class="blog_btn" href="#">Read More</a>	
+													<?php echo("<a class='cat_btn' href='#'>$blog2</a>"); ?>
+									<?php echo("<a href='#'><i class='fa fa-calendar' aria-hidden='true'></i>$blog_date2</a>"); ?>
+											<?php echo("<a href='#'><i class='fa fa-comments-o' aria-hidden='true'></i>$blog_no2</a>"); ?>
+										</div>
+										<?php echo("<a href='#'><h4>$blog_tag2</h4></a>"); ?>
+										<?php echo("<p>$blog_des2</p>"); ?>
+										<a class="blog_btn" href="#">Read More</a>
+											</div>
+										</div>
+									</article>
+                            	</div>
+                            </div>
+                            <article class="blog_style1">
+                            	<div class="blog_img">
+                            		<img class="img-fluid" src="../img/home-blog/blog-2.jpg" alt="">
+                            	</div>
+                            	<div class="blog_text">
+									<div class="blog_text_inner">
+										<div class="cat">
+											<?php echo("<a class='cat_btn' href='#'>$blog3</a>"); ?>
+									<?php echo("<a href='#'><i class='fa fa-calendar' aria-hidden='true'></i>$blog_date3</a>"); ?>
+											<?php echo("<a href='#'><i class='fa fa-comments-o' aria-hidden='true'></i>$blog_no3</a>"); ?>
+										</div>
+										<?php echo("<a href='#'><h4>$blog_tag3</h4></a>"); ?>
+										<?php echo("<p>$blog_des3</p>"); ?>
+										<a class="blog_btn" href="#">Read More</a>
+									</div>
+								</div>
+                            </article>
+                            <div class="row">
+                            	<div class="col-md-6">
+                            		<article class="blog_style1 small">
+										<div class="blog_img">
+											<img class="img-fluid" src="../img/home-blog/blog-small-3.jpg" alt="">
+										</div>
+										<div class="blog_text">
+											<div class="blog_text_inner">
+												<div class="cat">
+													<?php echo("<a class='cat_btn' href='#'>$blog4</a>"); ?>
+									<?php echo("<a href='#'><i class='fa fa-calendar' aria-hidden='true'></i>$blog_date4</a>"); ?>
+											<?php echo("<a href='#'><i class='fa fa-comments-o' aria-hidden='true'></i>$blog_no4</a>"); ?>
+										</div>
+										<?php echo("<a href='#'><h4>$blog_tag4</h4></a>"); ?>
+										<?php echo("<p>$blog_des4</p>"); ?>
+										<a class="blog_btn" href="#">Read More</a>
+											</div>
+										</div>
+									</article>
+                            	</div>
+                            	<div class="col-md-6">
+                            		<article class="blog_style1 small">
+										<div class="blog_img">
+											<img class="img-fluid" src="../img/home-blog/blog-small-4.jpg" alt="">
+										</div>
+										<div class="blog_text">
+											<div class="blog_text_inner">
+												<div class="cat">
+													<?php echo("<a class='cat_btn' href='#'>$blog5</a>"); ?>
+									<?php echo("<a href='#'><i class='fa fa-calendar' aria-hidden='true'></i>$blog_date5</a>"); ?>
+											<?php echo("<a href='#'><i class='fa fa-comments-o' aria-hidden='true'></i>$blog_no5</a>"); ?>
+										</div>
+										<?php echo("<a href='#'><h4>$blog_tag5</h4></a>"); ?>
+										<?php echo("<p>$blog_des5</p>"); ?>
+										<a class="blog_btn" href="#">Read More</a>
 											</div>
 										</div>
 									</article>
@@ -92,18 +199,18 @@
                             	<div class="col-md-6">
                             		<article class="blog_style1 small">
 										<div class="blog_img">
-											<img class="img-fluid" src="img/home-blog/blog-small-3.jpg" alt="">
+											<img class="img-fluid" src="../img/home-blog/blog-small-5.jpg" alt="">
 										</div>
 										<div class="blog_text">
 											<div class="blog_text_inner">
 												<div class="cat">
-													<a class="cat_btn" href="#">Gadgets</a>
-													<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
-													<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
-												</div>
-												<a href="single-blog.html"><h4>Nest Protect 2nd Gen Smoke CO Alarm</h4></a>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid unt ut labore et dolore magna aliqua.</p>
-												<a class="blog_btn" href="#">Read More</a>
+													<?php echo("<a class='cat_btn' href='#'>$blog6</a>"); ?>
+									<?php echo("<a href='#'><i class='fa fa-calendar' aria-hidden='true'></i>$blog_date6</a>"); ?>
+											<?php echo("<a href='#'><i class='fa fa-comments-o' aria-hidden='true'></i>$blog_no6</a>"); ?>
+										</div>
+										<?php echo("<a href='#'><h4>$blog_tag6</h4></a>"); ?>
+										<?php echo("<p>$blog_des6</p>"); ?>
+										<a class="blog_btn" href="#">Read More</a>
 											</div>
 										</div>
 									</article>
@@ -111,58 +218,18 @@
                             	<div class="col-md-6">
                             		<article class="blog_style1 small">
 										<div class="blog_img">
-											<img class="img-fluid" src="img/home-blog/blog-small-4.jpg" alt="">
+											<img class="img-fluid" src="../img/home-blog/blog-small-6.jpg" alt="">
 										</div>
 										<div class="blog_text">
 											<div class="blog_text_inner">
 												<div class="cat">
-													<a class="cat_btn" href="#">Gadgets</a>
-													<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
-													<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
-												</div>
-												<a href="single-blog.html"><h4>Nest Protect 2nd Gen Smoke CO Alarm</h4></a>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid unt ut labore et dolore magna aliqua.</p>
-												<a class="blog_btn" href="#">Read More</a>
-											</div>
+													<?php echo("<a class='cat_btn' href='#'>$blog7</a>"); ?>
+									<?php echo("<a href='#'><i class='fa fa-calendar' aria-hidden='true'></i>$blog_date7</a>"); ?>
+											<?php echo("<a href='#'><i class='fa fa-comments-o' aria-hidden='true'></i>$blog_no7</a>"); ?>
 										</div>
-									</article>
-                            	</div>
-                            </div>
-                            <div class="row">
-                            	<div class="col-md-6">
-                            		<article class="blog_style1 small">
-										<div class="blog_img">
-											<img class="img-fluid" src="img/home-blog/blog-small-5.jpg" alt="">
-										</div>
-										<div class="blog_text">
-											<div class="blog_text_inner">
-												<div class="cat">
-													<a class="cat_btn" href="#">Gadgets</a>
-													<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
-													<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
-												</div>
-												<a href="single-blog.html"><h4>Nest Protect 2nd Gen Smoke CO Alarm</h4></a>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid unt ut labore et dolore magna aliqua.</p>
-												<a class="blog_btn" href="#">Read More</a>
-											</div>
-										</div>
-									</article>
-                            	</div>
-                            	<div class="col-md-6">
-                            		<article class="blog_style1 small">
-										<div class="blog_img">
-											<img class="img-fluid" src="img/home-blog/blog-small-6.jpg" alt="">
-										</div>
-										<div class="blog_text">
-											<div class="blog_text_inner">
-												<div class="cat">
-													<a class="cat_btn" href="#">Gadgets</a>
-													<a href="#"><i class="fa fa-calendar" aria-hidden="true"></i> March 14, 2018</a>
-													<a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 05</a>
-												</div>
-												<a href="single-blog.html"><h4>Nest Protect 2nd Gen Smoke CO Alarm</h4></a>
-												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid unt ut labore et dolore magna aliqua.</p>
-												<a class="blog_btn" href="#">Read More</a>
+										<?php echo("<a href='#'><h4>$blog_tag7</h4></a>"); ?>
+										<?php echo("<p>$blog_des7</p>"); ?>
+										<a class="blog_btn" href="#">Read More</a>
 											</div>
 										</div>
 									</article>
@@ -205,10 +272,10 @@
                                 <div class="br"></div>
                             </aside>
                             <aside class="single_sidebar_widget author_widget">
-                                <img class="author_img img-fluid" src="img/blog/author.png" alt="">
-                                <h4>Charlie Barber</h4>
-                                <p>Senior blog writer</p>
-                                <p>Boot camps have its supporters andit sdetractors. Some people do not understand why you should have to spend money on boot camp when you can get. Boot camps have itssuppor ters andits detractors.</p>
+                                <img class="author_img img-fluid" src="../img/blog/author.png" alt="">
+                           <?php echo("<h4>$bloger</h4>
+                                <p>$post</p>
+                                <p>$bloger_blog</p>"); ?>
                                 <div class="social_icon">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -220,30 +287,30 @@
                             <aside class="single_sidebar_widget popular_post_widget">
                                 <h3 class="widget_title">Popular Posts</h3>
                                 <div class="media post_item">
-                                    <img src="img/blog/popular-post/post1.jpg" alt="post">
+                                    <img src="../img/blog/popular-post/post1.jpg" alt="post">
                                     <div class="media-body">
-                                        <a href="blog-details.html"><h3>Space The Final Frontier</h3></a>
+                                        <a href="../blog-details.html"><h3>Space The Final Frontier</h3></a>
+                                        <p>02 Hours ago</p>
+                                    </div>
+                                </div>
+                                <div class="media post_item ">
+                                    <img src="../img/blog/popular-post/post2.jpg" alt="post">
+                                    <div class="media-body">
+                                        <a href="../blog-details.html"><h3>The Amazing Hubble</h3></a>
                                         <p>02 Hours ago</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="img/blog/popular-post/post2.jpg" alt="post">
+                                    <img src="../img/blog/popular-post/post3.jpg" alt="post">
                                     <div class="media-body">
-                                        <a href="blog-details.html"><h3>The Amazing Hubble</h3></a>
-                                        <p>02 Hours ago</p>
-                                    </div>
-                                </div>
-                                <div class="media post_item">
-                                    <img src="img/blog/popular-post/post3.jpg" alt="post">
-                                    <div class="media-body">
-                                        <a href="blog-details.html"><h3>Astronomy Or Astrology</h3></a>
+                                        <a href="../blog-details.html"><h3>Astronomy Or Astrology</h3></a>
                                         <p>03 Hours ago</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="img/blog/popular-post/post4.jpg" alt="post">
+                                    <img src="../img/blog/popular-post/post4.jpg" alt="post">
                                     <div class="media-body">
-                                        <a href="blog-details.html"><h3>Asteroids telescope</h3></a>
+                                        <a href="../blog-details.html"><h3>Asteroids telescope</h3></a>
                                         <p>01 Hours ago</p>
                                     </div>
                                 </div>
@@ -313,25 +380,25 @@
         </section>
         <!--================Blog Area =================-->
         
-       <?php include("footer.php"); ?>
+       <?php include("../footer.php"); ?>
         
         
         
         
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery-3.2.1.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/stellar.js"></script>
-        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
-        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="vendors/isotope/isotope-min.js"></script>
-        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="vendors/jquery-ui/jquery-ui.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/mail-script.js"></script>
-        <script src="js/theme.js"></script>
+        <script src="../js/jquery-3.2.1.min.js"></script>
+        <script src="../js/popper.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/stellar.js"></script>
+        <script src="../vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="../vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="../vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="../vendors/isotope/isotope-min.js"></script>
+        <script src="../vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="../vendors/jquery-ui/jquery-ui.js"></script>
+        <script src="../js/jquery.ajaxchimp.min.js"></script>
+        <script src="../js/mail-script.js"></script>
+        <script src="../js/theme.js"></script>
     </body>
 </html>

@@ -21,7 +21,7 @@
     <body>
         
        <?php include("header.php"); ?>
-        
+       <?php include("variable5.php"); ?> 
         <!--================Home Banner Area =================-->
         <section class="banner_area">
         	<div class="container">

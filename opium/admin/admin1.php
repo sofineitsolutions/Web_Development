@@ -20,7 +20,7 @@
     </head>
     <body>
         
-<?php include("variable1.php"); ?>       
+<?php include("variable2.php"); ?>       
        <!--================Home Banner Area =================-->
         <section class="banner_area">
         	<div class="container">
@@ -48,7 +48,7 @@
                 
      
                     <div class="col-lg-9">
-                        <form class="row contact_form" action="insert.php" method="post" id="contactForm" novalidate="novalidate">
+                        <form class="row contact_form" action="insert1.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="gad" placeholder="Gadget">
