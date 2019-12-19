@@ -36,9 +36,11 @@ $h1 = $_POST['ptitle3'];
 
 include("config.php");
 // Attempt insert query execution
-$sql = "INSERT INTO `daren`.`single_blog` (`title1`, `Travel_Lifestyle`, `Comment`, `des1`, `des2`, `des3`, `des4`, `des5`, `like`, `Prev_Post`,
- `Prev_Post1`, `Next_Post`, `Next_Post1`, `name`, `des`, `comments`, `comments1`, `name1`, `date1`, `comments2`, `name2`, `date2`, 
- `comments3`, `name3`, `date3`, `name4`, `date4`, `ptitle1`, `name5`, `date5`, `ptitle2`, `name6`, `date6`, `ptitle3`) VALUES ('$a', '$b', '$c', '$d', '$e', '$f','$g', '$h', '$i', '$j', '$k', '$l','$m', '$n', '$o', '$p','$q','$r','$s','$t','$u','$v','$w',
+$sql = "INSERT INTO `daren`.`single_blog` (`title1`, `Travel_Lifestyle`, `Comment`, `des1`, `des2`, `des3`, `des4`, `des5`, `like`, 
+`Prev_Post`, `Prev_Post1`, `Next_Post`, `Next_Post1`, `name`, `des`, `comments`, `comments1`, `name1`, `date1`, `comments2`, 
+`name2`, `date2`, `comments3`, `name3`, `date3`, `name4`, `date4`, `ptitle1`, `name5`, `date5`, `ptitle2`, `name6`, `date6`,
+ `ptitle3`) VALUES ('$a', '$b', 
+ '$c', '$d', '$e', '$f','$g', '$h', '$i', '$j', '$k', '$l','$m', '$n', '$o', '$p','$q','$r','$s','$t','$u','$v','$w',
  '$x','$y','$z','$a1','$b1','$c1','$d1','$e1','$f1','$g1','$h1')";
 if(mysqli_query($link, $sql)){
 echo "Records inserted successfully.";

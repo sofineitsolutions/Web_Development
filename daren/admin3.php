@@ -156,7 +156,7 @@
                         <textarea type="text" class="form-control" id="name" name="ptitle3" placeholder="Enter description"></textarea >
                     </div> 
                       <div class="load_btn">
-                            <button type="submit" value="submit"   class="btn_1">Send Message</button>
+                            <button type="submit" value="submit" class="btn_1">Send Message</button>
                     </div>
                     </div>
                            <!-- <a class="nav-link" href="admin.php">update</a>--> 

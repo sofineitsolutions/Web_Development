@@ -1,49 +1,49 @@
 <?php 
-include("config.php");
-/* Attempt to connect to MySQL database */
-$query_user = mysqli_query($link,"SELECT * FROM `daren`.`category`")or die(mysqli_error($link));
-if(mysqli_num_rows($query_user) > 0){
-while($res = mysqli_fetch_array($query_user) ){
-//	echo"<tr><td>".
-$title1 = $res['title1'];
-$Travel_Lifestyle = $res['Travel_Lifestyle'];
-$des1 = $res['Comment'];
-$des1 = $res['des1'];
-$des2 = $res['des2'];
-$des3 = $res['des3'];
-$des4 = $res['des4'];
-$des5 = $res['des5'];
-$like = $res['like'];
-$Prev_Post = $res['Prev_Post'];
-$Prev_Post1 = $res['Prev_Post1'];
-$Next_Post = $res['Next_Post'];
-$Next_Post1 = $res['Next_Post1'];
-$name = $res['name'];
-$des = $res['des'];
-$comments = $res['comments'];
-$comments1 = $res['comments1'];
-$name1 = $res['name1'];
-$date1 = $res['date1'];
-$comments2 = $res['comments2'];
-$name2 = $res['name2'];
-$date2 = $res['date2'];
-$comments3 = $res['comments3'];
-$name3 = $res['name3'];
-$date3 = $res['date3'];
-$name4 = $res['name4'];
-$date4 = $res['date4'];
-$ptitle1 = $res['ptitle1'];
-$name5 = $res['name5'];
-$date5 = $res['date5'];
-$ptitle2 = $res['ptitle2'];
-$name6 = $res['name6'];
-$date6 = $res['date6'];
-$ptitle3 = $res['ptitle3'];
-}
-}
-else"0 result";
+// include("config.php");
+// /* Attempt to connect to MySQL database */
+// $query_user = mysqli_query($link,"SELECT * FROM `daren`.`single_blog`")or die(mysqli_error($link));
+// if(mysqli_num_rows($query_user) > 0){
+// while($res = mysqli_fetch_array($query_user) ){
+// //	echo"<tr><td>".
+// $title1 = $res['title1'];
+// $Travel_Lifestyle = $res['Travel_Lifestyle'];
+// $Comment = $res['Comment'];
+// $des1 = $res['des1'];
+// $des2 = $res['des2'];
+// $des3 = $res['des3'];
+// $des4 = $res['des4'];
+// $des5 = $res['des5'];
+// $like = $res['like'];
+// $Prev_Post = $res['Prev_Post'];
+// $Prev_Post1 = $res['Prev_Post1'];
+// $Next_Post = $res['Next_Post'];
+// $Next_Post1 = $res['Next_Post1'];
+// $name = $res['name'];
+// $des = $res['des'];
+// $comments = $res['comments'];
+// $comments1 = $res['comments1'];
+// $name1 = $res['name1'];
+// $date1 = $res['date1'];
+// $comments2 = $res['comments2'];
+// $name2 = $res['name2'];
+// $date2 = $res['date2'];
+// $comments3 = $res['comments3'];
+// $name3 = $res['name3'];
+// $date3 = $res['date3'];
+// $name4 = $res['name4'];
+// $date4 = $res['date4'];
+// $ptitle1 = $res['ptitle1'];
+// $name5 = $res['name5'];
+// $date5 = $res['date5'];
+// $ptitle2 = $res['ptitle2'];
+// $name6 = $res['name6'];
+// $date6 = $res['date6'];
+// $ptitle3 = $res['ptitle3'];
+// }
+// }
+// else"0 result";
 
-$link->close();
+// $link->close();
 $title1="Second divided from form fish beast made every of seas all gathered us saying he our";
 $Travel_Lifestyle="Travel, Lifestyle";
 $Comment="03 Comments";
