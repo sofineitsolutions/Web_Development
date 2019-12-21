@@ -65,16 +65,16 @@ $des5="MCSE boot camps have its supporters and its detractors. Some people do no
 should have to spend money on boot camp when you can get the MCSE study materials yourself at a
 fraction of the camp price. However, who has the willpower to actually sit through a
 self-imposed MCSE training. who has the willpower to actually";
-$like=" Lily and 4 people like this";
-$Prevres="Prev Post";
-$Prevres1="Space The Final Frontier";
-$Nextres="Next Post";
-$Nextres1="Telescopes 101";
+$like="Lily and 4 people like this";
+$Prev_Post="Prev Post";
+$Prev_post1="Space The Final Frontier";
+$Next_Post="Next Post";
+$Next_Post1="Telescopes 101";
 $name="Harvard milan";
 $des="Second divided from form fish beast made. Every of seas all gathered use saying you're, he
 our dominion twon Second divided from";
 $comments="05 Comments";
-$comments1=" Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
+$comments1="Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
 Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser";
 $name1="Emilly Blunt";
 $date1="December 4, 2017 at 3:12 pm";

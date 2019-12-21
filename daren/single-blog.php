@@ -142,8 +142,7 @@
                               <img src="img/comment/comment_1.png" alt="">
                            </div>
                            <div class="desc">
-                           <?php echo "<p class='comment'>".$comments1.
-                              "</p>";?>
+                           <?php echo "<p class='comment'>".$comments1."</p>";?>
                               <div class="d-flex justify-content-between">
                                  <div class="d-flex align-items-center">
                                  <?php echo "<h5><a href='#'>".$name1."</a></h5>";?>
