@@ -5,5 +5,5 @@
 <br>
 shivani - flush,daren,foody <br>
 priyanka - airspace,site,opium <br>
-sakshi - Doggax <br>
-mansi - daren<br>
+sakshi - Doggax,banker <br>
+mansi - daren , logistico <br>
