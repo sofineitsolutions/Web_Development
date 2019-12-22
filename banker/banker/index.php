@@ -72,13 +72,13 @@
               </div>
 
               <div class="slide">
-                <h1 class="text-uppercase" data-aos="fade-up">Financing Solutions</h1>
-                <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident cupiditate suscipit, magnam libero velit esse sapiente officia inventore!</p>
+                <?php echo("<h1 class='text-uppercase' data-aos='fade-up'>" . $b1_title2 . "</h1>");
+                echo("<p class='mb-5 desc'  data-aos='fade-up' data-aos-delay='100'>" . $b1_subtitle1 . "</p>"); ?>
               </div>
 
               <div class="slide">
-                <h1 class="text-uppercase" data-aos="fade-up">Savings Accounts</h1>
-                <p class="mb-5 desc"  data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident cupiditate suscipit, magnam libero velit esse sapiente officia inventore!</p>
+                <?php echo("<h1 class='text-uppercase' data-aos='fade-up'>" . $b1_title3 . "</h1>");
+                echo("<p class='mb-5 desc'  data-aos='fade-up' data-aos-delay='100'>" . $b1_subtitle1 . "</p>"); ?>
               </div>
 
             </div>
@@ -99,18 +99,18 @@
         <div class="row mb-5">
           <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="">
             <img src="images/flaticon-svg/svg/001-wallet.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
-            <h3 class="card-title">Money Savings</h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <?php echo("<h3 class='card-title'>" . $con1 . "</h3>");
+            echo("<p>" . $dec1 . "</p>"); ?>
           </div>
           <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
             <img src="images/flaticon-svg/svg/004-cart.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
-            <h3 class="card-title">Online Shoppings</h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+           <?php  echo("<h3 class='card-title'>" . $con2 . "</h3>"); 
+            echo("<p>" . $dec1 . "</p>"); ?>
           </div>
           <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
             <img src="images/flaticon-svg/svg/006-credit-card.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
-            <h3 class="card-title">Credit / Debit Cards</h3>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <?php echo("<h3 class='card-title'>" . $con3 . "</h3>");
+            echo("<p>" . $dec1 . "</p>"); ?>
           </div>
 
         </div>
