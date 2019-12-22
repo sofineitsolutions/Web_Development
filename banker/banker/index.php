@@ -77,7 +77,7 @@
               </div>
 
               <div class="slide">
-                <?php echo("<h1 class='text-uppercase' data-aos='fade-up'>" . $b1_title3 . "</h1>");
+                <?php echo("<h1 class='text-uppercase' data-aos='fade-up'>" . $b1_title3 . "</h1>"); 
                 echo("<p class='mb-5 desc'  data-aos='fade-up' data-aos-delay='100'>" . $b1_subtitle1 . "</p>"); ?>
               </div>
 
@@ -99,12 +99,12 @@
         <div class="row mb-5">
           <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="">
             <img src="images/flaticon-svg/svg/001-wallet.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
-            <?php echo("<h3 class='card-title'>" . $con1 . "</h3>");
+            <?php echo("<h3 class='card-title'>" . $con1 . "</h3>"); 
             echo("<p>" . $dec1 . "</p>"); ?>
           </div>
           <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
             <img src="images/flaticon-svg/svg/004-cart.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
-           <?php  echo("<h3 class='card-title'>" . $con2 . "</h3>"); 
+            <?php echo("<h3 class='card-title'>" . $con2 . "</h3>");
             echo("<p>" . $dec1 . "</p>"); ?>
           </div>
           <div class="col-md-4 text-center" data-aos="fade-up" data-aos-delay="200">
@@ -123,16 +123,16 @@
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
-              <h3 class="h3 mb-4 text-black">Amortization Computation</h3>
-              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              <?php echo("<h3 class='h3 mb-4 text-black'>" . $title4 . "</h3>");
+              echo("<p>" . $dec1 . "</p>"); ?>
               
             </div>
               
             <div class="mb-4">
               <ul class="list-unstyled ul-check success">
-                <li>Officia quaerat eaque neque</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Consectetur adipisicing elit</li>
+                <?php echo("<li>" . $dec2 . "</li>"); ?>
+                <?php echo("<li>" . $dec3 . "</li>"); ?>
+                <?php echo("<li>" . $dec4 . "</li>"); ?>
               </ul>
               
             </div>
@@ -153,13 +153,13 @@
       </div>
     </div>
 
-    
+    <?php include("variable2.php");  ?>
     <div class="site-section cta-big-image" id="about-section">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-md-8 text-center">
-            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">About Us</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+            <?php echo("<h2 class='section-title mb-3' data-aos='fade-up' data-aos-delay=''>" . $title1 . "</h2>");
+            echo("<p class='lead' data-aos='fade-up' data-aos-delay='100'>" . $subtitle1 . "</p>");?>
           </div>
         </div>
         <div class="row">
@@ -170,11 +170,11 @@
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             
-            <h3 class="text-black mb-4">We Solve Your Financial Problem</h3>
+            <?php echo("<h3 class='text-black mb-4'>" . $con1 . "</h3>");
 
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            echo("<p>" . $dec1 . "</p>"); 
 
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            echo("<p>" . $dec2 . "</p>"); ?>
             
           </div>
         </div>    
@@ -187,8 +187,8 @@
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-md-8 text-center">
-            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Meet Team</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <?php echo("<h2 class='section-title mb-3' data-aos='fade-up' data-aos-delay=''>" . $con2 . "</h2>");
+            echo("<p class='lead' data-aos='fade-up' data-aos-delay='100'>" . $dec2 . "</p>"); ?>
           </div>
         </div>
         <div class="row">
@@ -206,8 +206,8 @@
                 <img src="images/person_5.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Kaiara Spencer</h3>
-                <span class="position">Finance Manager</span>
+               <?php  echo("<h3>" . $name1 . "</h3>");
+                echo("<span class='position'>" . $post1 . "</span>"); ?>
               </div>
             </div>
           </div>
@@ -224,8 +224,8 @@
                 <img src="images/person_6.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Dave Simpson</h3>
-                <span class="position">Marketing Manager</span>
+                <?php echo("<h3>" . $name2 . "</h3>");
+                echo("<span class='position'>" . $post2 . "</span>"); ?>
               </div>
             </div>
           </div>
@@ -242,8 +242,8 @@
                 <img src="images/person_7.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Ben Thompson</h3>
-                <span class="position">Accountant</span>
+                <?php echo("<h3>" . $name3 . "</h3>");
+                echo("<span class='position'>" . $post3 . "</span>");  ?>
               </div>
             </div>
           </div>
@@ -260,8 +260,8 @@
                 <img src="images/person_8.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Kyla Stewart</h3>
-                <span class="position">Accountant</span>
+                <?php echo("<h3>" . $name4 . "</h3>");
+                echo("<span class='position'>" . $post3 . "</span>"); ?>
               </div>
             </div>
           </div>
@@ -278,8 +278,8 @@
                 <img src="images/person_1.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Kaiara Spencer</h3>
-                <span class="position">Accountant</span>
+                <?php echo("<h3>" . $name1 . "</h3>");
+                echo("<span class='position'>" . $post3 . "</span>"); ?>
               </div>
             </div>
           </div>
@@ -296,8 +296,8 @@
                 <img src="images/person_2.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Dave Simpson</h3>
-                <span class="position">Bank Teller</span>
+                <?php echo("<h3>" . $name2 . "</h3>");
+                echo("<span class='position'>" . $post4 . "</span>"); ?>
               </div>
             </div>
           </div>
@@ -314,8 +314,8 @@
                 <img src="images/person_3.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Ben Thompson</h3>
-                <span class="position">Bank Teller</span>
+                <?php echo("<h3>" . $name3 . "</h3>");
+                echo("<span class='position'>" . $post4 . "</span>");  ?>
               </div>
             </div>
           </div>
@@ -332,8 +332,8 @@
                 <img src="images/person_4.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Chris Stewart</h3>
-                <span class="position">Bank Teller</span>
+                <?php echo("<h3>" . $name4 . "</h3>");
+                echo("<span class='position'>" . $post4 . "</span>"); ?>
               </div>
             </div>
           </div>
@@ -351,7 +351,8 @@
 
         <div class="row mb-3">
           <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Gallery</h2>
+            <?php  include("variable3.php");
+            echo("<h2 class='section-title mb-3'>" . $title1 . "</h2>"); ?>
           </div>
         </div>
 
@@ -462,8 +463,8 @@
 
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
-            <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">How It Works</h2>
-            <p class="lead" data-aos="fade-up" data-aos-delay="100">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <?php echo("<h2 class='section-title mb-3' data-aos='fade-up' data-aos-delay=''>" . $title2 . "</h2>");
+            echo("<p class='lead' data-aos='fade-up' data-aos-delay='100'>" . $dec1 . "</p>"); ?>
           </div>
         </div>
         
@@ -484,19 +485,19 @@
             
             <div class="owl-carousel slide-one-item-alt-text">
               <div>
-                <h2 class="section-title mb-3">01. Online Applications</h2>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                <?php echo("<h2 class='section-title mb-3'>" . $con1 . "</h2>");
+                echo("<p>" . $dec2 . "</p>"); ?>
 
                 <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
               </div>
               <div>
-                <h2 class="section-title mb-3">02. Get an approval</h2>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                <?php echo("<h2 class='section-title mb-3'>" . $con2 . "</h2>");
+                echo("<p>" . $dec2 . "</p>"); ?>
                 <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
               </div>
               <div>
-                <h2 class="section-title mb-3">03. Card delivery</h2>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                <?php echo("<h2 class='section-title mb-3'>" . $con3 . "</h2>");
+                echo("<p>" . $dec2 . "</p>"); ?>
 
                 <p><a href="#" class="btn btn-primary mr-2 mb-2">Learn More</a></p>
               </div>
@@ -515,7 +516,8 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center" data-aos="fade">
-            <h2 class="section-title mb-3">Our Services</h2>
+            <?php include("variable4.php");
+            echo("<h2 class='section-title mb-3'>" . $title1 . "</h2>"); ?>
           </div>
         </div>
         <div class="row align-items-stretch">
@@ -525,8 +527,8 @@
                 <img src="images/flaticon-svg/svg/001-wallet.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
               </div>
               <div>
-                <h3>Business Consulting</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <?php echo("<h3>" . $con1 . "</h3>");
+                echo("<p>" . $dec1 . "</p>"); ?>
                 <p><a href="#">Learn More</a></p>
               </div>
             </div>
@@ -537,8 +539,8 @@
                 <img src="images/flaticon-svg/svg/006-credit-card.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
               </div>
               <div>
-                <h3>Credit Card</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <?php echo("<h3>" . $con2 . "</h3>");
+                echo("<p>" . $dec1 . "</p>"); ?>
                 <p><a href="#">Learn More</a></p>
               </div>
             </div>
@@ -549,8 +551,8 @@
                 <img src="images/flaticon-svg/svg/002-rich.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
               </div>
               <div>
-                <h3>Income Monitoring</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+               <?php echo("<h3>" . $con3 . "</h3>");
+                echo("<p>" . $dec1 . "</p>"); ?>
                 <p><a href="#">Learn More</a></p>
               </div>
             </div>
@@ -563,8 +565,8 @@
                 <img src="images/flaticon-svg/svg/003-notes.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
               </div>
               <div>
-                <h3>Insurance Consulting</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+               <?php  echo("<h3>" . $con4 . "</h3>");
+                echo("<p>" . $dec1 . "</p>"); ?>
                 <p><a href="#">Learn More</a></p>
               </div>
             </div>
@@ -575,8 +577,8 @@
                 <img src="images/flaticon-svg/svg/004-cart.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
               </div>
               <div>
-                <h3>Financial Investment</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <?php echo("<h3>" . $con5 . "</h3>");
+                echo("<p>" . $dec1 . "</p>"); ?>
                 <p><a href="#">Learn More</a></p>
               </div>
             </div>
@@ -587,8 +589,8 @@
                 <img src="images/flaticon-svg/svg/005-megaphone.svg" alt="Free Website Template by Free-Template.co" class="img-fluid w-25 mb-4">
               </div>
               <div>
-                <h3>Financial Management</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <?php echo("<h3>" . $con6 . "</h3>");
+                echo("<p>" . $dec1 . "</p>"); ?>
                 <p><a href="#">Learn More</a></p>
               </div>
             </div>
@@ -602,7 +604,8 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Happy Customers</h2>
+            <?php include("variable5.php");
+            echo("<h2 class='section-title mb-3'>" . $title1 . "</h2>"); ?>
           </div>
         </div>
       </div>
@@ -611,12 +614,12 @@
             <div class="testimonial">
               
               <blockquote class="mb-5">
-                <p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
+                <?php echo("<p>&ldquo;" . $dec1 . "&rdquo;</p>"); ?>
               </blockquote>
 
               <figure class="mb-4 d-flex align-items-center justify-content-center">
                 <div><img src="images/person_3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>John Smith</p>
+               <?php echo("<p>" . $con1 . "</p>"); ?>
               </figure>
             </div>
           </div>
@@ -624,11 +627,11 @@
             <div class="testimonial">
 
               <blockquote class="mb-5">
-                <p>&ldquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
+                <?php echo("<p>&ldquo;" . $dec2 . "&rdquo;</p>"); ?>
               </blockquote>
               <figure class="mb-4 d-flex align-items-center justify-content-center">
                 <div><img src="images/person_2.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Christine Aguilar</p>
+                <?php echo("<p>" . $con1 . "</p>");   ?>
               </figure>
               
             </div>
@@ -638,11 +641,11 @@
             <div class="testimonial">
 
               <blockquote class="mb-5">
-                <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.&rdquo;</p>
+                <?php echo("<p>&ldquo;" . $dec3 . "&rdquo;</p>"); ?>
               </blockquote>
               <figure class="mb-4 d-flex align-items-center justify-content-center">
                 <div><img src="images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Robert Spears</p>
+                <?php echo("<p>" . $con2 . "</p>"); ?>
               </figure>
 
               
@@ -653,11 +656,11 @@
             <div class="testimonial">
 
               <blockquote class="mb-5">
-                <p>&ldquo;The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.&rdquo;</p>
+                <?php echo("<p>&ldquo;" . $dec4 . "&rdquo;</p>"); ?>
               </blockquote>
               <figure class="mb-4 d-flex align-items-center justify-content-center">
                 <div><img src="images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                <p>Bruce Rogers</p>
+                <?php echo("<p>" . $con3 . "</p>"); ?>
               </figure>
 
             </div>
@@ -670,23 +673,24 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center" data-aos="fade-up">
-            <h2 class="section-title mb-3">Pricing</h2>
+            <?php include("variable6.php");
+            echo("<h2 class='section-title mb-3'>" . $title1 . "</h2>"); ?>
           </div>
         </div>
         <div class="row mb-5">
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="">
             <div class="pricing">
-              <h3 class="text-center text-black">Basic</h3>
+              <?php echo("<h3 class='text-center text-black'>" . $con1 . "</h3>"); ?>
               <div class="price text-center mb-4 ">
                 <span><span>$47</span> / year</span>
               </div>
               <ul class="list-unstyled ul-check success mb-5">
                 
-                <li>Officia quaerat eaque neque</li>
-                <li>Possimus aut consequuntur incidunt</li>
-                <li class="remove">Lorem ipsum dolor sit amet</li>
-                <li class="remove">Consectetur adipisicing elit</li>
-                <li class="remove">Dolorum esse odio quas architecto sint</li>
+               <?php echo("<li>" . $dec1 . "</li>"); ?>
+                <?php echo("<li>" . $dec2 . "</li>"); ?>
+                <?php echo("<li class='remove'>" . $dec3 . "</li>"); ?>
+                <?php echo("<li class='remove'>" . $dec4 . "</li>"); ?>
+                <?php echo("<li class='remove'>" . $dec5 . "</li>"); ?>
               </ul>
               <p class="text-center">
                 <a href="#" class="btn btn-secondary">Buy Now</a>
@@ -696,17 +700,17 @@
 
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-4 pricing-popular" data-aos="fade-up" data-aos-delay="100">
             <div class="pricing">
-              <h3 class="text-center text-black">Premium</h3>
+              <?php echo("<h3 class='text-center text-black'>" . $con2 . "</h3>"); ?>
               <div class="price text-center mb-4 ">
                 <span><span>$200</span> / year</span>
               </div>
               <ul class="list-unstyled ul-check success mb-5">
                 
-                <li>Officia quaerat eaque neque</li>
-                <li>Possimus aut consequuntur incidunt</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Consectetur adipisicing elit</li>
-                <li class="remove">Dolorum esse odio quas architecto sint</li>
+                <?php echo("<li>" . $dec1 . "</li>"); ?>
+                <?php echo("<li>" . $dec2 . "</li>"); ?>
+                <?php echo("<li>" . $dec3 . "</li>"); ?>
+                <?php echo("<li>" . $dec4 . "</li>"); ?>
+                <?php echo("<li class='remove'>" . $dec5 . "</li>"); ?>
               </ul>
               <p class="text-center">
                 <a href="#" class="btn btn-primary">Buy Now</a>
@@ -716,17 +720,17 @@
 
           <div class="col-md-6 mb-4 mb-lg-0 col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="pricing">
-              <h3 class="text-center text-black">Professional</h3>
+              <?php echo("<h3 class='text-center text-black'>" . $con3 . "</h3>");  ?>
               <div class="price text-center mb-4 ">
                 <span><span>$750</span> / year</span>
               </div>
               <ul class="list-unstyled ul-check success mb-5">
                 
-                <li>Officia quaerat eaque neque</li>
-                <li>Possimus aut consequuntur incidunt</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Consectetur adipisicing elit</li>
-                <li>Dolorum esse odio quas architecto sint</li>
+                <?php echo("<li>" . $dec1 . "</li>"); ?>
+                <?php echo("<li>" . $dec2 . "</li>"); ?>
+                <?php echo("<li>" . $dec3 . "</li>"); ?>
+                <?php echo("<li>" . $dec4 . "</li>"); ?>
+                <?php echo("<li>" . $dec5 . "</li>"); ?>
               </ul>
               <p class="text-center">
                 <a href="#" class="btn btn-secondary">Buy Now</a>
@@ -737,52 +741,53 @@
         
         <div class="row site-section" id="faq-section">
           <div class="col-12 text-center" data-aos="fade">
-            <h2 class="section-title">Frequently Ask Questions</h2>
+            <?php include("variable7.php");
+            echo("<h2 class='section-title'>" . $title1 . "</h2>"); ?>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-6">
             
             <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="text-black h4 mb-4">Can I accept both Paypal and Stripe?</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <?php echo("<h3 class='text-black h4 mb-4'>" . $con1 . "</h3>"); 
+            echo("<p>" . $dec1 . "</p>"); ?>
             </div>
             
             <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="text-black h4 mb-4">What available is refund period?</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+              <?php echo("<h3 class='text-black h4 mb-4'>" . $con2 . "</h3>");
+              echo("<p>" . $dec1 . "</p>"); ?>
             </div>
 
             <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="text-black h4 mb-4">Can I accept both Paypal and Stripe?</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <?php echo("<h3 class='text-black h4 mb-4'>" . $con1 . "</h3>");
+            echo("<p>" . $dec1 . "</p>");  ?>
             </div>
             
             <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="text-black h4 mb-4">What available is refund period?</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+              <?php echo("<h3 class='text-black h4 mb-4'>" . $con2 . "</h3>");
+              echo("<p>" . $dec1 . "</p>"); ?>
             </div>
           </div>
           <div class="col-lg-6">
 
             <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="text-black h4 mb-4">Where are you from?</h3>
-              <p>Voluptatum nobis obcaecati perferendis dolor totam unde dolores quod maxime corporis officia et. Distinctio assumenda minima maiores.</p>
+              <?php echo("<h3 class='text-black h4 mb-4'>" . $con3 . "</h3>"); 
+              echo("<p>" . $dec2 . "</p>"); ?>
             </div>
             
             <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="text-black h4 mb-4">What is your opening time?</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+              <?php echo("<h3 class='text-black h4 mb-4'>" . $con4 . "</h3>");
+              echo("<p>" . $dec1 . "</p>"); ?>
             </div>
 
             <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="text-black h4 mb-4">Can I accept both Paypal and Stripe?</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <?php echo("<h3 class='text-black h4 mb-4'>" . $con1 . "</h3>");
+             echo("<p>" . $dec1 . "</p>"); ?>
             </div>
             
             <div class="mb-5" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="text-black h4 mb-4">What available is refund period?</h3>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+              <?php echo("<h3 class='text-black h4 mb-4'>" . $con2 . "</h3>"); 
+              echo("<p>" . $dec1 . "</p>"); ?>
             </div>
           </div>
         </div>
@@ -809,8 +814,8 @@
                 <div class="unit-4 d-flex">
                   <div class="unit-4-icon mr-4 mb-3"><span class="text-primary flaticon-head"></span></div>
                   <div>
-                    <h3>Bank Loan</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                   <?php  echo("<h3>" . $con5 . "</h3>");
+                    echo("<p>" . $dec3 . "</p>"); ?>
                     <p class="mb-0"><a href="#">Learn More</a></p>
                   </div>
                 </div>
@@ -819,8 +824,8 @@
                 <div class="unit-4 d-flex">
                   <div class="unit-4-icon mr-4 mb-3"><span class="text-primary flaticon-smartphone"></span></div>
                   <div>
-                    <h3>Banking Consulation </h3>
-                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                    <?php echo("<h3>" . $con6 . "</h3>");
+                    echo("<p>" . $dec4 . "</p>"); ?>
                     <p class="mb-0"><a href="#">Learn More</a></p>
                   </div>
                 </div>
@@ -843,7 +848,8 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center" data-aos="fade">
-            <h2 class="section-title mb-3">Our Blog</h2>
+            <?php include("variable8.php");
+            echo("<h2 class='section-title mb-3'>" . $title1 . "</h2>"); ?>
           </div>
         </div>
 
@@ -853,9 +859,9 @@
               <a href="single.html">
                 <img src="images/img_1.jpg" alt="Image" class="img-fluid">
               </a>
-              <h2 class="font-size-regular"><a href="#">A Basic Guide to Starting a Franchise in the Philippines</a></h2>
+             <?php echo("<h2 class='font-size-regular'><a href='#'>" . $con1 . "</a></h2>");  ?>
               <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+              <?php echo("<p>" . $dec1 . "</p>"); ?>
               <p><a href="#">Continue Reading...</a></p>
             </div> 
           </div>
@@ -864,9 +870,9 @@
               <a href="single.html">
                 <img src="images/img_4.jpg" alt="Image" class="img-fluid">
               </a>
-              <h2 class="font-size-regular"><a href="#">A Basic Guide to Starting a Franchise in the Philippines</a></h2>
+              <?php echo("<h2 class='font-size-regular'><a href='#'>" . $con1 . "</a></h2>"); ?>
               <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+              <?php echo("<p>" . $dec1 . "</p>"); ?>
               <p><a href="#">Continue Reading...</a></p>
             </div>
           </div>
@@ -875,9 +881,9 @@
               <a href="single.html">
                 <img src="images/img_3.jpg" alt="Image" class="img-fluid">
               </a>
-              <h2 class="font-size-regular"><a href="#">A Basic Guide to Starting a Franchise in the Philippines</a></h2>
+              <?php echo("<h2 class='font-size-regular'><a href='#'>" . $con1 . "</a></h2>"); ?>
               <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+             <?php echo("<p>" . $dec1 . "</p>");  ?>
               <p><a href="#">Continue Reading...</a></p>
             </div> 
           </div>
@@ -893,7 +899,8 @@
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
-            <h2 class="section-title mb-3">Contact Us</h2>
+            <?php include("variable9.php");
+            echo("<h2 class='section-title mb-3'>" . $title . "</h2>"); ?>
           </div>
         </div>
         <div class="row mb-5">
@@ -903,19 +910,19 @@
           <div class="col-md-4 text-center">
             <p class="mb-4">
               <span class="icon-room d-block h2 text-primary"></span>
-              <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
+              <?php echo("<span>" . $add . "</span>"); ?>
             </p>
           </div>
           <div class="col-md-4 text-center">
             <p class="mb-4">
               <span class="icon-phone d-block h2 text-primary"></span>
-              <a href="#">+1 232 3235 324</a>
+              <?php echo("<a href='#'>" . $no . "</a>"); ?>
             </p>
           </div>
           <div class="col-md-4 text-center">
             <p class="mb-0">
               <span class="icon-mail_outline d-block h2 text-primary"></span>
-              <a href="#">youremail@domain.com</a>
+              <?php echo("<a href='#'>" . $id . "</a>"); ?>
             </p>
           </div>
         </div>

@@ -10,8 +10,11 @@
 	$h9="blog";
 	$h10="single-blog";
 	$h11="Contact";
+
+
+
 ?>
- <header>
+<header>
         <div class="header-area ">
             <div class="header-top_area d-none d-lg-block">
                 <div class="container">
@@ -27,13 +30,13 @@
                             <div class="header_right d-flex align-items-center">
                                 <div class="short_contact_list">
                                     <ul>
-                                        <li><?php echo("<a href='#'> <i class='fa fa-envelope'></i> " . $h1 ."</a>");?></li>
-                                        <li><?php echo("<a href='#''> <i class='fa fa-phone'></i> " . $h2 ."</a>"); ?></li>
+                                        <li><?php echo("<a href='#''> <i class='fa fa-envelope'></i> " . $h1 ."</a>");?></li>
+                                        <li><?php echo("<a href='#'> <i class='fa fa-phone'></i> " . $h2 ."</a>"); ?></li>
                                     </ul>
                                 </div>
 
                                 <div class="book_btn d-none d-lg-block">
-                                    <?php echo ("<a class='boxed-btn3-line' href='#'>". $h3 ."</a>"); ?>
+                                    <php <?php echo ("<a class='boxed-btn3-line' href='#''>" . $h3 ."</a>"); ?>
                                 </div>
                             </div>
                         </div>
@@ -55,22 +58,22 @@
                                 <div class="main-menu  d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><?php echo("<a  href='index.html'>". $h4 ."</a>"); ?></li>
-                                            <li><?php echo("<a  href='service.html'>". $h5 ."</a>"); ?></li>
-                                            <li><?php echo("<a href='About.html'>". $h6 ."</a>"); ?></li>
+                                            <li><?php echo("<a  href='index.html'>" . $h4 ."</a>");?></li>
+                                            <li><?php echo("<a  href='service.html'>" . $h5 ."</a>");?></li>
+                                            <li><?php echo("<a href='About.html'>" . $h6 ."</a>"); ?></li>
                                             <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
-                                                    <li><?php echo("<a href='service_details.html'>". $h7 ."</a>"); ?></li>
-                                                    <li><?php echo("<a href='elements.html'>". $h8 ."</a>"); ?></li>
+                                                    <li><?php echo("<a href='service_details.html'>" . $h7 . "</a>"); ?></li>
+                                                    <li><?php echo("<a href='elements.html'>" . $h8 ."</a>"); ?></li>
                                                 </ul>
                                             </li>
                                             <li><a href="#">blog <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
                                                     <li><?php echo("<a href='blog.html'>" . $h9 ."</a>"); ?></li>
-                                                    <li><?php echo("<a href='single-blog.html'>". $h10 ."</a>"); ?></li>
+                                                    <li><?php echo("<a href='single-blog.html'>" . $h10 ."</a>"); ?></li>
                                                 </ul>
                                             </li>
-                                            <li><?php echo("<a href='contact.html'>". $h11 ."</a>"); ?></li>
+                                            <li><?php echo("<a href='contact.html'>" . $h11 . "</a>"); ?></li>
                                         </ul>
                                     </nav>
                                 </div>

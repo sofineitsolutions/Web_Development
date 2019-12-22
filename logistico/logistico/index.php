@@ -37,101 +37,19 @@
 
     <!-- header-start -->
     <?php include("H.php")?>
-    <header>
-        <div class="header-area ">
-            <div class="header-top_area d-none d-lg-block">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="img/logo.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-8 col-md-8">
-                            <div class="header_right d-flex align-items-center">
-                                <div class="short_contact_list">
-                                    <ul>
-                                        <li><?php echo("<a href='#'> <i class='fa fa-envelope'></i> " . $h1 ."</a>");?></li>
-                                        <li><?php echo("<a href='#''> <i class='fa fa-phone'></i> " . $h2 ."</a>"); ?></li>
-                                    </ul>
-                                </div>
-
-                                <div class="book_btn d-none d-lg-block">
-                                    <?php echo ("<a class='boxed-btn3-line' href='#'>". $h3 ."</a>"); ?>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="sticky-header" class="main-header-area">
-                <div class="container">
-                    <div class="header_bottom_border">
-                        <div class="row align-items-center">
-                            <div class="col-12 d-block d-lg-none">
-                                <div class="logo">
-                                    <a href="index.html">
-                                        <img src="img/logo.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-xl-9 col-lg-9">
-                                <div class="main-menu  d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a  href="index.html">home</a></li>
-                                            <li><a  href="service.html">Services</a></li>
-                                            <li><a href="About.html">about</a></li>
-                                            <li><a href="#">pages <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="service_details.html">service details</a></li>
-                                                    <li><a href="elements.html">elements</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">blog <i class="ti-angle-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">blog</a></li>
-                                                    <li><a href="single-blog.html">single-blog</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                                <div class="Appointment justify-content-end">
-                                    <div class="search_btn">
-                                        <a data-toggle="modal" data-target="#exampleModalCenter" href="#">
-                                            <i class="ti-search"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </header>
+   
     <!-- header-end -->
 
     <!-- slider_area_start -->
+    <?php include("variable1.php") ?>
     <div class="slider_area">
         <div class="single_slider  d-flex align-items-center slider_bg_1">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-xl-8">
                         <div class="slider_text text-center justify-content-center">
-                            <p>For Personal & Business</p>
-                            <h3>Global Logistic Service
-                                For Business</h3>
+                         <?php echo("<p>" . $Title1 ."</p>");?>
+                            <?php echo("<h3>". $subtitle1 ."</h3>");?>
                                 <a class="boxed-btn3" href="service.html">Our Services</a>
                         </div>
                     </div>
@@ -149,9 +67,8 @@
                         <div class="icon">
                             <img src="img/svg_icon/airplane.png" alt="">
                         </div>
-                        <h3>Transportation</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture
-                            placing drawing.</p>
+                       <?php echo("<h3>" . $con1 . "</h3>");
+                        echo("<p>" . $dec1 . "</p>");?>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6">
@@ -159,9 +76,8 @@
                         <div class="icon">
                             <img src="img/svg_icon/live.png" alt="">
                         </div>
-                        <h3>Live Monitoring</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture
-                            placing drawing.</p>
+                        <?php echo("<h3>".$con2 ."</h3>");
+                        echo("<p>" . $dec1 ."</p>"); ?>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6">
@@ -169,9 +85,8 @@
                         <div class="icon">
                             <img src="img/svg_icon/world.png" alt="">
                         </div>
-                        <h3>Worldwide Service</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture
-                            placing drawing.</p>
+                        <?php echo("<h3>" . $con3 ."</h3>");
+                        echo("<p>" . $dec1 ."</p>");?>
                     </div>
                 </div>
             </div>
@@ -240,9 +155,8 @@
             <div class="row align-items-center">
                 <div class="col-xl-7 col-md-6">
                     <div class="action_heading">
-                        <h3>100% secure and safe</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture
-                            placing drawing.</p>
+                        <?php echo("<h3>" . $con4 . "</h3>"); ?>
+                       <?php echo("<p>" . $dec4 . "</p>"); ?>
                     </div>
                 </div>
                 <div class="col-xl-5 col-md-6">
@@ -266,13 +180,12 @@
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="features_info">
-                            <h3>Why Choose Us?</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
-                            </p>
+                           <?php echo("<h3>" . $con5 . "</h3>");
+                            echo("<p>" . $dec5 . "</p>"); ?>
                             <ul>
-                                <li> Apartments frequently or motionless. </li>
-                                <li> Duis aute irure dolor in reprehenderit in voluptate. </li>
-                                <li> Voluptatem quia voluptas sit aspernatur.</li>
+                                <?php echo("<li>" .$a1 . "</li>");
+                                echo("<li>" . $a2 ."</li>");
+                                echo("<li>" . $a3 ."</li>"); ?>
                             </ul>
 
                             <div class="about_btn">
@@ -294,25 +207,25 @@
                     <div class="col-xl-3 col-md-3">
                         <div class="single_counter text-center">
                             <h3> <span class="counter">42</span> <span>+</span> </h3>
-                            <p>Countries Covered</p>
+                            <?php echo("<p>".$con6 ."</p>");?>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-3">
                         <div class="single_counter text-center">
                             <h3> <span class="counter">97</span> <span>+</span> </h3>
-                            <p>Business Success</p>
+                            <?php echo("<p>" . $con7 . "</p>");?>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-3">
                         <div class="single_counter text-center">
                             <h3> <span class="counter">2342</span></h3>
-                            <p>Happy Client</p>
+                            <?php echo("<p>" . $con8 . "</p>");?>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-3">
                         <div class="single_counter text-center">
                             <h3> <span class="counter">3245</span></h3>
-                            <p>Business Done</p>
+                            <?php echo("<p>" . $con9 ."</p>");?>
                         </div>
                     </div>
                 </div>
@@ -389,9 +302,8 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-5">
                     <div class="Estimate_info">
-                        <h3>Get free Estimate</h3>
-                        <p>Esteem spirit temper too say adieus who direct esteem. It look estee luckily or picture
-                            placing.</p>
+                        <?php echo("<h3>" . $con10 . "</h3>"); ?>
+                        <?php echo("<p>" .$dec10 ."</p>"); ?>
                         <a href="#" class="boxed-btn3">+10 672 457 356</a>
                     </div>
                 </div>
@@ -490,8 +402,7 @@
                 <div class="col-xl-3 col-md-3">
                     <div class="single_location">
                         <h3> <img src="img/icon/address.svg" alt=""> Location</h3>
-                        <p>600/D, Kings road, Green lane
-                            NewYork-2563</p>
+                        <?php echo("<p>" . $con11 ."</p>");?>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-3">
@@ -509,83 +420,8 @@
 
 
     <!-- footer start -->
-    <footer class="footer">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Services
-                            </h3>
-                            <ul>
-                                <li><a href="#">Air Transportation</a></li>
-                                <li><a href="#">Ocean Freight</a></li>
-                                <li><a href="#">Ocean Cargo</a></li>
-                                <li><a href="#">Logistics</a></li>
-                                <li><a href="#">Warehouse Moving</a></li>
-                            </ul>
-
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-2">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Company
-                            </h3>
-                            <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#"> Testimonials</a></li>
-                                <li><a href="#"> Why Us?</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Industries
-                            </h3>
-                            <ul>
-                                <li><a href="#">Chemicals</a></li>
-                                <li><a href="#">Automotive</a></li>
-                                <li><a href="#"> Consumer Goods</a></li>
-                                <li><a href="#">Life Science</a></li>
-                                <li><a href="#">Foreign Trade</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Subscribe
-                            </h3>
-                            <form action="#" class="newsletter_form">
-                                <input type="text" placeholder="Enter your mail">
-                                <button type="submit">Subscribe</button>
-                            </form>
-                            <p class="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems
-                                luckily.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="footer_border"></div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <p class="copy_right text-center">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include("F.php"); ?>
+    
     <!--/ footer end  -->
 <!-- Button trigger modal -->
   

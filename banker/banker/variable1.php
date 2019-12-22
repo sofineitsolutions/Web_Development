@@ -6,5 +6,9 @@
 	$con1="Money Savings";
 	$dec1="A small river named Duden flows by their place and supplies it with the necessary regelialia.";
 	$con2="Online Shoppings";
-	$con3="Credit / Debit Cards....";
+	$con3="Credit / Debit Cards";
+	$title4="Amortization Computation";
+	$dec2=">Officia quaerat eaque neque";
+	$dec3="Lorliem ipsum dolor sit amet";
+	$dec4="Consectetur adipisicing elit";
 ?>
