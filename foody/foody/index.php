@@ -236,9 +236,9 @@
             <div class="sched d-block d-lg-flex">
               <div class="bg-image" style="background-image: url('img/dishes_1.jpg');" data-aos="fade"></div>
               <div class="text">
-                <h3>Spicy Calamari and beans</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-                <p class="text-primary h3">$12.00</p>
+              <?php echo "<h3>".$menu6."</h3>";
+               echo "<p>".$mdes6."</p>";
+               echo "<p class='text-primary h3'>".$mprice6."</p>";?>
                 
               </div>
               
@@ -250,9 +250,9 @@
             <div class="sched d-block d-lg-flex">
               <div class="bg-image order-2" style="background-image: url('img/dishes_2.jpg');" data-aos="fade"></div>
               <div class="text order-1">
-                <h3>Bacon wrapped wild gulf prawns</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-                <p class="text-primary h3">$18.00</p>
+              <?php echo "<h3>".$menu7."</h3>";
+               echo "<p>".$mdes7."</p>";
+               echo "<p class='text-primary h3'>".$mprice7."</p>";?>
                 
               </div>
               
@@ -261,9 +261,9 @@
             <div class="sched d-block d-lg-flex">
               <div class="bg-image" style="background-image: url('img/dishes_3.jpg');" data-aos="fade"></div>
               <div class="text">
-                <h3>Seared ahi tuna fillet*, honey-ginger sauce</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...</p>
-                <p class="text-primary h3">$16.00</p>
+              <?php echo "<h3>".$menu8."</h3>";
+               echo "<p>".$mdes8."</p>";
+               echo "<p class='text-primary h3'>".$mprice8."</p>";?>
                 
               </div>
               
@@ -284,7 +284,7 @@
         <div class="container-fluid">
           <div class="row" data-aos="fade">
             <div class="col-md-12 text-center heading-wrap">
-              <h2>Testimonial</h2>
+            <?php echo "<h2>".$stitle3."</h2>";?>
               <!-- <span class="back-text">Testimonial</span> -->
             </div>
           </div>
@@ -298,36 +298,36 @@
             <div class="owl-carousel centernonloop2">
               <div class="slide" data-aos="fade-left" data-aos-delay="100">
                 <blockquote class="testimonial">
-                  <p>&ldquo; Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. &rdquo;</p>
+                <?php echo "<p>".$tdes1."</p>";?>
                   <div class="d-flex author">
                     <img src="img/person_1.jpg" alt="" class="mr-4">
                     <div class="author-info">
-                      <h4>Mellisa Howard</h4>
-                      <p>CEO, XYZ Company</p>
+                    <?php echo "<h4>".$tname1."</h4>";?>
+                    <?php echo "<p>".$prof1."</p>";?>
                     </div>
                   </div>  
                 </blockquote>
               </div>
               <div class="slide" data-aos="fade-left" data-aos-delay="200">
                 <blockquote class="testimonial">
-                  <p>&ldquo; Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. &rdquo;</p>
+                <?php echo "<p>".$tdes2."</p>";?>
                   <div class="d-flex author">
                     <img src="img/person_2.jpg" alt="" class="mr-4">
                     <div class="author-info">
-                      <h4>Mike Richardson</h4>
-                      <p>CEO, XYZ Company</p>
+                    <?php echo "<h4>".$tname2."</h4>";?>
+                    <?php echo "<p>".$prof2."</p>";?>
                     </div>
                   </div>  
                 </blockquote>
               </div>
               <div class="slide" data-aos="fade-left" data-aos-delay="300">
                 <blockquote class="testimonial">
-                  <p>&ldquo; Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. &rdquo;</p>
+                <?php echo "<p>".$tdes3."</p>";?>
                   <div class="d-flex author">
                     <img src="img/person_3.jpg" alt="" class="mr-4">
                     <div class="author-info">
-                      <h4>Charles White</h4>
-                      <p>CEO, XYZ Company</p>
+                    <?php echo "<h4>".$tname3."</h4>";?>
+                    <?php echo "<p>".$prof3."</p>";?>
                     </div>
                   </div>  
                 </blockquote>
@@ -347,7 +347,7 @@
         <div class="container-fluid">
           <div class="row" data-aos="fade">
             <div class="col-md-12 text-center heading-wrap">
-              <h2>Blog</h2>
+            <?php echo "<h2>".$blog."</h2>";?>
               <span class="back-text">Our Blog</span>
             </div>
           </div>
@@ -360,11 +360,11 @@
             <div class="blog d-block">
               <a class="bg-image d-block" href="single.html" style="background-image: url('img/dishes_1.jpg');"></a>
               <div class="text">
-                <h3><a href="single.html">How To Cook Pasta?</a></h3>
+              <?php echo "<h3><a href='single.html'>".$lbog1."</a></h3>";?>
                 <p class="sched-time">
-                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
+                <?php echo "<span><span class='fa fa-calendar'></span>" .$date1."</span>";?> <br>
                 </p>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <?php echo"<p>".$bdes1."</p>";?>
                 
                 <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p>
                 
@@ -376,11 +376,11 @@
             <div class="blog d-block">
               <a class="bg-image d-block" href="single.html" style="background-image: url('img/dishes_2.jpg');"></a>
               <div class="text">
-                <h3><a href="single.html">How To Cook Pasta?</a></h3>
+              <?php echo "<h3><a href='single.html'>".$lbog2."</a></h3>";?>
                 <p class="sched-time">
-                  <span><span class="fa fa-calendar"></span> April 22, 2018</span> <br>
+                <?php echo "<span><span class='fa fa-calendar'></span>" .$date2."</span>";?>> <br>
                 </p>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <?php echo"<p>".$bdes2."</p>";?>
                 
                 <p><a href="#" class="btn btn-primary btn-sm">Read More</a></p>
                 
