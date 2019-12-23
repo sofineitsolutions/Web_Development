@@ -162,7 +162,7 @@
         <div class="container-fluid">
           <div class="row" data-aos="fade">
             <div class="col-md-12 text-center heading-wrap">
-            <?php echo"<h2>".$stitle2."</h2>";?>
+            <?php echo"<h2>".$stitle3."</h2>";?>
             </div>
           </div>
         </div>
@@ -284,7 +284,7 @@
         <div class="container-fluid">
           <div class="row" data-aos="fade">
             <div class="col-md-12 text-center heading-wrap">
-            <?php echo "<h2>".$stitle3."</h2>";?>
+            <?php echo "<h2>".$stitle4."</h2>";?>
               <!-- <span class="back-text">Testimonial</span> -->
             </div>
           </div>

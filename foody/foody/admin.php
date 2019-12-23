@@ -42,15 +42,12 @@
       </div>
     <!-- END slider -->
     </div> 
-    
-
-    
     <section class="section  pt-5 top-slant-white2 relative-higher bottom-slant-gray">
       
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <form action="#" action="insert.php" method="post">
+            <form action="insert.php" method="post">
               <div class="row">
               <div class="col-md-6">
                             
@@ -58,7 +55,7 @@
                                     <input type="text" class="form-control" id="name" name="title1" placeholder="Enter your website title">
                                     <div class="d-flex">
                                 </div>
-                                </div>
+                                
                                 <div class="form-group" >
                                     <input type="text" class="form-control" id="name" name="des1" placeholder="Enter description">
                                 </div>
@@ -126,7 +123,7 @@
                                     <input type="text" class="form-control" id="name" name="sep_menu4" placeholder="Enter description">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="stitle2" placeholder="click on">
+                                    <input type="text" class="form-control" id="name" name="stitle3" placeholder="click on">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="menu1" placeholder="Enter your services">
@@ -201,7 +198,7 @@
                                     <input type="text" class="form-control" id="name" name="mprice8" placeholder="Enter description">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="stitle3" placeholder="Enter services1 ">
+                                    <input type="text" class="form-control" id="name" name="stitle4" placeholder="Enter services1 ">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="tdes1" placeholder="Enter description">
@@ -243,14 +240,19 @@
                                     <input type="text" class="form-control" id="name" name="bdes1" placeholder="Enter services1 ">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="blog1" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="blog2" placeholder="Enter description">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="date1" placeholder="Enter services2">
+                                    <input type="text" class="form-control" id="name" name="date2" placeholder="Enter services2">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="bdes1" placeholder="Enter services2">
+                                    <input type="text" class="form-control" id="name" name="bdes2" placeholder="Enter services2">
                                 </div>
+                                <div class="col-md-12 text-right">
+                                <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                            </div>
+</div>
+</div>
             </form>
           </div>
           
