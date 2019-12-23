@@ -22,10 +22,10 @@
                 <ul class="list-unstyled">
                   <?php echo("<li><a href='#about-section' class='smoothscroll'>" . $con3 . "</a></li>"); ?>
                   <?php echo("<li><a href='#about-section' class='smoothscroll'>" . $con4 . "</a></li>"); ?>
-                  <?php echo("<li><a href='#about-section' class='smoothscroll'>" . $co</a></li>"); ?>
-                  <li><a href="#services-section" class="smoothscroll">Services</a></li>
-                  <li><a href="#testimonials-section" class="smoothscroll">Testimonials</a></li>
-                  <li><a href="#contact-section" class="smoothscroll">Contact Us</a></li>
+                  <?php echo("<li><a href='#about-section' class='smoothscroll'>" . $con1 . "</a></li>"); ?>
+                  <?php echo("<li><a href='#services-section' class='smoothscroll'>" . $con5 . "</a></li>"); ?>
+                  <?php echo("<li><a href='#testimonials-section' class='smoothscroll'>" . $con6 . "</a></li>"); ?>
+                  <?php echo("<li><a href='#contact-section' class='smoothscroll'>" . $con7 . "</a></li>"); ?>
                 </ul>
               </div>
               <div class="col-md-3 footer-social">
