@@ -18,12 +18,11 @@ $p = $_POST['name5'];
 $q = $_POST['prof5'];
 $r = $_POST['name6'];
 $s = $_POST['prof6'];
-
 include("config.php");
 // Attempt insert query execution
 $sql = "INSERT INTO `foody`.`admin` (`stitle1`, `des1`, `sdes1`, `sdes2`, `sdes3`, `sdes4`, `stitle2`, `name1`, `prof1`, `name2`, `prof2`, 
-`name3`, `prof3`, `name4`, `prof4`, `name5`, `prof5`, `name6`, `prof6`) VALUES ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', '$k', 
- '$l','$m', '$n', '$o', '$p','$q','$r','$s')";
+`name3`, `prof3`, `name4`, `prof4`, `name5`, `prof5`, `name6`, `prof6`) VALUES ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', 
+'$k','$l','$m', '$n', '$o', '$p','$q','$r','$s')";
 if(mysqli_query($link, $sql)){
 echo "Records inserted successfully.";
 } else{
