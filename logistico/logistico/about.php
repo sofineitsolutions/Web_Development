@@ -36,138 +36,25 @@
         <![endif]-->
 
     <!-- header-start -->
-    <?php include("H.php")?>
-   
+    
+       <?php include("H.php"); ?>
     <!-- header-end -->
 
-    <!-- slider_area_start -->
-    <?php include("variable1.php") ?>
-    <div class="slider_area">
-        <div class="single_slider  d-flex align-items-center slider_bg_1">
+    <!-- bradcam_area  -->
+    <?php include("variable3.php");?>
+    <div class="bradcam_area bradcam_bg_1">
             <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-xl-8">
-                        <div class="slider_text text-center justify-content-center">
-                         <?php echo("<p>" . $Title1 ."</p>");?>
-                            <?php echo("<h3>". $subtitle1 ."</h3>");?>
-                                <a class="boxed-btn3" href="service.html">Our Services</a>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="bradcam_text text-center">
+                            <?php echo("<h3>".$con1."</h3>"); ?>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- slider_area_end -->
+        <!--/ bradcam_area  -->
 
-    <div class="transportaion_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="single_transport">
-                        <div class="icon">
-                            <img src="img/svg_icon/airplane.png" alt="">
-                        </div>
-                       <?php echo("<h3>" . $con1 . "</h3>");
-                        echo("<p>" . $dec1 . "</p>");?>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="single_transport">
-                        <div class="icon">
-                            <img src="img/svg_icon/live.png" alt="">
-                        </div>
-                        <?php echo("<h3>".$con2 ."</h3>");
-                        echo("<p>" . $dec1 ."</p>"); ?>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
-                    <div class="single_transport">
-                        <div class="icon">
-                            <img src="img/svg_icon/world.png" alt="">
-                        </div>
-                        <?php echo("<h3>" . $con3 ."</h3>");
-                        echo("<p>" . $dec1 ."</p>");?>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="service_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="section_title mb-50 text-center">
-                        <h3>
-                            Services We Offer
-                        </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="service_active owl-carousel">
-                        <div class="single_service">
-                            <div class="thumb">
-                                <img src="img/service/1.png" alt="">
-                            </div>
-                            <div class="service_info">
-                                <h3><a href="service_details.html">Ocean Freight</a></h3>
-                                <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                            </div>
-                        </div>
-                        <div class="single_service">
-                            <div class="thumb">
-                                <img src="img/service/2.png" alt="">
-                            </div>
-                            <div class="service_info">
-                                <h3><a href="service_details.html">Land Transport</a></h3>
-                                <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                            </div>
-                        </div>
-                        <div class="single_service">
-                            <div class="thumb">
-                                <img src="img/service/3.png" alt="">
-                            </div>
-                            <div class="service_info">
-                                <h3><a href="service_details.html">Air Freight</a></h3>
-                                <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                            </div>
-                        </div>
-                        <div class="single_service">
-                            <div class="thumb">
-                                <img src="img/service/1.png" alt="">
-                            </div>
-                            <div class="service_info">
-                                <h3><a href="service_details.html">Ocean Freight</a></h3>
-                                <p>Esteem spirit temper too say adieus who direct esteem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- contact_action_area  -->
-    <div class="contact_action_area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-7 col-md-6">
-                    <div class="action_heading">
-                        <?php echo("<h3>" . $con4 . "</h3>"); ?>
-                       <?php echo("<p>" . $dec4 . "</p>"); ?>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-md-6">
-                    <div class="call_add_action">
-                        <a href="#" class="boxed-btn3">+10 672 457 356</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /contact_action_area  -->
     <!-- chose_area  -->
     <div class="chose_area ">
         <div class="container">
@@ -180,16 +67,16 @@
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="features_info">
-                           <?php echo("<h3>" . $con5 . "</h3>");
-                            echo("<p>" . $dec5 . "</p>"); ?>
+                            <?php echo("<h3>".$con2 ."</h3>");
+                            echo("<p>".$dec2."</p>");?>
                             <ul>
-                                <?php echo("<li>" .$a1 . "</li>");
-                                echo("<li>" . $a2 ."</li>");
-                                echo("<li>" . $a3 ."</li>"); ?>
+                                <?php echo("<li>".$a1."</li>");
+                                echo("<li>".$a2."</li>");
+                                echo("<li>".$a3."</li>");?>
                             </ul>
 
                             <div class="about_btn">
-                                <a class="boxed-btn3-line" href="about.html">About Us</a>
+                                <a class="boxed-btn3-line" href="contact.html">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -207,25 +94,25 @@
                     <div class="col-xl-3 col-md-3">
                         <div class="single_counter text-center">
                             <h3> <span class="counter">42</span> <span>+</span> </h3>
-                            <?php echo("<p>".$con6 ."</p>");?>
+                            <?php echo("<p>".$con6."</p>");?>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-3">
                         <div class="single_counter text-center">
                             <h3> <span class="counter">97</span> <span>+</span> </h3>
-                            <?php echo("<p>" . $con7 . "</p>");?>
+                            <?php echo("<p>".$con7."</p>");?>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-3">
                         <div class="single_counter text-center">
                             <h3> <span class="counter">2342</span></h3>
-                            <?php echo("<p>" . $con8 . "</p>");?>
+                            <?php echo("<p>".$con8."</p>");?>
                         </div>
                     </div>
                     <div class="col-xl-3 col-md-3">
                         <div class="single_counter text-center">
                             <h3> <span class="counter">3245</span></h3>
-                            <?php echo("<p>" . $con9 ."</p>");?>
+                            <?php echo("<p>".$con9."</p>");?>
                         </div>
                     </div>
                 </div>
@@ -234,7 +121,59 @@
         </div>
     </div>
     <!-- /counter_area  -->
+    <!-- contact_action_area  -->
+    <div class="contact_action_area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-7 col-md-6">
+                        <div class="action_heading">
+                           <?php echo("<h3>".$con10."</h3>");
+                            echo("<p>".$dec3."</p>");?>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-md-6">
+                        <div class="call_add_action">
+                            <a href="#" class="boxed-btn3">+10 672 457 356</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /contact_action_area  -->
 
+    <div class="transportaion_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single_transport">
+                            <div class="icon">
+                                <img src="img/svg_icon/airplane.png" alt="">
+                            </div>
+                            <?php echo("<h3>".$con3."</h3>");
+                            echo("<p>".$dec3."</p>");?>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single_transport">
+                            <div class="icon">
+                                <img src="img/svg_icon/live.png" alt="">
+                            </div>
+                            <?php echo("<h3>".$con4."</h3>");
+                            echo("<p>".$dec3."</p>");?>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single_transport">
+                            <div class="icon">
+                                <img src="img/svg_icon/world.png" alt="">
+                            </div>
+                            <?php echo("<h3>".$con5."</h3>");
+                            echo("<p>".$dec3."</p>");?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     <!-- testimonial_area  -->
     <div class="testimonial_area">
         <div class="container">
@@ -302,8 +241,8 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-5">
                     <div class="Estimate_info">
-                        <?php echo("<h3>" . $con10 . "</h3>"); ?>
-                        <?php echo("<p>" .$dec10 ."</p>"); ?>
+                        <?php echo("<h3>".$con13."</h3>");
+                        echo("<p>".$dec4."</p>");?>
                         <a href="#" class="boxed-btn3">+10 672 457 356</a>
                     </div>
                 </div>
@@ -402,13 +341,13 @@
                 <div class="col-xl-3 col-md-3">
                     <div class="single_location">
                         <h3> <img src="img/icon/address.svg" alt=""> Location</h3>
-                        <?php echo("<p>" . $con11 ."</p>");?>
+                        <?php echo("<p>".$con11."</p>");?>
                     </div>
                 </div>
                 <div class="col-xl-3 col-md-3">
                     <div class="single_location">
                         <h3> <img src="img/icon/support.svg" alt=""> Location</h3>
-                        <?php echo("<p> <br>". $con12 ."</p>"); ?>
+                        <?php echo("<p><br>".$con12."</p>");?>
                     </div>
                 </div>
             </div>
@@ -419,11 +358,9 @@
 
 
     <!-- footer start -->
-    <?php include("F.php"); ?>
-    
+    <?php include("F.php");?>
     <!--/ footer end  -->
-<!-- Button trigger modal -->
-  
+
   <!-- Modal -->
   <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
@@ -435,7 +372,6 @@
       </div>
     </div>
   </div>
-
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>

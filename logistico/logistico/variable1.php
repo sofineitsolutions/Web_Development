@@ -23,4 +23,6 @@
                             placing.";
      $con11="600/D, Kings road, Green lane
                             NewYork-2563";
+    $con12="+10 267 3563 4562
+support@logistico.com";
 ?>
