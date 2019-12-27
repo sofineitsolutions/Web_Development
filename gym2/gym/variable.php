@@ -39,8 +39,25 @@ $pdes3="Locker + Bathroom";
 $pdes4="Personal trainer";
 $ptitle2="Expert";
 $price2="$45/m";
-
-
+$pdes5="24h unlimited access";
+$pdes6="Trainer Advice";
+$pdes7="Locker + Bathroom";
+$pdes8="Personal trainer";
+$ptitle3="Pro";
+$price3="$45/m";
+$pdes9="24h unlimited access";
+$pdes10="Trainer Advice";
+$pdes11="Locker + Bathroom";
+$pdes12="Personal trainer";
+$title16="View More";
+$title17="Our Trainers";
+$des4="There are many variations of passages of lorem Ipsum available, but the majority <br> have suffered alteration.";
+$name1="Jessica Mino";
+$Trainer1="Woman Trainer";
+$name2="Amit Khan";
+$Trainer2="Woman Trainer";
+$name3="Paulo Rolac";
+$Trainer3="Men Trainer";
 
 
 

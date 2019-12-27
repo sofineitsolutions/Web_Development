@@ -220,10 +220,10 @@
                             </div>
                             <div class="pricing_body">
                                 <ul>
-                                <?php echo"<li>".$pdes1."</li>";
-                                echo "<li>".$pdes2."</li>";
-                                echo "<li class='off-color'>".$pdes3."</li>";
-                                echo "<li class='off-color'>".$pdes4."</li>";?>
+                                <?php echo"<li>".$pdes5."</li>";
+                                echo "<li>".$pdes6."</li>";
+                                echo "<li class='off-color'>".$pdes7."</li>";
+                                echo "<li class='off-color'>".$pdes8."</li>";?>
                                 </ul>
                             </div>
                             <div class="pricing_btn">
@@ -234,15 +234,15 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single_prising text-center">
                             <div class="prising_header">
-                                    <h3>Pro</h3>
-                                    <span>$45/m</span>
+                            <?php echo "<h3>".$ptitle3."</h3>";
+                                echo "<span>".$price3."</span>";?>
                             </div>
                             <div class="pricing_body">
                                 <ul>
-                                    <li>24h unlimited access</li>
-                                    <li>Trainer Advice</li>
-                                    <li class="off-color">Locker + Bathroom</li>
-                                    <li class="off-color">Personal trainer</li>
+                                <?php echo"<li>".$pdes9."</li>";
+                                echo "<li>".$pdes10."</li>";
+                                echo "<li class='off-color'>".$pdes11."</li>";
+                                echo "<li class='off-color'>".$pdes12."</li>";?>
                                 </ul>
                             </div>
                             <div class="pricing_btn">
@@ -309,15 +309,15 @@
 
     </div>
     <!-- gallery_area_end  -->
-    <a href="#" class="view_pore boxed-btn3">View More</a>
+    <?php echo"<a href='#' class='view_pore boxed-btn3'>".$title16."</a>";?>
     <!-- team_area_start  -->
     <div class="team_area team_bg_1 overlay2">
             <div class="container">
                     <div class="row">
                             <div class="col-xl-12">
                                 <div class="section_title text-center mb-73">
-                                    <h3>Our Trainers</h3>
-                                    <p>There are many variations of passages of lorem Ipsum available, but the majority <br> have suffered alteration.</p>
+                                <?php echo"<h3>".$title17."</h3>";?>
+                                <?php echo "<p>".$des4."</p>";?>
                                 </div>
                             </div>
                         </div>
@@ -337,8 +337,8 @@
                                 </div>
                             </div>
                             <div class="team_title text-center">
-                                <h3>Jessica Mino</h3>
-                                <p>Woman Trainer</p>
+                            <?php echo "<h3>".$name1."</h3>";?>
+                            <?php echo "<p>".$Trainer1."</p>";?>
                             </div>
                         </div>
                     </div>
@@ -357,8 +357,8 @@
                                 </div>
                             </div>
                             <div class="team_title text-center">
-                                <h3>Amit Khan</h3>
-                                <p>Men Trainer</p>
+                            <?php echo"<h3>".$name2."</h3>";?>
+                            <?php echo "<p>".$Trainer2."</p>";?>
                             </div>
                         </div>
                     </div>
@@ -377,8 +377,8 @@
                                 </div>
                             </div>
                             <div class="team_title text-center">
-                                <h3>Paulo Rolac</h3>
-                                <p>Men Trainer</p>
+                            <?php echo"<h3>".$name3."</h3>";?>
+                            <?php echo "<p>".$Trainer3."</p>";?>
                             </div>
                         </div>
                     </div>
@@ -402,109 +402,7 @@
         </div>
     </div>
     <!-- big_offer_area end  -->
-
-
-
-
-    <!-- footer_start  -->
-    <footer class="footer">
-        <div class="footer_top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-md-6 col-lg-3 ">
-                        <div class="footer_widget">
-                            <div class="footer_logo">
-                                <a href="#">
-                                    <img src="img/footer_logo.png" alt="">
-                                </a>
-                            </div>
-                            <p>5th flora, 700/D kings road, green <br> lane New York-1782 <br>
-                                <a href="#">+10 367 826 2567</a> <br>
-                                <a href="#">contact@carpenter.com</a>
-                            </p>
-                            <p>
-
-
-
-                            </p>
-                            <div class="socail_links">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-twitter-alt"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-pinterest"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-youtube-play"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4 offset-xl-1">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Useful Links
-                            </h3>
-                            <ul class="links">
-                                <li><a href="#">Pricing</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#"> Gallery</a></li>
-                                <li><a href="#"> Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Subscribe
-                            </h3>
-                            <form action="#" class="newsletter_form">
-                                <input type="text" placeholder="Enter your mail">
-                                <button type="submit">Subscribe</button>
-                            </form>
-                            <p class="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems
-                                luckily.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copy-right_text">
-            <div class="container">
-                <div class="footer_border"></div>
-                <div class="row">
-                    <div class="col-xl-12">
-                        <p class="copy_right text-center">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- footer_end  -->
-
+<?php echo("f.php");?>
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
     <script src="js/vendor/jquery-1.12.4.min.js"></script>
