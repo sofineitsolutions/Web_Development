@@ -4,8 +4,7 @@ include("config.php");
 $query_user = mysqli_query($link,"SELECT * FROM `foody`.`index` ")or die(mysqli_error($link));
 if(mysqli_num_rows($query_user) > 0){
 while($res = mysqli_fetch_array($query_user) ){
-//	echo"<tr><td>".
-$title1 = $res['title1'];
+    $title1 = $res['title1'];
 $des1 = $res['des1'];
 $title2 = $res['title2'];
 $des2 = $res['des2'];
@@ -70,6 +69,7 @@ $bdes1 = $res['bdes1'];
 $blog2 = $res['blog2'];
 $date2 = $res['date2'];
 $bdes2 = $res['bdes2'];
+    
 }
 }
 else"0 result";
