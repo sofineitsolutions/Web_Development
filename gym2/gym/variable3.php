@@ -1,0 +1,33 @@
+<?php
+$title1="blog";
+$tag1="15";
+$tag2="Jan";
+$btitle1="Google inks pact for new 35-storey office";
+$des1="That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.";
+$Travel_Lifestyle1="Travel, Lifestyle";
+$comments1="03 Comments";
+$tag3="15";
+$tag4="Jan";
+$btitle2="Google inks pact for new 35-storey office";
+$des2="That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.";
+$Travel_Lifestyle2="Travel, Lifestyle";
+$comments2="03 Comments";
+$tag5="15";
+$tag6="Jan";
+$btitle3="Google inks pact for new 35-storey office";
+$des3="That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.";
+$Travel_Lifestyle3="Travel, Lifestyle";
+$comments3="03 Comments";
+$tag7="15";
+$tag8="Jan";
+$btitle4="Google inks pact for new 35-storey office";
+$des4="That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.";
+$Travel_Lifestyle4="Travel, Lifestyle";
+$comments4="03 Comments";
+$tag9="15";
+$tag10="Jan";
+$btitle5="Google inks pact for new 35-storey office";
+$des5="That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.";
+$Travel_Lifestyle5="Travel, Lifestyle";
+$comments5="03 Comments";
+?>
