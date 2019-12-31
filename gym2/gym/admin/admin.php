@@ -10,22 +10,22 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
     <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/gijgo.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/slicknav.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/themify-icons.css">
+    <link rel="stylesheet" href="../css/nice-select.css">
+    <link rel="stylesheet" href="../css/flaticon.css">
+    <link rel="stylesheet" href="../css/gijgo.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/slicknav.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 <body>
-<?php include("h.php");
-      include("variable.php");?>
+<?php include("../h.php");
+      include("../variable.php");?>
         <!-- bradcam_area -->
         <div class="bradcam_area">
                 <div class="single_bradcam  d-flex align-items-center bradcam_bg_2 overlay">
@@ -88,185 +88,184 @@
                         <h2 class="contact-title">Get in Touch</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form action="insert.php" method="post">
+                        <form action="../insert.php" method="post">
                             <div class="row">
                                 <div class="col-12">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="title1" placeholder="Enter your website title">
-                                    <div class="d-flex">
                                 </div>
                                 <div class="form-group" >
-                                    <input type="text" class="form-control" id="name" name="title2" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="title2" placeholder="Enter title2">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title3" placeholder="click on">
+                                    <input type="text" class="form-control" id="name" name="title3" placeholder="Enter title3">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title4" placeholder="Enter photoshoot title">
+                                    <input type="text" class="form-control" id="name" name="title4" placeholder="Enter title4">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title5" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="title5" placeholder="Enter title5">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title6" placeholder="click on">
+                                    <input type="text" class="form-control" id="name" name="title6" placeholder="Enter title6">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title7" placeholder="Enter photoshoot title">
+                                    <input type="text" class="form-control" id="name" name="title7" placeholder="Enter title7">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title8" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="title8" placeholder="Enter title8">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title9" placeholder="click on">
+                                    <input type="text" class="form-control" id="name" name="title9" placeholder="Enter title9">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title10" placeholder="Enter photoshoot title">
+                                    <input type="text" class="form-control" id="name" name="title10" placeholder="Enter title10">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title11" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="title11" placeholder="Enter title11">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title12" placeholder="click on">
-                                </div>
-
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="stitle1" placeholder="Enter photoshoot title">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="sdes1" placeholder="Enter description">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="stitle2" placeholder="click on">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="sdes2" placeholder="Enter your services">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title13" placeholder="Enter description">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des1" placeholder="Enter services1 ">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="ftitle1" placeholder="Enter description">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="fdes1" placeholder="Enter services2">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="ftitle2" placeholder="click on">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="fdes2" placeholder="Enter photoshoot title">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="ftitle3" placeholder="Enter description">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="fdes3" placeholder="click on">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="ftitle4" placeholder="Enter your services">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="fdes4" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="title12" placeholder="Enter title12">
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title14" placeholder="Enter services1 ">
+                                    <input type="text" class="form-control" id="name" name="stitle1" placeholder="Enter subtitle1">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="dis" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="sdes1" placeholder="Enter sub title description1">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des2" placeholder="Enter services2">
+                                    <input type="text" class="form-control" id="name" name="stitle2" placeholder="Enter sub title2">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title15" placeholder="Enter photoshoot title">
+                                    <input type="text" class="form-control" id="name" name="sdes2" placeholder="Enter sub title description2">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des3" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="title13" placeholder="Enter title13">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="ptitle1" placeholder="click on">
+                                    <input type="text" class="form-control" id="name" name="des1" placeholder="Enter discription">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="price1" placeholder="Enter your services">
+                                    <input type="text" class="form-control" id="name" name="ftitle1" placeholder="Enter Features title1">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes1" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="fdes1" placeholder="Enter Features discription1">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes2" placeholder="Enter services1 ">
+                                    <input type="text" class="form-control" id="name" name="ftitle2" placeholder="Enter Features title1">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes3" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="fdes2" placeholder="Enter Features discription2">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes4" placeholder="Enter services2">
+                                    <input type="text" class="form-control" id="name" name="ftitle3" placeholder="Enter Features title3">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="fdes3"  placeholder="Enter Features discription3">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="ftitle4" placeholder="Enter Features title4">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="fdes4" placeholder="Enter Features discription3">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="title14" placeholder="Enter title14 ">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="dis" placeholder="discount">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="des2" placeholder="Enter  discription2">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="title15" placeholder="Enter title15">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="des3" placeholder="Enter description3">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="ptitle1" placeholder="Enetr title">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="price1" placeholder="Enter price1">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes1" placeholder="Enter description1">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes2" placeholder="Enter description2 ">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes3" placeholder="Enter description3">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes4" placeholder="Enter description4">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="ptitle2" placeholder="Enter description">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="price2" placeholder="click on">
+                                    <input type="text" class="form-control" id="name" name="price2" placeholder="Enter price1">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes5" placeholder="Enter your services">
+                                    <input type="text" class="form-control" id="name" name="pdes5" placeholder="Enter description5">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes6" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="pdes6" placeholder="Enter description6">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes7" placeholder="Enter services1 ">
+                                    <input type="text" class="form-control" id="name" name="pdes7" placeholder="Enter description7 ">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes8" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="pdes8" placeholder="Enter description8">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="ptitle3" placeholder="Enter services2">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="price3" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="price3" placeholder="Enter price1">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes9" placeholder="click on">
+                                    <input type="text" class="form-control" id="name" name="pdes9" placeholder="Enter description9">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes10" placeholder="Enter your services">
+                                    <input type="text" class="form-control" id="name" name="pdes10" placeholder="Enter description10 ">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes11" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="pdes11" placeholder="Enter description11">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes12" placeholder="Enter services1 ">
+                                    <input type="text" class="form-control" id="name" name="pdes12" placeholder="Enter services12 ">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title16" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="title16" placeholder="Enter title16">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title17" placeholder="Enter services2">
+                                    <input type="text" class="form-control" id="name" name="title17" placeholder="Enter title17">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des4" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="des4" placeholder="Enter description4">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name1" placeholder="click on">
+                                    <input type="text" class="form-control" id="name" name="name1" placeholder="Enter Name1">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Trainer1" placeholder="Enter your services">
+                                    <input type="text" class="form-control" id="name" name="Trainer1" placeholder="Enter traoner1">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name2" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="name2" placeholder="Enter name2">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Trainer2" placeholder="Enter services1 ">
+                                    <input type="text" class="form-control" id="name" name="Trainer2" placeholder="Enter trainer2 ">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name3" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="name3" placeholder="Enter name3">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Trainer3" placeholder="Enter services2">
+                                    <input type="text" class="form-control" id="name" name="Trainer3" placeholder="Enter trainer3">
                                 </div>
                             </div>
                             <div class="form-group mt-3">
@@ -301,36 +300,33 @@
             </div>
         </section>
     <!-- ================ contact section end ================= -->
-    <?php include("f.php");?>
+    <?php include("../f.php");?>
     
         <!-- JS here -->
-        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="js/vendor/jquery-1.12.4.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script>
-        <script src="js/isotope.pkgd.min.js"></script>
-        <script src="js/ajax-form.js"></script>
-        <script src="js/waypoints.min.js"></script>
-        <script src="js/jquery.counterup.min.js"></script>
-        <script src="js/imagesloaded.pkgd.min.js"></script>
-        <script src="js/scrollIt.js"></script>
-        <script src="js/jquery.scrollUp.min.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/nice-select.min.js"></script>
-        <script src="js/jquery.slicknav.min.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/gijgo.min.js"></script>
-    
+        <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="../js/popper.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/owl.carousel.min.js"></script>
+        <script src="../js/isotope.pkgd.min.js"></script>
+        <script src="../js/ajax-form.js"></script>
+        <script src="../js/waypoints.min.js"></script>
+        <script src="../js/jquery.counterup.min.js"></script>
+        <script src="../js/imagesloaded.pkgd.min.js"></script>
+        <script src="../js/scrollIt.js"></script>
+        <script src="../js/jquery.scrollUp.min.js"></script>
+        <script src="../js/wow.min.js"></script>
+        <script src="../js/nice-select.min.js"></script>
+        <script src="../js/jquery.slicknav.min.js"></script>
+        <script src="../js/jquery.magnific-popup.min.js"></script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/gijgo.min.js"></script>
         <!--contact js-->
-        <script src="js/contact.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="js/jquery.form.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/mail-script.js"></script>
-    
-        <script src="js/main.js"></script>
+        <script src="../js/contact.js"></script>
+        <script src="../js/jquery.ajaxchimp.min.js"></script>
+        <script src="../js/jquery.form.js"></script>
+        <script src="../js/jquery.validate.min.js"></script>
+        <script src="../js/mail-script.js"></script>
+        <script src="../js/main.js"></script>
     </body>
-    
     </html>
