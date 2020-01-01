@@ -121,9 +121,9 @@
                                             <img src="../img/blog/c1.jpg" alt="">
                                         </div>
                                         <div class="desc">
-                                           <?php echo("<h5><a href='#'>$comm</a></h5>
-                                            <p class='date'>$date_comm</p>
-                                            <p class='comment'>
+                                           <?php echo("<h5><a href='#'>$comm</a></h5>"); ?>
+                                            <?php echo("<p class='date'>$date_comm</p>"); ?>
+                                            <?php echo("<p class='comment'>
                                                 $msg
                                             </p>"); ?>
                                         </div>
@@ -140,9 +140,9 @@
                                             <img src="../img/blog/c2.jpg" alt="">
                                         </div>
                                         <div class="desc">
-                                            <?php echo("<h5><a href='#'>$comm1</a></h5>
-                                            <p class='date'>$date_comm1</p>
-                                            <p class='comment'>
+                                            <?php echo("<h5><a href='#'>$comm1</a></h5>"); ?>
+                                            <?php echo("<p class='date'>$date_comm1</p> "); ?>
+                                            <?php echo("<p class='comment'>
                                                 $msg1
                                             </p>"); ?>
                                         </div>
@@ -159,9 +159,9 @@
                                             <img src="../img/blog/c3.jpg" alt="">
                                         </div>
                                         <div class="desc">
-                                            <?php echo("<h5><a href='#'>$comm2</a></h5>
-                                            <p class='date'>$date_comm2</p>
-                                            <p class='comment'>
+                                            <?php echo("<h5><a href='#'>$comm2</a></h5>"); ?>
+                                            <?php echo("<p class='date'>$date_comm2</p>"); ?>
+                                          <?php echo("<p class='comment'>
                                                $msg2
                                             </p>"); ?>
                                         </div>
@@ -170,7 +170,7 @@
                                            <a href="" class="btn-reply text-uppercase">reply</a> 
                                     </div>
                                 </div>
-                            </div>	
+                            </div>	 
                             <div class="comment-list">
                                 <div class="single-comment justify-content-between d-flex">
                                     <div class="user justify-content-between d-flex">
@@ -178,9 +178,9 @@
                                             <img src="../img/blog/c4.jpg" alt="">
                                         </div>
                                         <div class="desc">
-                                           <?php echo("<h5><a href='#'>$comm3</a></h5>
-                                            <p class='date'>$$date_comm3</p>
-                                            <p class='comment'>
+                                           <?php echo("<h5><a href='#'>$comm3</a></h5>"); ?>
+                                            <?php echo("<p class='date'>$date_comm3</p>"); ?>
+                                           <?php echo("<p class='comment'>
                                               $msg3
                                             </p>"); ?>
                                         </div>
