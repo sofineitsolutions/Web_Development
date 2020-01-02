@@ -25,7 +25,7 @@ $dec4 = $_POST['dec4'];
 // }
 include("config.php");
 // Attempt insert query execution
-$sql = "INSERT INTO `admin` (`b1_title1`, `b1_subtitle1`, `b1_title2`, `b1_title3`, `con1`, `dec1`, `con2`, `con3`, `title4`, `dec2`, `dec3`, `dec4`)VALUES ('$b1_title1', '$b1_subtitle1', '$b1_title2', '$b1_title3', '$con1', '$dec1', '$con2', '$con3', '$title4', '$dec2', '$dec3', '$dec4')";
+$sql = "INSERT INTO `admin1` (`b1_title1`, `b1_subtitle1`, `b1_title2`, `b1_title3`, `con1`, `dec1`, `con2`, `con3`, `title4`, `dec2`, `dec3`, `dec4`) VALUES ('$b1_title1', '$b1_subtitle1', '$b1_title2', '$b1_title3', '$con1', '$dec1', '$con2', '$con3', '$title4', '$dec2', '$dec3', '$dec4')";
 if(mysqli_query($link, $sql)){
 echo "Records inserted successfully.";
 } else{

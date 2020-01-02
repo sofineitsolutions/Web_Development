@@ -49,7 +49,7 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
- <form action="#" class="p-5 bg-white">
+ <form action="insert.php" method="post" class="p-5 bg-white">
               
               <h2 class="h4 text-black mb-5">Banking Solutions</h2> 
 

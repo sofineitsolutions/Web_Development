@@ -1,4 +1,6 @@
+
 <?php
+
 	$title1="About Us";
 	$subtitle1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.";
 	$con1="We Solve Your Financial Problem";

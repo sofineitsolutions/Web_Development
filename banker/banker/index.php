@@ -29,6 +29,9 @@
   <?php
   	include("H.php");
   ?>
+    <?php
+                  include("variable1.php"); 
+                ?>
 
   <div id="overlayer"></div>
   <div class="loader">
@@ -62,9 +65,7 @@
           <div class="col-md-10 mt-lg-5 text-center">
             <div class="single-text owl-carousel">
               <div class="slide">
-              	<?php
-              		include("variable1.php"); 
-              	?>
+              
                  <?php echo("<h1 class='text-uppercase' data-aos='fade-up'>" . $b1_title1 . "</h1>"); ?>
                 <?php echo("<p class='mb-5 desc'  data-aos='fade-up' data-aos-delay='100'>" . $b1_subtitle1 . "</p>"); ?>
                 <div data-aos="fade-up" data-aos-delay="100">
