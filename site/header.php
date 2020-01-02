@@ -11,7 +11,7 @@
         <div class="grid_12">
         <h1>
           <a href="index.php">
-            <img src="images/logo.png" alt="Logo alt">
+            <img src="../images/logo.png" alt="Logo alt">
           </a>
         </h1>
           <div class="navigation ">
