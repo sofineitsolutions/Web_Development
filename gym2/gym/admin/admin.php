@@ -127,7 +127,6 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="title12" placeholder="Enter title12">
                                 </div>
-
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="stitle1" placeholder="Enter subtitle1">
                                 </div>
@@ -170,7 +169,6 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="fdes4" placeholder="Enter Features discription3">
                                 </div>
-
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="title14" placeholder="Enter title14 ">
                                 </div>
@@ -301,7 +299,6 @@
         </section>
     <!-- ================ contact section end ================= -->
     <?php include("../f.php");?>
-    
         <!-- JS here -->
         <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="../js/vendor/jquery-1.12.4.min.js"></script>

@@ -27,9 +27,7 @@ $y = $_POST['cname3'];
 $z = $_POST['date3'];
 include("config.php");
 // Attempt insert query execution
-$sql = "INSERT INTO `gym`.`single_blog` (`title1`, `des1`, `Travel_Lifestyle`, `comments1`, `des2`, `des3`, `des4`, `des5`, `des6`, `like`, 
-`Prev_Post`, `Prev_Post1`, `Next_Post`, `Next_Post1`, `name1`, `ndes1`, `comments2`, `cdes1`, `cname1`, `date1`, `cdes2`, `cname2`, `date2`,
- `cdes3`, `cname3`, `date3`) VALUES ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', '$k', 
+$sql = "INSERT INTO `gym`.`single_blog` (`title1`, `des1`, `Travel_Lifestyle`, `comments1`, `des2`, `des3`, `des4`, `des5`, `des6`, `like`, `Prev_Post`, `Prev_Post1`, `Next_Post`, `Next_Post1`, `name1`, `ndes1`, `comments2`, `cdes1`, `cname1`, `date1`, `cdes2`, `cname2`, `date2`, `cdes3`, `cname3`, `date3`) VALUES ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', '$k', 
  '$l','$m', '$n', '$o', '$p','$q','$r','$s','$t','$u','$v','$w','$x','$y','$z')";
 if(mysqli_query($link, $sql)){
 echo "Records inserted successfully.";

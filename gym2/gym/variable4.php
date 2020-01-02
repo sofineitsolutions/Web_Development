@@ -27,19 +27,15 @@ $Prev_Post1="Space The Final Frontier";
 $Next_Post="Next Post";
 $Next_Post1="Telescopes 101";
 $name1="Harvard milan";
-$ndes1="Second divided from form fish beast made. Every of seas all gathered use saying you're, he
-our dominion twon Second divided from";
+$ndes1="Second divided from form fish beast made. Every of seas all gathered use saying you're, he our dominion twon Second divided from";
 $comments2="05 Comments";
-$cdes1="Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
-Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser";
+$cdes1="Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser";
 $cname1="Emilly Blunt";
 $date1="December 4, 2017 at 3:12 pm";
-$cdes2="Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
-Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser";
+$cdes2="Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser";
 $cname2="Emilly Blunt";
 $date2="December 4, 2017 at 3:12 pm";
-$cdes3="Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
-Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser";
+$cdes3="Multiply sea night grass fourth day sea lesser rule open subdue female fill which them Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser";
 $cname3="Emilly Blunt";
 $date3="December 4, 2017 at 3:12 pm";
 ?>
