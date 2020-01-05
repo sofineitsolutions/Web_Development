@@ -40,6 +40,9 @@ while($res = mysqli_fetch_array($query_user) ){
     $des22 = $res['fun1'];
     $con1 = $res['view1'];
     $con1 = $res['view2'];
+    $con1 = $res['view3'];
+    $con1 = $res['view4'];
+
 
 }
 }
