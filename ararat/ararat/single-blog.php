@@ -59,36 +59,15 @@
                         <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
                         <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
                      </ul>
-                     <p class="excert">
-                        MCSE boot camps have its supporters and its detractors. Some people do not understand why you
-                        should have to spend money on boot camp when you can get the MCSE study materials yourself at a
-                        fraction of the camp price. However, who has the willpower
-                     </p>
-                     <p>
-                        MCSE boot camps have its supporters and its detractors. Some people do not understand why you
-                        should have to spend money on boot camp when you can get the MCSE study materials yourself at a
-                        fraction of the camp price. However, who has the willpower to actually sit through a
-                        self-imposed MCSE training. who has the willpower to actually
-                     </p>
+                     <?php echo("<p class='excert'>" . $dec1 . "</p>"); ?>
+                     <?php echo("<p>" . $dec2 . "</p>"); ?>
                      <div class="quote-wrapper">
                         <div class="quotes">
-                           MCSE boot camps have its supporters and its detractors. Some people do not understand why you
-                           should have to spend money on boot camp when you can get the MCSE study materials yourself at
-                           a fraction of the camp price. However, who has the willpower to actually sit through a
-                           self-imposed MCSE training.
+                           <?php echo(" " . $dec3 . " "); ?>
                         </div>
                      </div>
-                     <p>
-                        MCSE boot camps have its supporters and its detractors. Some people do not understand why you
-                        should have to spend money on boot camp when you can get the MCSE study materials yourself at a
-                        fraction of the camp price. However, who has the willpower
-                     </p>
-                     <p>
-                        MCSE boot camps have its supporters and its detractors. Some people do not understand why you
-                        should have to spend money on boot camp when you can get the MCSE study materials yourself at a
-                        fraction of the camp price. However, who has the willpower to actually sit through a
-                        self-imposed MCSE training. who has the willpower to actually
-                     </p>
+                    <?php echo("<p>" . $dec4 . "</p>"); ?>
+                     <?php echo("<p>" . $dec5 . "</p>"); ?>
                   </div>
                </div>
                <div class="navigation-top">
@@ -122,7 +101,7 @@
                            <div class="detials">
                               <p>Prev Post</p>
                               <a href="#">
-                                 <h4>Space The Final Frontier</h4>
+                                 <?php echo("<h4>" . $title2 . "</h4>"); ?>
                               </a>
                            </div>
                         </div>
@@ -131,7 +110,7 @@
                            <div class="detials">
                               <p>Next Post</p>
                               <a href="#">
-                                 <h4>Telescopes 101</h4>
+                                 <?php echo("<h4>" . $title3 . "</h4>"); ?>
                               </a>
                            </div>
                            <div class="arrow">
@@ -153,15 +132,14 @@
                      <img src="img/blog/author.png" alt="">
                      <div class="media-body">
                         <a href="#">
-                           <h4>Harvard milan</h4>
+                          <?php echo("<h4>" . $name1 . "</h4>"); ?>
                         </a>
-                        <p>Second divided from form fish beast made. Every of seas all gathered use saying you're, he
-                           our dominion twon Second divided from</p>
+                        <?php echo("<p>" . $con1 . "</p>"); ?>
                      </div>
                   </div>
                </div>
                <div class="comments-area">
-                  <h4>05 Comments</h4>
+                  <?php echo("<h4>" . $title4 . "</h4>"); ?>
                   <div class="comment-list">
                      <div class="single-comment justify-content-between d-flex">
                         <div class="user justify-content-between d-flex">
@@ -169,14 +147,11 @@
                               <img src="img/comment/comment_1.png" alt="">
                            </div>
                            <div class="desc">
-                              <p class="comment">
-                                 Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
-                                 Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
-                              </p>
+                              <?php echo("<p class='comment'>" . $con2 . "</p>"); ?>
                               <div class="d-flex justify-content-between">
                                  <div class="d-flex align-items-center">
                                     <h5>
-                                       <a href="#">Emilly Blunt</a>
+                                       <?php echo("<a href='#'>" . $name2 . "</a>"); ?>
                                     </h5>
                                     <p class="date">December 4, 2017 at 3:12 pm </p>
                                  </div>
@@ -195,14 +170,11 @@
                               <img src="img/comment/comment_2.png" alt="">
                            </div>
                            <div class="desc">
-                              <p class="comment">
-                                 Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
-                                 Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
-                              </p>
+                              <?php echo("<p class='comment'>" . $con3 . "</p>"); ?>
                               <div class="d-flex justify-content-between">
                                  <div class="d-flex align-items-center">
                                     <h5>
-                                       <a href="#">Emilly Blunt</a>
+                                       <?php echo("<a href='#'>" . $name3 . "</a>"); ?>
                                     </h5>
                                     <p class="date">December 4, 2017 at 3:12 pm </p>
                                  </div>
@@ -221,14 +193,11 @@
                               <img src="img/comment/comment_3.png" alt="">
                            </div>
                            <div class="desc">
-                              <p class="comment">
-                                 Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
-                                 Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
-                              </p>
+                              <?php echo("<p class='comment'>" . $con4 . "</p>"); ?>
                               <div class="d-flex justify-content-between">
                                  <div class="d-flex align-items-center">
                                     <h5>
-                                       <a href="#">Emilly Blunt</a>
+                                       <?php echo("<a href='#'>" . $name4 . "</a>"); ?>
                                     </h5>
                                     <p class="date">December 4, 2017 at 3:12 pm </p>
                                  </div>
@@ -291,53 +260,53 @@
                      </form>
                   </aside>
                   <aside class="single_sidebar_widget post_category_widget">
-                     <h4 class="widget_title">Category</h4>
+                     <?php echo("<h4 class='widget_title'>" . $title5 . "</h4>"); ?>
                      <ul class="list cat-list">
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Resaurant food</p>
+                              <?php echo("<p>" . $con5 . "</p>"); ?>
                               <p>(37)</p>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Travel news</p>
+                              <?php echo("<p>" . $con6 . "</p>"); ?>
                               <p>(10)</p>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Modern technology</p>
+                              <?php echo("<p>" . $con7 . "</p>"); ?>
                               <p>(03)</p>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Product</p>
+                              <?php echo("<p>" . $con8 . "</p>"); ?>
                               <p>(11)</p>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Inspiration</p>
+                              <?php echo("<p>" . $con9 . "</p>"); ?>
                               <p>(21)</p>
                            </a>
                         </li>
                         <li>
                            <a href="#" class="d-flex">
-                              <p>Health Care</p>
+                              <?php echo("<p>" . $con10 . "</p>"); ?>
                               <p>(21)</p>
                            </a>
                         </li>
                      </ul>
                   </aside>
                   <aside class="single_sidebar_widget popular_post_widget">
-                     <h3 class="widget_title">Recent Post</h3>
+                     <?php echo("<h3 class='widget_title'>" . $title6 . "</h3>"); ?>
                      <div class="media post_item">
                         <img src="img/post/post_1.png" alt="post">
                         <div class="media-body">
                            <a href="single-blog.html">
-                              <h3>From life was you fish...</h3>
+                              <?php echo("<h3>" . $con11 . "</h3>"); ?>
                            </a>
                            <p>January 12, 2019</p>
                         </div>
@@ -346,7 +315,7 @@
                         <img src="img/post/post_2.png" alt="post">
                         <div class="media-body">
                            <a href="single-blog.html">
-                              <h3>The Amazing Hubble</h3>
+                              <?php echo("<h3>" . $con12 . "</h3>"); ?>
                            </a>
                            <p>02 Hours ago</p>
                         </div>
@@ -355,7 +324,7 @@
                         <img src="img/post/post_3.png" alt="post">
                         <div class="media-body">
                            <a href="single-blog.html">
-                              <h3>Astronomy Or Astrology</h3>
+                              <?php echo("<h3>" . $con13 . "</h3>"); ?>
                            </a>
                            <p>03 Hours ago</p>
                         </div>
@@ -364,7 +333,7 @@
                         <img src="img/post/post_4.png" alt="post">
                         <div class="media-body">
                            <a href="single-blog.html">
-                              <h3>Asteroids telescope</h3>
+                              <?php echo("<h3>" . $con14 . "</h3>"); ?>
                            </a>
                            <p>01 Hours ago</p>
                         </div>
@@ -453,93 +422,7 @@
    <!--================ Blog Area end =================-->
 
     <!-- footer_start -->
-    <footer class="footer footer_bg">
-         <div class="footer_top">
-             <div class="container-fluid p-0">
-                 <div class="row no-gutters ">
-                     <div class="col-xl-3 col-12 col-md-4">
-                         <div class="footer_widget">
-                             <div class="footer_logo">
-                                 <a href="index.html">
-                                     <img src="img/footer-logo.png" alt="">
-                                 </a>
-                             </div>
-                             <ul class="social_links">
-                                 <li>
-                                     <a href="#"><i class="fa fa-facebook"></i></a>
-                                 </li>
-                                 <li>
-                                     <a href="#"><i class="fa fa-twitter"></i></a>
-                                 </li>
-                                 <li>
-                                     <a href="#"><i class="fa fa-instagram"></i></a>
-                                 </li>
-                             </ul>
-                         </div>
-                     </div>
-                     <div class="col-xl-9 col-12 col-md-8">
-                         <div class="footer_header d-flex justify-content-between">
-                             <div class="footer_header_left">
-                                 <h3>Do youn have any project or Query ?</h3>
-                                 <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt. </p>
-                             </div>
-                             <div class="footer_btn">
-                                 <a href="#" class="boxed-btn2">Contact Us</a>
-                             </div>
-                         </div>
-                         <div class="row">
-                             <div class="col-xl-8 col-12 col-md-12">
-                                 <div class="row">
-                                     <div class="col-xl-4 col-12 col-md-4">
-                                         <div class="footer_widget">
-                                             <h3 class="footer_heading">
-                                                 Navigation
-                                             </h3>
-                                             <ul class="quick_links">
-                                                 <li><a href="#">Home</a></li>
-                                                 <li><a href="#"> About</a></li>
-                                                 <li><a href="#"> Project</a></li>
-                                                 <li><a href="#">Services</a></li>
-                                                 <li><a href="#">Blog</a></li>
-                                             </ul>
-                                         </div>
-                                     </div>
-                                     <div class="col-xl-4 col-12 col-md-4">
-                                         <div class="footer_widget">
-                                             <h3 class="footer_heading">
-                                                 Services
-                                             </h3>
-                                             <ul class="quick_links">
-                                                 <li><a href="#">Interior</a></li>
-                                                 <li><a href="#"> Exterior</a></li>
-                                                 <li><a href="#"> Bridge</a></li>
-                                             </ul>
-                                         </div>
-                                     </div>
-                                     <div class="col-xl-4 col-12 col-md-4 ">
-                                         <div class="footer_widget">
-                                             <h3 class="footer_heading">
-                                                 Speak Now
-                                             </h3>
-                                             <ul class="quick_links">
-                                                 <li><a href="#">+10 267 3567 267</a></li>
-                                                 <li><a href="#"> contact@ararat.com</a></li>
-                                             </ul>
-                                         </div>
-                                     </div>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
-         </div>
-         <div class="footer_copy_right">
-             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </p>
-         </div>
-     </footer>
+    <?php include("footer.php"); ?>
      <!-- footer_end -->
 
    <!-- JS here -->
