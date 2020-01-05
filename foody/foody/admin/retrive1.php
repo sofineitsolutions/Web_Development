@@ -114,10 +114,13 @@
                                     <input type="text" class="form-control" id="name" name="mdes8"  value="<?php echo $mdes8;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mprice8"  value="<?php echo $mprice8;?>">
+                                  <input type="text" class="form-control" id="name" name="mprice8"  value="<?php echo $mprice8;?>">
                                 </div>
                                 <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                            </div>
+                            <div class="col-md-12 text-right">
+                                <button type="submit" value="submit" class="btn submit_btn">Update</button>
                             </div>
                         </div>
                     </div>

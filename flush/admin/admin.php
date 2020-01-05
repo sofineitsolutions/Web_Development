@@ -55,7 +55,7 @@
                 </div> -->
                 <div class="row">    
                     <div class="col-lg-9">
-                        <form class="row contact_form" action="../insert.php" method="post">
+                        <form class="row contact_form" action="insert.php" method="post">
                             <div class="col-md-6">
                             
                             <div class="form-group">
