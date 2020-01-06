@@ -25,6 +25,8 @@ $w = $_POST['view1'];
 $x = $_POST['view2'];
 $y = $_POST['view3'];
 $z = $_POST['view4'];
+
+//extract($_POST);
 //$a1 = $_POST['message'];
 // $d = $_POST['collage_nm'];
 // $e = $_POST['referance'];
