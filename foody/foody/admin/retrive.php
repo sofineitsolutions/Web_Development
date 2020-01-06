@@ -38,7 +38,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <form action="" method="post">
+            <form action="../insert.php" method="post">
               <div class="row">
               <div class="col-md-6">    
                             <div class="form-group">
@@ -167,7 +167,7 @@
                                     <input type="text" class="form-control" id="name" name="menu6" value="<?php echo $menu6;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes6" svalue="<?php echo $mdes6;?>">
+                                    <input type="text" class="form-control" id="name" name="mdes6" value="<?php echo $mdes6;?>">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="mprice6" value="<?php echo $mprice6;?>">

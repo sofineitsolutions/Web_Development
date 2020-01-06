@@ -4,26 +4,24 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="../img/favicon.png" type="image/png">
+        <link rel="icon" href="img/favicon.png" type="image/png">
         <title>Flash Photography</title>
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="../css/bootstrap.css">
-        <link rel="stylesheet" href="../vendors/linericon/style.css">
-        <link rel="stylesheet" href="../css/font-awesome.min.css">
-        <link rel="stylesheet" href="../vendors/owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="../vendors/lightbox/simpleLightbox.css">
-        <link rel="stylesheet" href="../vendors/nice-select/css/nice-select.css">
-        <link rel="stylesheet" href="../vendors/animate-css/animate.css">
-        <link rel="stylesheet" href="../vendors/popup/magnific-popup.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="vendors/linericon/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+        <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
         <!-- main css -->
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/responsive.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
-        
     <?php include("variable4.php");
-            include("../h.php");?>
-        
+            include("h.php");?>
         <!--================Home Banner Area =================-->
         <section class="home_banner_area">
            	<div class="box_1620">
@@ -39,14 +37,13 @@
             </div>
         </section>
         <!--================End Home Banner Area =================-->
-        
         <!--================Blog Categorie Area =================-->
         <section class="blog_categorie_area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="categories_post">
-                            <img src="../img/blog/cat-post/cat-post-3.jpg" alt="post">
+                            <img src="img/blog/cat-post/cat-post-3.jpg" alt="post">
                             <div class="categories_details">
                                 <div class="categories_text">
                                 <?php echo  "<a href='../blog-details.html'><h5>".$social."</h5></a>";?>
@@ -58,7 +55,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="categories_post">
-                            <img src="../img/blog/cat-post/cat-post-2.jpg" alt="post">
+                            <img src="img/blog/cat-post/cat-post-2.jpg" alt="post">
                             <div class="categories_details">
                                 <div class="categories_text">
                                  <?php echo   "<a href='../blog-details.html'><h5>".$politics."</h5></a>";?>
@@ -70,7 +67,7 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="categories_post">
-                            <img src="../img/blog/cat-post/cat-post-1.jpg" alt="post">
+                            <img src="img/blog/cat-post/cat-post-1.jpg" alt="post">
                             <div class="categories_details">
                                 <div class="categories_text">
                                  <?php echo "<a href='../blog-details.html'><h5>".$food."</h5></a>";?>
@@ -110,7 +107,7 @@
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="../img/blog/main-blog/m-blog-1.jpg" alt="">
+                                        <img src="img/blog/main-blog/m-blog-1.jpg" alt="">
                                         <div class="blog_details">
                                         <?php echo "<a href='../single-blog.html'><h2>".$blog1."</h2></a>";
                                            echo "<p>".$des1."</p>";
@@ -138,7 +135,7 @@
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="../img/blog/main-blog/m-blog-2.jpg" alt="">
+                                        <img src="img/blog/main-blog/m-blog-2.jpg" alt="">
                                         <div class="blog_details">
                                         <?php echo "<a href='../single-blog.html'><h2>".$blog2."</h2></a>";
                                             echo "<p>".$des2."</p>";
@@ -166,7 +163,7 @@
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="../img/blog/main-blog/m-blog-3.jpg" alt="">
+                                        <img src="img/blog/main-blog/m-blog-3.jpg" alt="">
                                         <div class="blog_details">
                                         <?php echo "<a href='../single-blog.html'><h2>".$blog3."</h2></a>";
                                             echo "<p>".$des3."</p>";
@@ -194,7 +191,7 @@
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="../img/blog/main-blog/m-blog-4.jpg" alt="">
+                                        <img src="img/blog/main-blog/m-blog-4.jpg" alt="">
                                         <div class="blog_details">
                                         <?php echo "<a href='../single-blog.html'><h2>".$blog4."</h2></a>";
                                             echo "<p>".$des4."</p>";
@@ -222,7 +219,7 @@
                                </div>
                                 <div class="col-md-9">
                                     <div class="blog_post">
-                                        <img src="../img/blog/main-blog/m-blog-5.jpg" alt="">
+                                        <img src="img/blog/main-blog/m-blog-5.jpg" alt="">
                                         <div class="blog_details">
                                         <?php echo "<a href='../single-blog.html'><h2>".$blog5."</h2></a>";
                                             echo "<p>".$des5."</p>";
@@ -283,28 +280,28 @@
                             <aside class="single_sidebar_widget popular_post_widget">
                             <h3 class="widget_title">Popular Posts</h3>
                                 <div class="media post_item">
-                                    <img src="../img/blog/popular-post/post1.jpg" alt="post">
+                                    <img src="img/blog/popular-post/post1.jpg" alt="post">
                                     <div class="media-body">
                                     <a href="../blog-details.html"><h3>Space The Final Frontier</h3></a>
                                         <p>02 Hours ago</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="../img/blog/popular-post/post2.jpg" alt="post">
+                                    <img src="img/blog/popular-post/post2.jpg" alt="post">
                                     <div class="media-body">
                                     <a href="../blog-details.html"><h3>The Amazing Hubble</h3></a>
                                         <p>02 Hours ago</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="../img/blog/popular-post/post3.jpg" alt="post">
+                                    <img src="img/blog/popular-post/post3.jpg" alt="post">
                                     <div class="media-body">
                                     <a href="../blog-details.html"><h3>Astronomy Or Astrology</h3></a>
                                         <p>03 Hours ago</p>
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="../img/blog/popular-post/post4.jpg" alt="post">
+                                    <img src="img/blog/popular-post/post4.jpg" alt="post">
                                     <div class="media-body">
                                     <a href="../blog-details.html"><h3>Asteroids telescope</h3></a>
                                         <p>01 Hours ago</p>
@@ -402,7 +399,6 @@
             </div>
         </section>
         <!--================Blog Area =================-->
-        
         <!--================Instagram Area =================-->
         <section class="instagram_area">
         	<div class="container box_1620">
@@ -410,39 +406,34 @@
         		<?php echo 	"<a class='btn theme_btn' href='#'>".$insta."</a>";?>
         		</div>
         		<div class="instagram_image row m0">
-        			<a href="#"><img src="../img/instagram/ins-1.jpg" alt=""></a>
-        			<a href="#"><img src="../img/instagram/ins-2.jpg" alt=""></a>
-        			<a href="#"><img src="../img/instagram/ins-3.jpg" alt=""></a>
-        			<a href="#"><img src="../img/instagram/ins-4.jpg" alt=""></a>
-        			<a href="#"><img src="../img/instagram/ins-5.jpg" alt=""></a>
-        			<a href="#"><img src="../img/instagram/ins-6.jpg" alt=""></a>
+        			<a href="#"><img src="img/instagram/ins-1.jpg" alt=""></a>
+        			<a href="#"><img src="img/instagram/ins-2.jpg" alt=""></a>
+        			<a href="#"><img src="img/instagram/ins-3.jpg" alt=""></a>
+        			<a href="#"><img src="img/instagram/ins-4.jpg" alt=""></a>
+        			<a href="#"><img src="img/instagram/ins-5.jpg" alt=""></a>
+        			<a href="#"><img src="img/instagram/ins-6.jpg" alt=""></a>
         		</div>
         	</div>
         </section>
         <!--================End Instagram Area =================-->
-        
-        <?php include("../f.php");?>
-        
-        
-        
-        
+        <?php include("f.php");?>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="../js/jquery-3.3.1.min.js"></script>
-        <script src="../js/popper.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
-        <script src="../js/stellar.js"></script>
-        <script src="../vendors/lightbox/simpleLightbox.min.js"></script>
-        <script src="../vendors/nice-select/js/jquery.nice-select.min.js"></script>
-        <script src="../vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="../vendors/isotope/isotope.pkgd.min.js"></script>
-        <script src="../vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="../vendors/jquery-ui/jquery-ui.js"></script>
-        <script src="../js/jquery.ajaxchimp.min.js"></script>
-        <script src="../vendors/popup/jquery.magnific-popup.min.js"></script>
-        <script src="../js/mail-script.js"></script>
-        <script src="../vendors/counter-up/jquery.waypoints.min.js"></script>
-        <script src="../vendors/counter-up/jquery.counterup.js"></script>
-        <script src="../js/theme.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="vendors/jquery-ui/jquery-ui.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
+        <script src="js/mail-script.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.js"></script>
+        <script src="js/theme.js"></script>
     </body>
 </html>
