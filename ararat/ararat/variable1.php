@@ -4,8 +4,7 @@
     $title="We Design your space";
 	$subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor";
 	$button="See Our Projects";
-	$title1="Architechtural plan <br>
-                                design and build";
+	$title1="Architechtural plan <br>design and build";
     $subtitle1="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.";
     $con1="Consectetur adipiscing sed do eiusmod.";
     $con2="Eiusmod tempor incididunt labore.";

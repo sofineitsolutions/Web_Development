@@ -35,7 +35,7 @@
 
 <body id="body">
 
-//<?php include("variable1.php"); ?>
+<?php include("variable1.php"); ?>
 <?php include("cont.php"); ?>
 <section class="page-title bg-2">
   <div class="container">
