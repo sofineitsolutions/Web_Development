@@ -64,19 +64,29 @@ $j2 = $_POST['bdes1'];
 $k2 = $_POST['blog2'];
 $l2 = $_POST['date2'];
 $m2 = $_POST['bdes2'];
-
+// extract($_POST);
 include("config.php");
 // Attempt insert query execution
-$sql = "INSERT INTO `foody`.`index` (`title1`, `des1`, `title2`, `des2`, `Enjoy_Eating`, `des3`, `Fresh_Sea_Foods`, `des4`, `Cup_of_Coffees`, 
-`des5`, `Meat_Eaters`, `des6`, `stitle1`, `sdes1`, `stitle2`, `price1`, `sep_menu1`, `price2`, `sep_menu2`, `price3`, `sep_menu3`, `price4`, 
-`sep_menu4`, `stitle3`, `menu1`, `mdes1`, `mprice1`, `menu2`, `mdes2`, `mprice2`, `menu3`, `name3`, `mprice3`, `menu4`, `mdes4`, `mprice4`,
- `menu5`, `mdes5`, `mprice5`, `menu6`, `mdes6`, `mprice6`, `menu7`, `mdes7`, `mprice7`, `menu8`, `mdes8`, `mprice8`, `stitle4`, `tdes1`, 
- `tname1`, `prof1`, `tdes2`, `tname2`, `prof2`, `tdes3`, `tname3`, `prof3`, `blog`, `blog1`, `date1`, `bdes1`, `blog2`, `date2`, `bdes2`) 
- VALUES ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', '$k', 
- '$l','$m', '$n', '$o', '$p','$q','$r','$s','$t','$u','$v','$w','$x','$y','$z','$a1','$b1','$c1','$d1','$e1','$f1','$g1','$h1','$i1','$j1',
- '$k1','$l1','$m1','$n1','$o1','$p1','$q1','$r1','$s1','$t1','$u1','$v1','$w1',
- '$x1','$y1','$z1','$a2','$b2','$c2','$d2','$e2','$f2','$g2','$h2','$i2','$j2','$k2','$l2',
- '$m2')";
+// $sql = "INSERT INTO `foody`.`index` (`title1`, `des1`, `title2`, `des2`, `Enjoy_Eating`, `des3`, `Fresh_Sea_Foods`, `des4`, `Cup_of_Coffees`, 
+// `des5`, `Meat_Eaters`, `des6`, `stitle1`, `sdes1`, `stitle2`, `price1`, `sep_menu1`, `price2`, `sep_menu2`, `price3`, `sep_menu3`, `price4`, 
+// `sep_menu4`, `stitle3`, `menu1`, `mdes1`, `mprice1`, `menu2`, `mdes2`, `mprice2`, `menu3`, `name3`, `mprice3`, `menu4`, `mdes4`, `mprice4`,
+//  `menu5`, `mdes5`, `mprice5`, `menu6`, `mdes6`, `mprice6`, `menu7`, `mdes7`, `mprice7`, `menu8`, `mdes8`, `mprice8`, `stitle4`, `tdes1`, 
+//  `tname1`, `prof1`, `tdes2`, `tname2`, `prof2`, `tdes3`, `tname3`, `prof3`, `blog`, `blog1`, `date1`, `bdes1`, `blog2`, `date2`, `bdes2`) 
+//  VALUES ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', '$k', 
+//  '$l','$m', '$n', '$o', '$p','$q','$r','$s','$t','$u','$v','$w','$x','$y','$z','$a1','$b1','$c1','$d1','$e1','$f1','$g1','$h1','$i1','$j1',
+//  '$k1','$l1','$m1','$n1','$o1','$p1','$q1','$r1','$s1','$t1','$u1','$v1','$w1',
+//  '$x1','$y1','$z1','$a2','$b2','$c2','$d2','$e2','$f2','$g2','$h2','$i2','$j2','$k2','$l2',
+//  '$m2')";
+$sql="UPDATE `index` SET title1='$a',des1='$b',title2='$c',des2='$d',Enjoy_Eating='$e',des3='$f',
+Fresh_Sea_Foods='$g',des4='$h',Cup_of_Coffees='$i',des5='$j',Meat_Eaters='$k',des6='$l',
+stitle1='$m',sdes1='$n',stitle2='$o',price1='$p',sep_menu1='$q',price2='$r',sep_menu2='$s',
+price3='$t',sep_menu3='$u',price4='$v',sep_menu4='$w',stitle3='$x',menu1='$y',mdes1='$z',
+mprice1='$a1',menu2='$b1',mdes2='$c1',mprice2='$d1',menu3='$e1',name3='$f1',mprice3='$g1',menu4='$h1',mdes4='$i1',mprice4='$j1',
+menu5='$k1',mdes5='$l1',mprice5='$m1',menu6='$n1',mdes6='$o1',mprice6='$p1',
+menu7='$q1',mdes7='$r1',mprice7='$s1',menu8='$t1',mdes8='$u1',mprice8='$v1',stitle4='$w1',tdes1='$x1',
+tname1='$y1',prof1='$z1',tdes2='$a2',tname2='$b2',prof2='$c2',tdes3='$d2',tname3='$e2',prof3='$f2',
+blog='$g2',blog1='$h2',date1='$i2',bdes1='$j2',blog2='$k2',date2='$l2',bdes2='$m2' WHERE id=1";
+
 if(mysqli_query($link, $sql)){
 echo "Records inserted successfully.";
 } else{
@@ -84,4 +94,4 @@ echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
 // Close connection
 mysqli_close($link);
-?>
+?>  
