@@ -41,14 +41,15 @@
             <form action="../insert.php" method="post">
               <div class="row">
               <div class="col-md-6">    
-                            <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title1" value="<?php echo $title1; ?>">
+                            
+                                
+                                <!-- <div>
+                                <TEXTAREA name="des1" ROWS=3 COLS=40><?php echo $des1; ?></TEXTAREA>
+                                </div> -->
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="title1" value="<?php echo $title1;?>">
                                     <div class="d-flex">
                                 </div>
-                                </div>
-                                <!-- <div class="form-group" >
-                                    <textarea type="text"class="form-control" id="name" name="des1" ></textarea>
-                                </div> -->
                                 <div>
                                 <TEXTAREA name="des1" ROWS=3 COLS=40><?php echo $des1; ?></TEXTAREA>
                                 </div>
@@ -56,7 +57,7 @@
                                     <input type="text" class="form-control" id="name" name="title2" value="<?php echo $title2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des2"  value="<?php echo $des1;?>">
+                                    <input type="text" class="form-control" id="name" name="des2" value="<?php echo $des2;?>">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="Enjoy_Eating" value="<?php echo $Enjoy_Eating;?>">
@@ -146,11 +147,11 @@
                                     <input type="text" class="form-control" id="name" name="mprice3" value="<?php echo $mprice3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mprice3" value="<?php echo $mprice3;?>">
+                                    <input type="text" class="form-control" id="name" name="menu4" value="<?php echo $menu4;?>">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="mdes4" value="<?php echo $mdes4;?>">
-                                </div>
+                                </div> 
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="mprice4" value="<?php echo $mprice4;?>">
                                 </div>
@@ -230,7 +231,7 @@
                                     <input type="text" class="form-control" id="name" name="date1" value="<?php echo $date1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="bdes1" value="<?php echo $bdes1;?>">
+                                    <input type="text" class="form-control" id="name" name="bdes1"value="<?php echo $bdes1;?>">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="blog2" value="<?php echo $blog2;?>">
@@ -239,12 +240,12 @@
                                     <input type="text" class="form-control" id="name" name="date2" value="<?php echo $date2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="bdes2" value="<?php echo $bdes2;?>">
+                                    <input type="text" class="form-control" id="name" name="bdes2"value="<?php echo $bdes2;?>">
                                 </div>
                                 <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
                             </div>
-                           </br>
+                           
                             <div class="col-md-12 text-right">
                                 <button type="update" value="update" class="btn submit_btn">update</button>
                             </div>

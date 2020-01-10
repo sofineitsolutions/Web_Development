@@ -20,9 +20,14 @@ $r = $_POST['des6'];
 
 include("config.php");
 // Attempt insert query execution
-$sql = "INSERT INTO `foody`.`news` (`news1`, `date1`, `des1`, `news2`, `date2`, `des2`, `news3`, `date3`, `des3`, `news4`, `date4`, `des4`,
- `news5`, `date5`, `des5`, `news6`, `date6`, `des6`) VALUES ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', 
-'$k','$l','$m', '$n', '$o', '$p','$q','$r')";
+// $sql = "INSERT INTO `foody`.`news` (`news1`, `date1`, `des1`, `news2`, `date2`, `des2`, `news3`, `date3`, `des3`, `news4`, `date4`, `des4`,
+//  `news5`, `date5`, `des5`, `news6`, `date6`, `des6`) VALUES ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', 
+// '$k','$l','$m', '$n', '$o', '$p','$q','$r')";
+$sql="UPDATE news SET  news1='$a',date1='$b',des1='$c',news2='$b',date2='$e',des2='$f',news3='$g',date3='$h',des3='$i',
+news4='$j',date4='$k',des4='$l',news5='$m',date5='$n',des5='$o',news6='$p',date6='$q',des6='$r'
+WHERE id = 1";
+
+
 if(mysqli_query($link, $sql)){
 echo "Records inserted successfully.";
 } else{

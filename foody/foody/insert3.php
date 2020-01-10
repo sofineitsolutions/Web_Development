@@ -20,9 +20,12 @@ $r = $_POST['name6'];
 $s = $_POST['prof6'];
 include("config.php");
 // Attempt insert query execution
-$sql = "INSERT INTO `foody`.`admin` (`stitle1`, `des1`, `sdes1`, `sdes2`, `sdes3`, `sdes4`, `stitle2`, `name1`, `prof1`, `name2`, `prof2`, 
-`name3`, `prof3`, `name4`, `prof4`, `name5`, `prof5`, `name6`, `prof6`) VALUES ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', 
-'$k','$l','$m', '$n', '$o', '$p','$q','$r','$s')";
+// $sql = "INSERT INTO `foody`.`admin` (`stitle1`, `des1`, `sdes1`, `sdes2`, `sdes3`, `sdes4`, `stitle2`, `name1`, `prof1`, `name2`, `prof2`, 
+// `name3`, `prof3`, `name4`, `prof4`, `name5`, `prof5`, `name6`, `name6`) VALUES ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', 
+// '$k','$l','$m', '$n', '$o', '$p','$q','$r','$s')";
+$sql="UPDATE `admin` SET stitle1='$a',des1='$b',sdes1='$c',sdes2='$d',sdes3='$e',sdes4='$f',
+stitle2='$g',name1='$h',prof1='$i',name2='$j',prof2='$k',name3='$l',prof3='$m',name4='$n',
+prof4='$o',name5='$p',prof5='$q',name6='$r',name6='$s' WHERE id= 1";
 if(mysqli_query($link, $sql)){
 echo "Records inserted successfully.";
 } else{

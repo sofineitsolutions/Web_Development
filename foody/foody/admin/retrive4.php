@@ -40,7 +40,7 @@
             <form action="../insert4.php" method="post">
               <div class="row">
               <div class="col-md-6">
-              <div class="form-group">
+                                <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="news1"value="<?php echo $news1;?>">
                                 </div>
                                 <div class="form-group">
@@ -96,6 +96,9 @@
                                 </div>
                                 <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                            </div>
+                            <div class="col-md-12 text-right">
+                                <button type="submit" value="submit" class="btn submit_btn">update</button>
                             </div>
                         </div>
                     </div>

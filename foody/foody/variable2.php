@@ -8,7 +8,7 @@ while($res = mysqli_fetch_array($query_user) ){
 $Enjoy_Eating = $res['Enjoy_Eating'];
 $des1 = $res['des1'];
 $Fresh_Sea_Foods = $res['Fresh_Sea_Foods'];
-$des2 = $res['des2'];
+$des2= $res['des2'];
 $Cup_of_Coffees = $res['Cup_of_Coffees'];
 $des3 = $res['des3'];
 $Meat_Eaters = $res['Meat_Eaters'];
@@ -37,7 +37,7 @@ $mprice4 = $res['mprice4'];
 $menu5 = $res['menu5'];
 $mdes5 = $res['mdes5'];
 $mprice5 = $res['mprice5'];
-$menu6 = $res['menu6'];
+$menu6= $res['menu6'];
 $mdes6 = $res['mdes6'];
 $mprice6 = $res['mprice6'];
 $menu7 = $res['menu7'];
@@ -46,20 +46,17 @@ $mprice7 = $res['mprice7'];
 $menu8 = $res['menu8'];
 $mdes8 = $res['mdes8'];
 $mprice8 = $res['mprice8'];
-
 }
 }
 else"0 result";
-
 $link->close();
-
 // $Enjoy_Eating="Enjoy Eating";
 // $des1="A small river named Duden flows by their place and supplies it with the necessary regelialia.";
 // $Fresh_Sea_Foods="Fresh Sea Foods";
 // $des2="A small river named Duden flows by their place and supplies it with the necessary regelialia.";
 // $Cup_of_Coffees="Cup of Coffees";
 // $des3="A small river named Duden flows by their place and supplies it with the necessary regelialia.";
-// $Meat_Eaters1="Meat Eaters";
+// $Meat_Eaters="Meat Eaters";
 // $des4="A small river named Duden flows by their place and supplies it with the necessary regelialia.";
 // $Free_Hot_Soup="Free Hot Soup";
 // $des5="A small river named Duden flows by their place and supplies it with the necessary regelialia.";
@@ -69,7 +66,7 @@ $link->close();
 // $des7="A small river named Duden flows by their place and supplies it with the necessary regelialia.";
 // $Cup_of_Coffees1="Cup of Coffees";
 // $des8="A small river named Duden flows by their place and supplies it with the necessary regelialia.";
-// $stitle1="Our Menu";
+// $stitle1="Our Recipes";
 // $menu1="Grilled Caesar salad, shaved reggiano";
 // $mdes1="Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...";
 // $mprice1="$12.00";
@@ -94,5 +91,4 @@ $link->close();
 // $menu8="Seared ahi tuna fillet*, honey-ginger sauce";
 // $mdes8="Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illo delectus...";
 // $mprice8="$16.00";
-
 ?>

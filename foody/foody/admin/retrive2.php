@@ -17,7 +17,7 @@
     <!-- Theme Style -->
     <link rel="stylesheet" href="../css/style.css">
   </head>
-  <body>
+  <body> 
     <?php include("../h.php");
         include("../variable2.php");?>
     <div class="slider-wrap no-slanted">
@@ -30,19 +30,19 @@
               <p data-aos="fade-up" data-aos-delay="200"><a href="#" class="btn btn-white btn-outline-white">Get Started</a></p>
             </div>
           </div>
-        </div>
+      </div>
       </div>
     <!-- END slider -->
     </div> 
-    <section class="section  pt-5 top-slant-white2 relative-higher bottom-slant-gray">
+    <section class="section  pt-5 top-slant-white2 relative-higher bottom-slant-gray"> 
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
             <form action="../insert2.php" method="post">
               <div class="row">
               <div class="col-md-6">
-              <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Enjoy_Eating"value="<?php echo $Enjoy_Eating;?>">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="Enjoy_Eating" value="<?php echo $Enjoy_Eating;?>">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="des1" value="<?php echo $des1;?>">
@@ -57,44 +57,43 @@
                                     <input type="text" class="form-control" id="name" name="Cup_of_Coffees" value="<?php echo $Cup_of_Coffees;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des3"  value="<?php echo $des3;?>">
+                                    <input type="text" class="form-control" id="name" name="des3" value="<?php echo $des3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Meat_Eaters1"  value="<?php echo $Meat_Eaters1;?>">
+                                    <input type="text" class="form-control" id="name" name="Meat_Eaters" value="<?php echo $Meat_Eaters;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des4"  value="<?php echo $des4;?>">
+                                    <input type="text" class="form-control" id="name" name="des4" value="<?php echo $des4;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Free_Hot_Soup"  value="<?php echo $Free_Hot_Soup;?>">
-                                </div>
-
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des5"  value="<?php echo $des5;?>">
+                                    <input type="text" class="form-control" id="name" name="Free_Hot_Soup" value="<?php echo $Free_Hot_Soup;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Drinks_Beverages"  value="<?php echo $Drinks_Beverages;?>">
+                                    <input type="text" class="form-control" id="name" name="des5" value="<?php echo $des5;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des6"  value="<?php echo $des6;?>">
+                                    <input type="text" class="form-control" id="name" name="Drinks_Beverages" value="<?php echo $Drinks_Beverages;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Meat_Eaters"  value="<?php echo $Meat_Eaters;?>">
+                                    <input type="text" class="form-control" id="name" name="des6" value="<?php echo $des6;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="Meat_Eaters1" value="<?php echo $Meat_Eaters1;?>">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="des7" value="<?php echo $des7;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Cup_of_Coffees1"  value="<?php echo $Cup_of_Coffees1;?>">
+                                    <input type="text" class="form-control" id="name" name="Cup_of_Coffees1" value="<?php echo $Cup_of_Coffees1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des8"  value="<?php echo $des8;?>">
+                                    <input type="text" class="form-control" id="name" name="des8" value="<?php echo $des8;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="stitle1"  value="<?php echo $stitle1;?>">
+                                    <input type="text" class="form-control" id="name" name="stitle1" value="<?php echo $stitle1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu1"  value="<?php echo $menu1;?>">
+                                    <input type="text" class="form-control" id="name" name="menu1" value="<?php echo $menu1;?>">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="mdes1" value="<?php echo $mdes1;?>">
@@ -103,75 +102,79 @@
                                     <input type="text" class="form-control" id="name" name="mprice1" value="<?php echo $mprice1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu2"  value="<?php echo $menu2;?>">
+                                    <input type="text" class="form-control" id="name" name="menu2" value="<?php echo $menu2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes2"  value="<?php echo $mdes2;?>">
+                                    <input type="text" class="form-control" id="name" name="mdes2" value="<?php echo $mdes2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mprice2"  value="<?php echo $mprice2;?>">
+                                    <input type="text" class="form-control" id="name" name="mprice2" value="<?php echo $mprice2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu3"  value="<?php echo $menu3;?>">
+                                    <input type="text" class="form-control" id="name" name="menu3" value="<?php echo $menu3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes3"  value="<?php echo $mdes3;?>">
+                                    <input type="text" class="form-control" id="name" name="mdes3" value="<?php echo $mdes3;?>">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="mprice3" value="<?php echo $mprice3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu4"  value="<?php echo $menu4;?>">
+                                    <input type="text" class="form-control" id="name" name="menu4" value="<?php echo $menu4;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes4"  value="<?php echo $mdes4;?>">
+                                    <input type="text" class="form-control" id="name" name="mdes4" value="<?php echo $mdes4;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mprice4"  value="<?php echo $mprice4;?>">
+                                    <input type="text" class="form-control" id="name" name="mprice4" value="<?php echo $mprice4;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu5"  value="<?php echo $menu5;?>">
+                                    <input type="text" class="form-control" id="name" name="menu5" value="<?php echo $menu5;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes5"  value="<?php echo $mdes5;?>">
+                                    <input type="text" class="form-control" id="name" name="mdes5" value="<?php echo $mdes5;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mprice5"  value="<?php echo $mprice5;?>">
+                                    <input type="text" class="form-control" id="name" name="mprice5" value="<?php echo $mprice5;?>">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="menu6" value="<?php echo $menu6;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes6"  value="<?php echo $mdes6;?>">
+                                    <input type="text" class="form-control" id="name" name="mdes6" value="<?php echo $mdes6;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mprice6"  value="<?php echo $mprice6;?>">
+                                    <input type="text" class="form-control" id="name" name="mprice6" value="<?php echo $mprice6;?>">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="menu7" value="<?php echo $menu7;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes7"  value="<?php echo $mdes7;?>">
+                                    <input type="text" class="form-control" id="name" name="mdes7" value="<?php echo $mdes7;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mprice7"  value="<?php echo $mprice7;?>">
+                                    <input type="text" class="form-control" id="name" name="mprice7" value="<?php echo $mprice7;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu8"  value="<?php echo $menu8;?>">
+                                    <input type="text" class="form-control" id="name" name="menu8" value="<?php echo $menu8;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes8"  value="<?php echo $mdes8;?>">
+                                    <input type="text" class="form-control" id="name" name="mdes8" value="<?php echo $mdes8;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mprice8"  value="<?php echo $mprice8;?>">
+                                    <input type="text" class="form-control" id="name" name="mprice8" value="<?php echo $mprice8;?>">
                                 </div>
                                 <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
                             </div>
+                            <br>
+                            <div class="col-md-12 text-right">
+                                <button type="submit" value="submit" class="btn submit_btn">Update</button>
+                            </div>
                         </div>
                     </div>
             </form>
-          </div>     
+          </div>    
       </div>
     </section>
     <section class="section bg-light pt-0 relative-higher">
@@ -233,14 +236,15 @@
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#cf1d16"/></svg></div>
 
-    <script src="vjs/jquery-3.2.1.min.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../s/owl.carousel.min.js"></script>
     <script src="../js/jquery.waypoints.min.js"></script>
     <script src="../js/aos.js"></script>
     <script src="../js/jquery.magnific-popup.min.js"></script>
     <script src="../js/magnific-popup-options.js"></script>
     <script src="../js/main.js"></script>
+    
   </body>
 </html>

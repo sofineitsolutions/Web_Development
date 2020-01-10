@@ -24,8 +24,6 @@ $v = $_POST['mprice7'];
 $w = $_POST['menu8'];
 $x = $_POST['mdes8'];
 $y = $_POST['mprice8'];
-
-
 include("config.php");
 // Attempt insert query execution
 // $sql = "INSERT INTO `foody`.`recipies` (`stitle3`, `menu1`, `mdes1`, `mprice1`, `menu2`, `mdes2`, `mprice2`, `menu3`, `name3`, `mprice3`,
