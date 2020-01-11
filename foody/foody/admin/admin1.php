@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,7 +18,7 @@
   </head>
   <body> 
     <?php include("../h.php");
-        include("../variable1.php");?>
+          include("variable1.php");?>
     <div class="slider-wrap no-slanted">
       <div class="slider-item" style="background-image: url('../img/hero_1.jpg');">
         <div class="container">
@@ -38,7 +37,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <form action="../insert1.php" method="post">
+            <form action="insert1.php" method="post">
               <div class="row">
               <div class="col-md-6">
                                 <div class="form-group">
@@ -183,7 +182,6 @@
     <?php include("../f.php");?>
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#cf1d16"/></svg></div>
-
     <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
@@ -193,6 +191,5 @@
     <script src="../js/jquery.magnific-popup.min.js"></script>
     <script src="../js/magnific-popup-options.js"></script>
     <script src="../js/main.js"></script>
-    
   </body>
 </html>

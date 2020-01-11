@@ -4,23 +4,23 @@
     <title>Foody &mdash; Website Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
-    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link href="../https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="../fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../fonts/flaticon/font/flaticon.css">
     <!-- Theme Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
     <?php include("variable2.php");
-          include("h.php");?>
+          include("../h.php");?>
     <div class="slider-wrap">
-      <div class="slider-item" style="background-image: url('img/hero_1.jpg');">
+      <div class="slider-item" style="background-image: url('../img/hero_1.jpg');">
         <div class="container">
           <div class="row slider-text align-items-center justify-content-center">
             <div class="col-md-8 text-center col-sm-12 ">
@@ -93,7 +93,7 @@
         <div class="row no-gutters">
           <div class="col-md-6">
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_4.jpg');" data-aos="fade"></div>
+              <div class="bg-image order-2" style="background-image: url('../img/dishes_4.jpg');" data-aos="fade"></div>
               <div class="text order-1">
               <?php echo"<h3>".$menu1."</h3>";?>
               <?php echo "<p>".$mdes1."</p>";?>
@@ -101,16 +101,17 @@
               </div>
             </div>
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_1.jpg');" data-aos="fade"></div>
+              <div class="bg-image" style="background-image: url('../img/dishes_1.jpg');" data-aos="fade"></div>
               <div class="text">
               <?php echo "<h3>".$menu2."</h3>";
               echo "<p>".$mdes2."</p>";
               echo "<p class='text-primary h3'>".$mprice2."</p>";?>
               </div>
           </div>
+          </div>
           <div class="col-md-6">
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_2.jpg');" data-aos="fade"></div>
+              <div class="bg-image order-2" style="background-image: url('../img/dishes_2.jpg');" data-aos="fade"></div>
               <div class="text order-1">
               <?php echo "<h3>".$menu3."</h3>";
               echo "<p>".$mdes3."</p>";
@@ -118,7 +119,7 @@
               </div>
             </div>
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_3.jpg');" data-aos="fade"></div>
+              <div class="bg-image" style="background-image: url('../img/dishes_3.jpg');" data-aos="fade"></div>
               <div class="text">
               <?php echo "<h3>".$menu4."</h3>";
                echo "<p>".$mdes4."</p>";
@@ -130,7 +131,7 @@
         <div class="row no-gutters">
           <div class="col-md-6">
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_4.jpg');" data-aos="fade"></div>
+              <div class="bg-image order-2" style="background-image: url('../img/dishes_4.jpg');" data-aos="fade"></div>
               <div class="text order-1">
               <?php echo "<h3>".$menu5."</h3>";
                echo "<p>".$mdes5."</p>";
@@ -138,7 +139,7 @@
               </div>
             </div>
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_1.jpg');" data-aos="fade"></div>
+              <div class="bg-image" style="background-image: url('../img/dishes_1.jpg');" data-aos="fade"></div>
               <div class="text">
               <?php echo "<h3>".$menu6."</h3>";
                echo "<p>".$mdes6."</p>";
@@ -148,7 +149,7 @@
           </div>
           <div class="col-md-6">
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image order-2" style="background-image: url('img/dishes_2.jpg');" data-aos="fade"></div>
+              <div class="bg-image order-2" style="background-image: url('../img/dishes_2.jpg');" data-aos="fade"></div>
               <div class="text order-1">
               <?php echo "<h3>".$menu7."</h3>";
                echo "<p>".$mdes7."</p>";
@@ -156,7 +157,7 @@
               </div>
             </div>
             <div class="sched d-block d-lg-flex">
-              <div class="bg-image" style="background-image: url('img/dishes_3.jpg');" data-aos="fade"></div>
+              <div class="bg-image" style="background-image: url('../img/dishes_3.jpg');" data-aos="fade"></div>
               <div class="text">
               <?php echo "<h3>".$menu8."</h3>";
                echo "<p>".$mdes8."</p>";
@@ -167,17 +168,17 @@
         </div>
       </div>
     </section> <!-- .section -->
-    <?php include("f.php");?>
+    <?php include("../f.php");?>
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#cf1d16"/></svg></div>
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/magnific-popup-options.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/jquery.waypoints.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/magnific-popup-options.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>

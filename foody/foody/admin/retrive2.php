@@ -19,7 +19,7 @@
   </head>
   <body> 
     <?php include("../h.php");
-        include("../variable2.php");?>
+        include("variable2.php");?>
     <div class="slider-wrap no-slanted">
       <div class="slider-item" style="background-image: url('../img/hero_1.jpg');">
         <div class="container">
@@ -165,10 +165,10 @@
                                     <input type="text" class="form-control" id="name" name="mprice8" value="<?php echo $mprice8;?>">
                                 </div>
                                 <div class="col-md-12 text-right">
-                                <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
-                            </div>
-                            <br>
-                            <div class="col-md-12 text-right">
+                                    <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                                </div>
+                                <br>
+                                <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Update</button>
                             </div>
                         </div>
@@ -235,7 +235,6 @@
     <?php include("../f.php");?>
     <!-- loader -->
     <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#cf1d16"/></svg></div>
-
     <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
@@ -245,6 +244,5 @@
     <script src="../js/jquery.magnific-popup.min.js"></script>
     <script src="../js/magnific-popup-options.js"></script>
     <script src="../js/main.js"></script>
-    
   </body>
 </html>

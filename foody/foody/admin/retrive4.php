@@ -18,7 +18,7 @@
   </head>
   <body>
     <?php include("../h.php");
-        include("../variable4.php");?>
+        include("variable4.php");?>
     <div class="slider-wrap no-slanted">
       <div class="slider-item" style="background-image: url('../img/hero_1.jpg');">
         <div class="container">
@@ -37,7 +37,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <form action="../insert4.php" method="post">
+            <form action="insert4.php" method="post">
               <div class="row">
               <div class="col-md-6">
                                 <div class="form-group">

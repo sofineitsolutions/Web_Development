@@ -19,7 +19,7 @@
   </head>
   <body>
     <?php include("../h.php");
-        include("../variable.php");?>
+        include("variable.php");?>
     <div class="slider-wrap no-slanted">
       <div class="slider-item" style="background-image: url('../img/hero_1.jpg');">
         <div class="container">
@@ -38,11 +38,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <form action="../insert.php" method="post">
+            <form action="insert.php" method="post">
               <div class="row">
               <div class="col-md-6">    
-                            
-                                
                                 <!-- <div>
                                 <TEXTAREA name="des1" ROWS=3 COLS=40><?php echo $des1; ?></TEXTAREA>
                                 </div> -->
@@ -56,38 +54,38 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="title2" value="<?php echo $title2;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des2" value="<?php echo $des2;?>">
+                                <div>
+                                <TEXTAREA name="des2" ROWS=3 COLS=40><?php echo $des2; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="Enjoy_Eating" value="<?php echo $Enjoy_Eating;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des3" value="<?php echo $des3;?>">
+                                <div>
+                                <TEXTAREA name="des3" ROWS=3 COLS=40><?php echo $des3; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="Fresh_Sea_Foods" value="<?php echo $Fresh_Sea_Foods;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des4" value="<?php echo $des4;?>">
+                                <div>
+                                <TEXTAREA name="des4" ROWS=3 COLS=40><?php echo $des4; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="Cup_of_Coffees" value="<?php echo $Cup_of_Coffees;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des5" value="<?php echo $des5;?>">
+                                <div>
+                                <TEXTAREA name="des5" ROWS=3 COLS=40><?php echo $des5; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="Meat_Eaters" value="<?php echo $Meat_Eaters;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des6" value="<?php echo $des6;?>">
+                                <div>
+                                <TEXTAREA name="des6" ROWS=3 COLS=40><?php echo $des6; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="stitle1" value="<?php echo $stitle1;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="sdes1" value="<?php echo $sdes1;?>">
+                                <div>
+                                <TEXTAREA name="sdes1" ROWS=3 COLS=40><?php echo $sdes1; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="stitle2" value="<?php echo $stitle2;?>">
@@ -95,8 +93,8 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="price1" value="<?php echo $price1;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="sep_menu1" value="<?php echo $sep_menu1;?>">
+                                <div>
+                                <TEXTAREA name="sep_menu1" ROWS=3 COLS=40><?php echo $sep_menu1; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="price2" value="<?php echo $price2;?>">
@@ -119,74 +117,73 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="stitle3" value="<?php echo $stitle3;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu1" value="<?php echo $menu1;?>">
+                                <div>
+                                <TEXTAREA name="menu1" ROWS=3 COLS=40><?php echo $menu1; ?></TEXTAREA>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes1" value="<?php echo $mdes1;?>">
+                                <div>
+                                <TEXTAREA name="mdes1" ROWS=3 COLS=40><?php echo $mdes1; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="mprice1" value="<?php echo $mprice1;?>">
+                                    <div>
+                                <TEXTAREA name="menu2" ROWS=3 COLS=40><?php echo $menu2; ?></TEXTAREA>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu2" value="<?php echo $menu2;?>">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes2" value="<?php echo $mdes2;?>">
+                                <div>
+                                <TEXTAREA name="mdes2" ROWS=3 COLS=40><?php echo $mdes2; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="mprice2" value="<?php echo $mprice2;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu3" value="<?php echo $menu3;?>">
+                                <div>
+                                <TEXTAREA name="menu3" ROWS=3 COLS=40><?php echo $menu3; ?></TEXTAREA>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name3" value="<?php echo $name3;?>">
+                                <div>
+                                <TEXTAREA name="name3" ROWS=3 COLS=40><?php echo $name3; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="mprice3" value="<?php echo $mprice3;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu4" value="<?php echo $menu4;?>">
+                                <div>
+                                <TEXTAREA name="menu4" ROWS=3 COLS=40><?php echo $menu4; ?></TEXTAREA>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes4" value="<?php echo $mdes4;?>">
-                                </div> 
+                                <div>
+                                <TEXTAREA name="mdes4" ROWS=3 COLS=40><?php echo $mdes4; ?></TEXTAREA>
+                                </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="mprice4" value="<?php echo $mprice4;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu5" value="<?php echo $menu5;?>">
+                                <div>
+                                <TEXTAREA name="menu5" ROWS=3 COLS=40><?php echo $menu5; ?></TEXTAREA>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes5" value="<?php echo $mdes5;?>">
+                                <div>
+                                <TEXTAREA name="mdes5" ROWS=3 COLS=40><?php echo $mdes5; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="mprice5" value="<?php echo $mprice5;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu6" value="<?php echo $menu6;?>">
+                                <div>
+                                <TEXTAREA name="menu6" ROWS=3 COLS=40><?php echo $menu6; ?></TEXTAREA>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes6" value="<?php echo $mdes6;?>">
+                                <div>
+                                <TEXTAREA name="mdes6" ROWS=3 COLS=40><?php echo $mdes6; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="mprice6" value="<?php echo $mprice6;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu7" value="<?php echo $menu7;?>">
+                                <div>
+                                <TEXTAREA name="menu7" ROWS=3 COLS=40><?php echo $menu7; ?></TEXTAREA>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes7" value="<?php echo $mdes7;?>">
+                                <div>
+                                <TEXTAREA name="mdes7" ROWS=3 COLS=40><?php echo $mdes7; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="mprice7" value="<?php echo $mprice7;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="menu8" value="<?php echo $menu8;?>">
+                                <div>
+                                <TEXTAREA name="menu8" ROWS=3 COLS=40><?php echo $menu8; ?></TEXTAREA>
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="mdes8" value="<?php echo $mdes8;?>">
+                                <div>
+                                <TEXTAREA name="mdes8" ROWS=3 COLS=40><?php echo $mdes8; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="mprice8" value="<?php echo $mprice8;?>">
@@ -194,8 +191,8 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="stitle4" value="<?php echo $stitle4;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="tdes1" value="<?php echo $tdes1;?>">
+                                <div>
+                                <TEXTAREA name="tdes1" ROWS=3 COLS=40><?php echo $tdes1; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="tname1" value="<?php echo $tname1;?>">
@@ -203,8 +200,8 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="prof1" value="<?php echo $prof1;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="tdes2" value="<?php echo $tdes2;?>">
+                                <div>
+                                <TEXTAREA name="tdes2" ROWS=3 COLS=40><?php echo $tdes2; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="tname2" value="<?php echo $tname2;?>">
@@ -212,8 +209,8 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="prof2" value="<?php echo $prof2;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="tdes3" value="<?php echo $tdes3;?>">
+                                <div>
+                                <TEXTAREA name="tdes3" ROWS=3 COLS=40><?php echo $tdes3; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="tname3" value="<?php echo $tname3;?>">
@@ -230,8 +227,8 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="date1" value="<?php echo $date1;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="bdes1"value="<?php echo $bdes1;?>">
+                                <div>
+                                <TEXTAREA name="bdes1" ROWS=3 COLS=40><?php echo $bdes1; ?></TEXTAREA>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="blog2" value="<?php echo $blog2;?>">
@@ -239,13 +236,12 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="date2" value="<?php echo $date2;?>">
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="bdes2"value="<?php echo $bdes2;?>">
+                                <div>
+                                <TEXTAREA name="bdes2" ROWS=3 COLS=40><?php echo $bdes2; ?></TEXTAREA>
                                 </div>
                                 <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
                             </div>
-                           
                             <div class="col-md-12 text-right">
                                 <button type="update" value="update" class="btn submit_btn">update</button>
                             </div>
