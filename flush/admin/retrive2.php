@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="../css/responsive.css">
     </head>
     <body>
-    <?php include("../variable2.php");
+    <?php include("variable2.php");
             include("../h.php");?>
         <!--================Home Banner Area =================-->
         <section class="banner_area">
@@ -54,12 +54,11 @@
                 <div class="row">
                     
                     <div class="col-lg-9">
-                        <form class="row contact_form" action="../insert2.php" method="post">
+                        <form class="row contact_form" action="insert2.php" method="post">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="projects" value="<?php echo $projects;?>">
                                 </div>
-                               
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="home" value="<?php echo $home;?>">
                                 </div>
@@ -105,15 +104,17 @@
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="insta" value="<?php echo $insta;?>">
                                 </div>
-                            </div>
-                            <div class="col-md-12 text-right">
+                                <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
-                            </div>
-                        </form>
+                                </div>
+                                <div class="col-md-12 text-right">
+                                <button type="submit" value="submit" class="btn submit_btn">update</button>
+                                </div>
+                            </form>
+                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+         </section>
         <!--================Contact Area =================-->
         <!-- Modals error -->
         <div id="error" class="modal modal-message fade" role="dialog">

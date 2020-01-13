@@ -29,11 +29,16 @@ $a1 = $_POST['prof2'];
 $b1 = $_POST['insta'];
 include("config.php");
 // Attempt insert query execution
-$sql = "INSERT INTO `flush`.`about` (`about_us`, `home`, `about_us1`, `life`, `here_to`, `des1`,`service`, `des2`, `world1`, `des3`, `world2`,
- `des4`, `world3`, `des5`, `world4`,`des6`, `feedaback`, `feedback_des`, `access`, `name`, `prof`, `access1`, `name1`, `prof1`, 
- `access2`, `name2`, `prof2`, `insta`)VALUES 
- ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', '$k', '$l', '$m', '$n', '$o', '$p', '$q', '$r', '$s', '$t', '$u', '$v', '$w',
-  '$x', '$v', '$z','$a1','$b1')";
+// $sql = "INSERT INTO `flush`.`about` (`about_us`, `home`, `about_us1`, `life`, `here_to`, `des1`,`service`, `des2`, `world1`, `des3`, `world2`,
+//  `des4`, `world3`, `des5`, `world4`,`des6`, `feedaback`, `feedback_des`, `access`, `name`, `prof`, `access1`, `name1`, `prof1`, 
+//  `access2`, `name2`, `prof2`, `insta`)VALUES 
+//  ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', '$k', '$l', '$m', '$n', '$o', '$p', '$q', '$r', '$s', '$t', '$u', '$v', '$w',
+//   '$x', '$v', '$z','$a1','$b1')";
+$sql="UPDATE `about` SET about_us='$a',home='$b',about_us1='$c',life='$d',here_to='$e',des1='$f',
+service='$g',des2='$h',world1='$i',des3='$j',world2='$k',des4='$l',
+world3='$m',des5='$n',world4='$o',des6='$p',feedaback='$q',
+feedback_des='$r',access='$s',name='$t',prof='$u',access1='$v',name1='$w',prof1='$x',access2='$y',
+name2='$z',prof2='$a1',insta='$b1' WHERE id=1";
 if(mysqli_query($link, $sql)){
 echo "Records inserted successfully.";
 } else{

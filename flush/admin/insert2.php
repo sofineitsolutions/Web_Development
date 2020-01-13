@@ -17,9 +17,12 @@ $o = $_POST['button4'];
 $p = $_POST['insta'];
 include("config.php");
 // Attempt insert query execution
-$sql = "INSERT INTO `flush`.`projects` (`projects`, `home`, `projects1`, `world1`, `des1`, `button1`, `world2`, `des2`, `button2`,
- `world3`, `des3`, `button3`, `world4`, `des4`, `button4`, `insta`) VALUES ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', 
-'$k', '$l','$m', '$n', '$o', '$p')";
+// $sql = "INSERT INTO `flush`.`projects` (`projects`, `home`, `projects1`, `world1`, `des1`, `button1`, `world2`, `des2`, `button2`,
+//  `world3`, `des3`, `button3`, `world4`, `des4`, `button4`, `insta`) VALUES ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', 
+// '$k', '$l','$m', '$n', '$o', '$p')";
+$sql="UPDATE `projects` SET projects='$a',home='$b',projects1='$c',world1='$d',des1='$e',button1='$f',
+world2='$g',des2='$h',button2='$i',world3='$j',des3='$k',button3='$l',world4='$m'
+des4='$n',button4='$o',insta='$p' WHERE id=1";
 if(mysqli_query($link, $sql)){
 echo "Records inserted successfully.";
 } else{

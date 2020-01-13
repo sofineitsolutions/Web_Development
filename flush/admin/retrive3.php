@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="../css/responsive.css">
     </head>
     <body>  
-    <?php include("../variable3.php");
+    <?php include("variable3.php");
             include("../h.php");?>
         <!--================Home Banner Area =================-->
         <section class="banner_area">
@@ -52,7 +52,7 @@
                 </div> -->
                 <div class="row">
                     <div class="col-lg-9">
-                        <form class="row contact_form" action="../insert3.php" method="post">
+                        <form class="row contact_form" action="insert3.php" method="post">
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="project_details" value="<?php echo $project_details;?>">
@@ -96,6 +96,9 @@
                             </div>
                             <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                            </div>
+                            <div class="col-md-12 text-right">
+                                <button type="submit" value="submit" class="btn submit_btn">Update</button>
                             </div>
                         </form>
                     </div>

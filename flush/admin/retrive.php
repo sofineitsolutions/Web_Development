@@ -21,7 +21,7 @@
     </head>
     <body>
         
-    <?php include("../variable.php");
+    <?php include("variable.php");
             include("../h.php");?>
         
         <!--================Home Banner Area =================-->
@@ -55,7 +55,7 @@
                 </div> -->
                 <div class="row">    
                     <div class="col-lg-9">
-                        <form class="row contact_form" action="../insert.php" method="post">
+                        <form class="row contact_form" action="insert.php" method="post">
                             <div class="col-md-6">
                             
                             <div class="form-group">
@@ -174,8 +174,10 @@
                             </div>
                             <div class="col-md-12 text-right">
                                 <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
-                            </div>
-                            <a class="nav-link" href="admin.php">update</a> 
+                           </div>
+                           <div class="col-md-12 text-right">
+                                <button type="submit" value="submit" class="btn submit_btn">Update</button>
+                           </div>
                         </form>
                     </div>
                 </div>
