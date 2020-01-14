@@ -25,7 +25,7 @@
 </head>
 <body>
 <?php include("../h.php");
-      include("../variable1.php");?>
+      include("variable1.php");?>
         <!-- bradcam_area -->
         <div class="bradcam_area">
                 <div class="single_bradcam  d-flex align-items-center bradcam_bg_2 overlay">
@@ -88,7 +88,7 @@
                         <h2 class="contact-title">Get in Touch</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form action="../insert1.php" method="post">
+                        <form action="insert1.php" method="post">
                             <div class="row">
                                 <div class="col-12">
                                 <div class="form-group">

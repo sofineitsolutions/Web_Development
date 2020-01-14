@@ -92,87 +92,89 @@
                             <div class="row">
                                 <div class="col-12">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title1" placeholder="Enter your website title">
+                                    <input type="text" class="form-control" id="name" name="title1" value="<?php echo $title1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="des1" placeholder="Enter description1 "></textarea>
-                                </div>
+                                    <input type="text" class="form-control" id="name" name="des1" value="<?php echo $des1;?>">
+                                </div>  
                                 <div class="form-group" >
-                                    <input type="text" class="form-control" id="name" name="Travel_Lifestyle" placeholder="Travel_Lifestyle">
+                                    <input type="text" class="form-control" id="name" name="Travel_Lifestyle" value="<?php echo $Travel_Lifestyle;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="comments1" placeholder="Enter comments1 ">
+                                    <input type="text" class="form-control" id="name" name="comments1" value="<?php echo $comments1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="des2" rows="1" placeholder="Enter description2"></textarea>
-                                   
+                                    <input type="text" class="form-control" id="name" name="des2" value="<?php echo $des2;?>">
+                                </div>    
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="des3" value="<?php echo $des3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="des3" rows="1" placeholder="Enter description3"></textarea>
+                                    <input type="text" class="form-control" id="name" name="des4" value="<?php echo $des4;?>">
+                                </div>    
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="des5" value="<?php echo $des5;?>">
+                                </div> 
+                                <div class="form-group">
+                                    <type type="text" class="form-control" id="name" name="des6" rows="1" value="<?php echo $des6;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="des4" rows="1" placeholder="Enter description4"></textarea>
+                                    <input type="text" class="form-control" id="name" name="like" value="<?php echo $like;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="des5"  rows="1" placeholder="Enter description5"></textarea>
+                                    <input type="text" class="form-control" id="name" name="Prev_Post" value="<?php echo $Prev_Post;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="des6" rows="1" placeholder="Enter description6"></textarea>
+                                    <input type="text" class="form-control" id="name" name="Prev_Post1" value="<?php echo $Prev_Post1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="like" placeholder="like">
+                                    <input type="text" class="form-control" id="name" name="Next_Post" value="<?php echo $Next_Post;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Prev_Post" placeholder="Prev_Post">
+                                    <input type="text" class="form-control" id="name" name="Next_Post1" value="<?php echo $Next_Post1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Prev_Post1" placeholder="Prev_Post1">
+                                    <input type="text" class="form-control" id="name" name="name1" value="<?php echo $name1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Next_Post" placeholder="Next_Post ">
+                                    <input type="text" class="form-control" id="name" name="ndes1" value="<?php echo $ndes1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Next_Post1" placeholder="Next_Post1">
+                                    <input type="text" class="form-control" id="name" name="comments2" value="<?php echo $comments2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name1" placeholder="Enter name1">
+                                    <input type="text" class="form-control" id="name" name="cdes1" value="<?php echo $cdes1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="ndes1" rows="1" placeholder="Enter descriptiom1"></textarea>
+                                    <input type="text" class="form-control" id="name" name="cname1" value="<?php echo $cname1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="comments2" placeholder="Enter comments2 ">
+                                    <input type="text" class="form-control" id="name" name="date1" value="<?php echo $date1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="cdes1"rows="1" placeholder="Enter description1"></textarea>
+                                    <input type="text" class="form-control" id="name" name="cdes2"value="<?php echo $cdes2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="cname1" placeholder="Enter name1">
+                                    <input type="text" class="form-control" id="name" name="cname2" value="<?php echo $cname2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="date1" placeholder="Enter date1">
-                                </div>
-                                <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="cdes2" rows="1" placeholder="Enter description2"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="cname2" placeholder="Enter name2">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="date2" placeholder="Enter date2">
+                                    <input type="text" class="form-control" id="name" name="date2" value="<?php echo $date2;?>">
                                     </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="cdes3" rows="1" placeholder="Enter description3"></textarea>
+                                    <input type="text" class="form-control" id="name" name="cdes3" value="<?php echo $cdes3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="cname3" placeholder="Enter name3">
+                                    <input type="text" class="form-control" id="name" name="cname3" value="<?php echo $cname3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="date3" placeholder="Enter date3 ">
+                                    <input type="text" class="form-control" id="name" name="date3" value="<?php echo $date3;?>">
                                 </div>
                             </div>
                             <div class="form-group mt-3">
                                 <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                            </div>
+                            <div class="form-group mt-3">
+                                <button type="submit" class="button button-contactForm boxed-btn">Update</button>
                             </div>
                         </form>
                     </div>

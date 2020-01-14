@@ -15,9 +15,6 @@
                                 <a href="#">contact@carpenter.com</a>
                             </p>
                             <p>
-
-
-
                             </p>
                             <div class="socail_links">
                                 <ul>

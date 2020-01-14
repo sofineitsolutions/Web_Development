@@ -7,25 +7,24 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
     <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/gijgo.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/slicknav.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/themify-icons.css">
+    <link rel="stylesheet" href="../css/gijgo.css">
+    <link rel="stylesheet" href="../css/nice-select.css">
+    <link rel="stylesheet" href="../css/flaticon.css">
+    <link rel="stylesheet" href="../css/slicknav.css">
+    <link rel="stylesheet" href="../css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 <body>
-   <?php include("h.php");
+   <?php include("../h.php");
         include("variable.php");?>
-
     <!-- slider_area_start -->
     <div class="slider_area">
         <div class="slider_active owl-carousel">
@@ -88,7 +87,6 @@
         </div>
     </div>
     <!-- slider_area_end -->
-
     <!-- catagory_area  -->
     <div class="catagory_area">
         <div class="container-fluid p-0">
@@ -111,7 +109,6 @@
         </div>
     </div>
     <!--/ catagory_area  -->
-
     <!-- features_area_start  -->
     <div class="features_area">
         <div class="container">
@@ -127,7 +124,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single_feature text-center mb-73">
                         <div class="icon">
-                            <img src="img/svg_icon/1.svg" alt="">
+                            <img src="../img/svg_icon/1.svg" alt="">
                         </div>
                     <?php echo "<h4>".$ftitle1."</h4>";
                         echo"<p>".$fdes1."</p>";?>
@@ -136,7 +133,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single_feature text-center">
                         <div class="icon">
-                            <img src="img/svg_icon/2.svg" alt="">
+                            <img src="../img/svg_icon/2.svg" alt="">
                         </div>
                         <?php echo "<h4>".$ftitle2."</h4>";
                         echo"<p>".$fdes2."</p>";?>
@@ -145,7 +142,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single_feature text-center">
                         <div class="icon">
-                            <img src="img/svg_icon/3.svg" alt="">
+                            <img src="../img/svg_icon/3.svg" alt="">
                         </div>
                         <?php echo "<h4>".$ftitle3."</h4>";
                         echo"<p>".$fdes3."</p>";?>
@@ -154,7 +151,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single_feature text-center">
                         <div class="icon">
-                            <img src="img/svg_icon/4.svg" alt="">
+                            <img src="../img/svg_icon/4.svg" alt="">
                         </div>
                         <?php echo "<h4>".$ftitle4."</h4>";
                         echo"<p>".$fdes4."</p>";?>
@@ -164,7 +161,6 @@
         </div>
     </div>
     <!-- features_area_end  -->
-
     <div class="offer_area offer_bg">
         <div class="container">
             <div class="row justify-content-end">
@@ -179,9 +175,6 @@
             </div>
         </div>
     </div>
-
-
-
     <div class="priscing_area">
             <div class="container">
                     <div class="row">
@@ -253,58 +246,55 @@
                 </div>
             </div>
         </div>
-
-
-
     <!-- gallery_start -->
     <div class="gallery_area">
         <div class="single_gallery big_img">
             <div class="hover_pop">
-                    <a class="popup-image" href="img/gallery/1.png">
+                    <a class="popup-image" href="../img/gallery/1.png">
                         <i class="ti-plus"></i>
                     </a>
             </div>
-            <img src="img/gallery/1.png" alt="">
+            <img src="../img/gallery/1.png" alt="">
         </div>
         <div class="single_gallery big_img">
                 <div class="hover_pop">
-                        <a class="popup-image" href="img/gallery/2.png">
+                        <a class="popup-image" href="../img/gallery/2.png">
                             <i class="ti-plus"></i>
                         </a>
                 </div>
-            <img src="img/gallery/2.png" alt="">
+            <img src="../img/gallery/2.png" alt="">
         </div>
         <div class="single_gallery small_img">
                 <div class="hover_pop">
-                        <a class="popup-image" href="img/gallery/3.png">
+                        <a class="popup-image" href="../img/gallery/3.png">
                             <i class="ti-plus"></i>
                         </a>
                 </div>
-            <img src="img/gallery/3.png" alt="">
+            <img src="../img/gallery/3.png" alt="">
         </div>
         <div class="single_gallery small_img">
                 <div class="hover_pop">
-                        <a class="popup-image" href="img/gallery/4.png">
+                        <a class="popup-image" href="../img/gallery/4.png">
                             <i class="ti-plus"></i>
                         </a>
                 </div>
-                <img src="img/gallery/4.png" alt="">
+                <img src="../img/gallery/4.png" alt="">
             </div>
         <div class="single_gallery big_img">
                 <div class="hover_pop">
-                        <a class="popup-image" href="img/gallery/5.png">
+                        <a class="popup-image" href="../img/gallery/5.png">
                             <i class="ti-plus"></i>
                         </a>
                 </div>
-            <img src="img/gallery/5.png" alt="">
+            <img src="../img/gallery/5.png" alt="">
         </div>
         <div class="single_gallery big_img">
                 <div class="hover_pop">
-                        <a class="popup-image" href="img/gallery/6.png">
+                        <a class="popup-image" href="../img/gallery/6.png">
                             <i class="ti-plus"></i>
                         </a>
                 </div>
-            <img src="img/gallery/6.png" alt="">
+            <img src="../img/gallery/6.png" alt="">
         </div>
 
     </div>
@@ -325,7 +315,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single_team">
                             <div class="team_thumb">
-                                <img src="img/team/1.png" alt="">
+                                <img src="../img/team/1.png" alt="">
                                 <div class="team_hover">
                                     <div class="hover_inner text-center">
                                         <ul>
@@ -345,7 +335,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single_team">
                             <div class="team_thumb">
-                                <img src="img/team/2.png" alt="">
+                                <img src="../img/team/2.png" alt="">
                                 <div class="team_hover">
                                     <div class="hover_inner text-center">
                                         <ul>
@@ -365,7 +355,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single_team">
                             <div class="team_thumb">
-                                <img src="img/team/3.png" alt="">
+                                <img src="../img/team/3.png" alt="">
                                 <div class="team_hover">
                                     <div class="hover_inner text-center">
                                         <ul>
@@ -402,39 +392,32 @@
         </div>
     </div>
     <!-- big_offer_area end  -->
-<?php echo("f.php");?>
+<?php echo("../f.php");?>
     <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/gijgo.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-
-
-
+    <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/isotope.pkgd.min.js"></script>
+    <script src="../js/ajax-form.js"></script>
+    <script src="../js/waypoints.min.js"></script>
+    <script src="../js/jquery.counterup.min.js"></script>
+    <script src="../js/imagesloaded.pkgd.min.js"></script>
+    <script src="../js/scrollIt.js"></script>
+    <script src="../js/jquery.scrollUp.min.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/gijgo.min.js"></script>
+    <script src="../js/nice-select.min.js"></script>
+    <script src="../js/jquery.slicknav.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/plugins.js"></script>
     <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-
-
-    <script src="js/main.js"></script>
-
+    <script src="../js/contact.js"></script>
+    <script src="../js/jquery.ajaxchimp.min.js"></script>
+    <script src="../js/jquery.form.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+    <script src="../js/mail-script.js"></script>
+    <script src="../js/main.js"></script>
 </body>
-
 </html>

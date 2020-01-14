@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
     <!-- CSS here -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -25,7 +25,7 @@
 </head>
 <body>
 <?php include("../h.php");
-      include("../variable.php");?>
+      include("variable.php");?>
         <!-- bradcam_area -->
         <div class="bradcam_area">
                 <div class="single_bradcam  d-flex align-items-center bradcam_bg_2 overlay">
@@ -88,7 +88,7 @@
                         <h2 class="contact-title">Get in Touch</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form action="../insert.php" method="post">
+                        <form action="insert.php" method="post">
                             <div class="row">
                                 <div class="col-12">
                                 <div class="form-group">

@@ -25,7 +25,7 @@
 </head>
 <body>
 <?php include("../h.php");
-      include("variable4.php");?>
+      include("variable3.php");?>
         <!-- bradcam_area -->
         <div class="bradcam_area">
                 <div class="single_bradcam  d-flex align-items-center bradcam_bg_2 overlay">
@@ -88,91 +88,109 @@
                         <h2 class="contact-title">Get in Touch</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form action="insert4.php" method="post">
+                        <form action="insert3.php" method="post">
                             <div class="row">
                                 <div class="col-12">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title1" placeholder="Enter your website title">
+                                    <input type="text" class="form-control" id="name" name="title1" value="<?php echo $title1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="des1" placeholder="Enter description1 "></textarea>
+                                    <input type="text" class="form-control" id="name" name="tag1" value="<?php echo $tag1;?>">
                                 </div>
                                 <div class="form-group" >
-                                    <input type="text" class="form-control" id="name" name="Travel_Lifestyle" placeholder="Travel_Lifestyle">
+                                    <input type="text" class="form-control" id="name" name="tag2" value="<?php echo $tag2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="comments1" placeholder="Enter comments1 ">
+                                    <input type="text" class="form-control" id="name" name="btitle1" value="<?php echo $btitle1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="des2" rows="1" placeholder="Enter description2"></textarea>
-                                   
+                                    <input class="form-control" id="name" name="des1" value="<?php echo $des1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="des3" rows="1" placeholder="Enter description3"></textarea>
+                                    <input type="text" class="form-control" id="name" name="Travel_Lifestyle1" value="<?php echo $Travel_Lifestyle1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="des4" rows="1" placeholder="Enter description4"></textarea>
+                                    <input type="text" class="form-control" id="name" name="comments1" value="<?php echo $comments1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="des5"  rows="1" placeholder="Enter description5"></textarea>
+                                    <input type="text" class="form-control" id="name" name="tag3" value="<?php echo $tag3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="des6" rows="1" placeholder="Enter description6"></textarea>
+                                    <input type="text" class="form-control" id="name" name="tag4" value="<?php echo $tag4;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="like" placeholder="like">
+                                    <input type="text" class="form-control" id="name" name="btitle2" value="<?php echo $btitle2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Prev_Post" placeholder="Prev_Post">
+                                    <input class="form-control" id="name" name="des2" value="<?php echo $des2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Prev_Post1" placeholder="Prev_Post1">
+                                    <input type="text" class="form-control" id="name" name="Travel_Lifestyle2" value="<?php echo $Travel_Lifestyle2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Next_Post" placeholder="Next_Post ">
+                                    <input type="text" class="form-control" id="name" name="comments2" value="<?php echo $comments2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="Next_Post1" placeholder="Next_Post1">
+                                    <input type="text" class="form-control" id="name" name="tag5" value="<?php echo $tag5;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name1" placeholder="Enter name1">
+                                    <input type="text" class="form-control" id="name" name="tag6" value="<?php echo $tag6;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="ndes1" rows="1" placeholder="Enter descriptiom1"></textarea>
+                                    <input type="text" class="form-control" id="name" name="btitle3" value="<?php echo $btitle3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="comments2" placeholder="Enter comments2 ">
+                                    <input class="form-control" id="name" name="des3"  value="<?php echo $des3;?>">
+                                </div>    
+                    
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="Travel_Lifestyle3" value="<?php echo $Travel_Lifestyle3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="cdes1"rows="1" placeholder="Enter description1"></textarea>
+                                    <input type="text" class="form-control" id="name" name="comments3" value="<?php echo $comments3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="cname1" placeholder="Enter name1">
+                                    <input type="text" class="form-control" id="name" name="tag7" value="<?php echo $tag7;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="date1" placeholder="Enter date1">
+                                    <input type="text" class="form-control" id="name" name="tag8" value="<?php echo $tag8;?>">
                                 </div>
                                 <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="cdes2" rows="1" placeholder="Enter description2"></textarea>
+                                    <input type="text" class="form-control" id="name" name="btitle4" value="<?php echo $btitle4;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="cname2" placeholder="Enter name2">
+                                    <input class="form-control" id="name" name="des4" value="<?php echo $des4;?>">
+                                </div>    
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="Travel_Lifestyle4" value="<?php echo $Travel_Lifestyle4;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="date2" placeholder="Enter date2">
-                                    </div>
-                                <div class="form-group">
-                                    <textarea type="text" class="form-control" id="name" name="cdes3" rows="1" placeholder="Enter description3"></textarea>
+                                    <input type="text" class="form-control" id="name" name="comments4" value="<?php echo $comments4;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="cname3" placeholder="Enter name3">
+                                    <input type="text" class="form-control" id="name" name="tag9" value="<?php echo $tag9;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="date3" placeholder="Enter date3 ">
+                                    <input type="text" class="form-control" id="name" name="tag10" value="<?php echo $tag10;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="btitle5" value="<?php echo $btitle5;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" id="name" name="des5" value="<?php echo $des5;?>">
+                                </div>    
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="Travel_Lifestyle5" value="<?php echo $Travel_Lifestyle5;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="comments5" value="<?php echo $comments5;?>">
                                 </div>
                             </div>
                             <div class="form-group mt-3">
                                 <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                            </div>
+                            <div class="form-group mt-3">
+                                <button type="submit" class="button button-contactForm boxed-btn">Update</button>
                             </div>
                         </form>
                     </div>
@@ -215,7 +233,7 @@
         <script src="../js/ajax-form.js"></script>
         <script src="../js/waypoints.min.js"></script>
         <script src="../js/jquery.counterup.min.js"></script>
-        <script src="vjs/imagesloaded.pkgd.min.js"></script>
+        <script src="../js/imagesloaded.pkgd.min.js"></script>
         <script src="../js/scrollIt.js"></script>
         <script src="../js/jquery.scrollUp.min.js"></script>
         <script src="../js/wow.min.js"></script>
