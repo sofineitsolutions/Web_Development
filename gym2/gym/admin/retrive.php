@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png">
     <!-- Place favicon.ico in the root directory -->
     <!-- CSS here -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -25,7 +25,7 @@
 </head>
 <body>
 <?php include("../h.php");
-      include("variable2.php");?>
+      include("variable.php");?>
         <!-- bradcam_area -->
         <div class="bradcam_area">
                 <div class="single_bradcam  d-flex align-items-center bradcam_bg_2 overlay">
@@ -88,115 +88,189 @@
                         <h2 class="contact-title">Get in Touch</h2>
                     </div>
                     <div class="col-lg-8">
-                        <form action="insert2.php" method="post">
+                        <form action="insert.php" method="post">
                             <div class="row">
                                 <div class="col-12">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title1" placeholder="Enter your website title">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des1" placeholder="Enter description">
+                                    <input type="text" class="form-control" id="name" name="title1" value="<?php echo $title1;?>">
                                 </div>
                                 <div class="form-group" >
-                                    <input type="text" class="form-control" id="name" name="ptitle1" placeholder="Enter title1">
+                                    <input type="text" class="form-control" id="name" name="title2" value="<?php echo $title2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="price1" placeholder="Enter price1 ">
+                                    <input type="text" class="form-control" id="name" name="title3" value="<?php echo $title3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes1" placeholder="Enter description1">
+                                    <input type="text" class="form-control" id="name" name="title4" value="<?php echo $title4;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes2" placeholder="Enter description2">
+                                    <input type="text" class="form-control" id="name" name="title5" value="<?php echo $title5;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes3" placeholder="Enter description3">
+                                    <input type="text" class="form-control" id="name" name="title6" value="<?php echo $title6;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes4" placeholder="Enter description4">
+                                    <input type="text" class="form-control" id="name" name="title7" value="<?php echo $title7;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="ptitle2" placeholder="Enter title2">
+                                    <input type="text" class="form-control" id="name" name="title8" value="<?php echo $title8;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="price2" placeholder="Enter price2">
+                                    <input type="text" class="form-control" id="name" name="title9" value="<?php echo $title9;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes5" placeholder="Enter dscription5">
+                                    <input type="text" class="form-control" id="name" name="title10" value="<?php echo $title10;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes6" placeholder="Enter description6">
-                                </div>
-
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes7" placeholder="Enter description7">
+                                    <input type="text" class="form-control" id="name" name="title11" value="<?php echo $title11;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes8" placeholder="Enter description8">
+                                    <input type="text" class="form-control" id="name" name="title12" value="<?php echo $title12;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="ptitle3" placeholder="Enter title3">
+                                    <input type="text" class="form-control" id="name" name="stitle1" value="<?php echo $stitle1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="price3" placeholder="Enter price3">
+                                    <input type="text" class="form-control" id="name" name="sdes1" value="<?php echo $sdes1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes9" placeholder="Enter description9">
+                                    <input type="text" class="form-control" id="name" name="stitle2" value="<?php echo $stitle2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes10" placeholder="Enter description10">
+                                    <input type="text" class="form-control" id="name" name="sdes2" value="<?php echo $sdes2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes11" placeholder="Enter description11">
+                                    <input type="text" class="form-control" id="name" name="title13" value="<?php echo $title13;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="pdes12" placeholder="Enter description12">
+                                    <input type="text" class="form-control" id="name" name="des1" value="<?php echo $des1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title2" placeholder="Enter title2">
+                                    <input type="text" class="form-control" id="name" name="ftitle1" value="<?php echo $ftitle1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="off" placeholder="Enter oofer">
+                                    <input type="text" class="form-control" id="name" name="fdes1" value="<?php echo $fdes1;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des2" placeholder="Enter description2">
+                                    <input type="text" class="form-control" id="name" name="ftitle2" value="<?php echo $ftitle2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title3" placeholder="Enter title3">
+                                    <input type="text" class="form-control" id="name" name="fdes2" value="<?php echo $fdes2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="des3" placeholder="Enter description3">
+                                    <input type="text" class="form-control" id="name" name="ftitle3" value="<?php echo $ftitle3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="ftitle1" placeholder="Enter feacture title1 ">
+                                    <input type="text" class="form-control" id="name" name="fdes3"  value="<?php echo $fdes3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="fdes1" placeholder="Enter feacture description1">
+                                    <input type="text" class="form-control" id="name" name="ftitle4" value="<?php echo $ftitle4;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="ftitle2" placeholder="Enter feacture title2">
+                                    <input type="text" class="form-control" id="name" name="fdes4" value="<?php echo $fdes4;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="fdes2" placeholder="Enter description2">
+                                    <input type="text" class="form-control" id="name" name="title14" value="<?php echo $title14;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="ftitle3" placeholder="Enter feacture title3">
+                                    <input type="text" class="form-control" id="name" name="dis" value="<?php echo $dis;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="fdes3" placeholder="Enter feacture description3">
+                                    <input type="text" class="form-control" id="name" name="des2" value="<?php echo $des2;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="ftitle4" placeholder="Enter feacture title4">
+                                    <input type="text" class="form-control" id="name" name="title15" value="<?php echo $title15;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="fdes4" placeholder="Enter feacture description4">
+                                    <input type="text" class="form-control" id="name" name="des3" value="<?php echo $des3;?>">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="title4" placeholder="Enter title4">
+                                    <input type="text" class="form-control" id="name" name="ptitle1" value="<?php echo $ptitle1;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="price1" value="<?php echo $price1;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes1" value="<?php echo $pdes1;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes2" value="<?php echo $pdes2;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes3" value="<?php echo $pdes3;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes4" value="<?php echo $pdes4;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="ptitle2" value="<?php echo $ptitle2;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="price2" value="<?php echo $price2;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes5" value="<?php echo $pdes5;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes6" value="<?php echo $pdes6;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes7" value="<?php echo $pdes7;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes8" value="<?php echo $pdes8;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="ptitle3" value="<?php echo $ptitle3;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="price3" value="<?php echo $price3;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes9" value="<?php echo $pdes9;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes10" value="<?php echo $pdes10;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes11" value="<?php echo $pdes11;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="pdes12" value="<?php echo $pdes12;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="title16" value="<?php echo $title16;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="title17" value="<?php echo $title17;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="des4" value="<?php echo $des4;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="name1" value="<?php echo $name1;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="Trainer1" value="<?php echo $Trainer1;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="name2" value="<?php echo $name2;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="Trainer2" value="<?php echo $Trainer2;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="name3" value="<?php echo $name3;?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" name="Trainer3" value="<?php echo $Trainer3;?>">
                                 </div>
                             </div>
                             <div class="form-group mt-3">
                                 <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                            </div>
+                            <div class="form-group mt-3">
+                                <button type="submit" class="button button-contactForm boxed-btn">update</button>
                             </div>
                         </form>
                     </div>
@@ -228,7 +302,6 @@
         </section>
     <!-- ================ contact section end ================= -->
     <?php include("../f.php");?>
-    
         <!-- JS here -->
         <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="../js/vendor/jquery-1.12.4.min.js"></script>

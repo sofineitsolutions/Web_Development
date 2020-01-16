@@ -23,10 +23,14 @@ $u = $_POST['Trainer3'];
 $v =$_POST['offer'];
 include("config.php");
 // Attempt insert query execution
-$sql = "INSERT INTO `gym`.`about` (`title1`, `des1`, `title2`, `des2`, `ftitle1`, `fdes1`, `ftitle2`, `fdes2`, `ftitle3`, `fdes3`, 
-`ftitle4`, `fdes4`, `title3`, `title4`, `des3`, `name1`, `Trainer1`, `name2`, `Trainer2`, `name3`, `Trainer3`, `offer`) VALUES 
-('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', '$k', 
- '$l','$m', '$n', '$o', '$p','$q','$r','$s','$t','$u','$v')";
+// $sql = "INSERT INTO `gym`.`about` (`title1`, `des1`, `title2`, `des2`, `ftitle1`, `fdes1`, `ftitle2`, `fdes2`, `ftitle3`, `fdes3`, 
+// `ftitle4`, `fdes4`, `title3`, `title4`, `des3`, `name1`, `Trainer1`, `name2`, `Trainer2`, `name3`, `Trainer3`, `offer`) VALUES 
+// ('$a', '$b', '$c', '$d', '$e', '$f', '$g', '$h', '$i', '$j', '$k', 
+//  '$l','$m', '$n', '$o', '$p','$q','$r','$s','$t','$u','$v')";
+$sql="UPDATE `about` SET title1='$a',des1='$b',title2='$c',des2='$d',ftitle1='$e',fdes1='$f',
+ ftitle2='$g',fdes2='$h',ftitle3='$i',fdes3='$j',ftitle4='$k',fdes4='$l',
+ title3='$m',title4='$n',des3='$o',name1='$p',Trainer1='$q',name2='$r',Trainer2='$s',
+ name3='$t',Trainer3='$u',offer='$v' WHERE id=1";
 if(mysqli_query($link, $sql)){
 echo "Records inserted successfully.";
 } else{
