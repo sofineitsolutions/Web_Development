@@ -98,32 +98,23 @@
                   <?php echo("<h2><span>" . $title4 . "</h2>"); ?>
                </div>
                <div class="portfolio-filter">
-				<h2>Hello City We are <br>
-				leader in <span>Projects .</span></h2>
+				<?php echo("<h2>" . $subtitle3 . "</h2>"); ?>
                   <ul class="nav nav-tabs" id="myTab" role="tablist">
                      <li>
-                        <a class="active" id="Architecture-tab" data-toggle="tab" href="#Architecture" role="tab"
-                           aria-controls="Architecture" aria-selected="true">
-                           Architecture
-                        </a>
+                        <?php echo("<a class='active' id='Architecture-tab' data-toggle='tab' href='#Architecture' role='tab'
+                           aria-controls='Architecture' aria-selected='true'>" . $con1 . "</a>"); ?>
                      </li>
                      <li>
-                        <a id="Interior-tab" data-toggle="tab" href="#Interior" role="tab" aria-controls="Interior"
-                           aria-selected="false">
-                           Interior
-                        </a>
+                        <?php echo("<a id='Interior-tab' data-toggle='tab' href='#Interior' role='tab' aria-controls='Interior'
+                           aria-selected='false'>" . $con2 . "</a>"); ?>
                      </li>
                      <li>
-                        <a id="Exterior-tab" data-toggle="tab" href="#Exterior" role="tab" aria-controls="Exterior"
-                           aria-selected="false">
-                           Exterior
-                        </a>
+                        <?php echo("<a id='Exterior-tab' data-toggle='tab' href='#Exterior' role='tab' aria-controls='Exterior'
+                           aria-selected='false'>" . $con3 . "</a>"); ?>
                      </li>
                      <li>
-                        <a id="Landing-tab" data-toggle="tab" href="#Landing" role="tab" aria-controls="Landing"
-                           aria-selected="false">
-                           Drafting Landing
-                        </a>
+                        <?php echo("<a id='Landing-tab' data-toggle='tab' href='#Landing' role='tab' aria-controls='Landing'
+                           aria-selected='false'>" . $con4 . "</a>"); ?>
                      </li>
                   </ul>
                </div>
@@ -139,8 +130,7 @@
                            </a>
                            <div class="short_info">
                               <p>Exclusive Project</p>
-                              <h4><a href="#">Etiam tortor <br>
-                                    aliquet habitant</a></h4>
+                              <?php echo("<h4><a href='#'>" . $con5 . "</a></h4>"); ?>
                            </div>
                         </div>
                      </div>
@@ -155,8 +145,7 @@
                                  </a>
                                  <div class="short_info">
                                     <p>new Project</p>
-                                    <h4><a href="#">Etiam tortor <br>
-                                          aliquet habitant</a></h4>
+                                    <?php echo("<h4><a href='#'>" . $con6 . "</a></h4>"); ?>
                                  </div>
                               </div>
                            </div>
@@ -169,8 +158,7 @@
                                  </a>
                                  <div class="short_info">
                                     <p>Exclusive Project</p>
-                                    <h4><a href="#">Etiam tortor <br>
-                                          aliquet habitant</a></h4>
+                                    <?php echo("<h4><a href='#'>" . $con7 . "</a></h4>"); ?>
                                  </div>
                               </div>
                            </div>
@@ -188,8 +176,7 @@
                            </a>
                            <div class="short_info">
                                  <p>new Project</p>
-                                 <h4><a href="#">Etiam tortor <br>
-                                       aliquet habitant</a></h4>
+                                 <?php echo("<h4><a href='#'>" . $con8 . "</a></h4>"); ?>
                               </div>
                         </div>
                      </div>
@@ -204,8 +191,7 @@
                                  </a>
                                  <div class="short_info">
                                        <p>new Project</p>
-                                       <h4><a href="#">Etiam tortor <br>
-                                             aliquet habitant</a></h4>
+                                       <?php echo("<h4><a href='#'>" . $con9 . "</a></h4>"); ?>
                                     </div>
                               </div>
                            </div>
@@ -218,8 +204,7 @@
                                  </a>
                                  <div class="short_info">
                                        <p>new Project</p>
-                                       <h4><a href="#">Etiam tortor <br>
-                                             aliquet habitant</a></h4>
+                                       <?php echo("<h4><a href='#'>" . $con10 . "</a></h4>"); ?>
                                     </div>
                               </div>
                            </div>
@@ -237,8 +222,7 @@
                            </a>
                            <div class="short_info">
                                  <p>new Project</p>
-                                 <h4><a href="#">Etiam tortor <br>
-                                       aliquet habitant</a></h4>
+                                 <?php echo("<h4><a href='#'>" . $con11 . "</a></h4>"); ?>
                               </div>
                         </div>
                      </div>
@@ -253,8 +237,7 @@
                                  </a>
                                  <div class="short_info">
                                        <p>new Project</p>
-                                       <h4><a href="#">Etiam tortor <br>
-                                             aliquet habitant</a></h4>
+                                       <?php echo("<h4><a href='#'>" . $con12 . "</a></h4>"); ?>
                                     </div>
                               </div>
                            </div>
@@ -267,8 +250,7 @@
                                  </a>
                                  <div class="short_info">
                                        <p>new Project</p>
-                                       <h4><a href="#">Etiam tortor <br>
-                                             aliquet habitant</a></h4>
+                                       <?php echo("<h4><a href='#'>" . $con13 . "</a></h4>"); ?>
                                     </div>
                               </div>
                            </div>
@@ -286,8 +268,7 @@
                            </a>
                            <div class="short_info">
                                  <p>new Project</p>
-                                 <h4><a href="#">Etiam tortor <br>
-                                       aliquet habitant</a></h4>
+                                 <?php echo("<h4><a href='#'>" . $con14 . "</a></h4>"); ?>
                               </div>
                         </div>
                      </div>
@@ -302,8 +283,7 @@
                                  </a>
                                  <div class="short_info">
                                        <p>new Project</p>
-                                       <h4><a href="#">Etiam tortor <br>
-                                             aliquet habitant</a></h4>
+                                       <?php echo("<h4><a href='#'>" . $con15 . "</a></h4>"); ?>
                                     </div>
                               </div>
                            </div>
@@ -316,8 +296,7 @@
                                  </a>
                                  <div class="short_info">
                                        <p>new Project</p>
-                                       <h4><a href="#">Etiam tortor <br>
-                                             aliquet habitant</a></h4>
+                                       <?php echo("<h4><a href='#'>" . $con16 . "</a></h4>"); ?>
                                     </div>
                               </div>
                            </div>
@@ -337,38 +316,36 @@
          <div class="row justify-content-between align-items-center">
             <div class="col-lg-7 col-xl-6">
                <div class="section_tittle">
-                  <h2>our <span>services</span></h2>
+                  <?php echo("<h2>" . $title5 . "</h2>"); ?>
                </div>
                <div class="service_part_iner">
                   <div class="row">
                      <div class="col-lg-6 col-sm-6">
                         <div class="single_service_text ">
                            <img src="img/icon/service_1.svg" alt="">
-                           <h4>house Planning</h4>
-                           <p>Lorem ipsum dolor sit amet consectetur elit seiusmod tempor incididunt </p>
+                           <?php echo("<h4>" . $con17 . "</h4>");
+                           echo("<p>" . $dec2 . "</p>"); ?>
                         </div>
                      </div>
                      <div class="col-lg-6 col-sm-6">
                         <div class="single_service_text">
                            <img src="img/icon/service_2.svg" alt="">
-                           <h4>house Build</h4>
-                           <p>Lorem ipsum dolor sit amet consectetur elit seiusmod tempor incididunt</p>
+                           <?php echo("<h4>" . $con18 . "</h4>");
+                           echo("<p>" . $dec3 . "</p>"); ?>
                         </div>
                      </div>
                      <div class="col-lg-6 col-sm-6">
                         <div class="single_service_text">
                            <img src="img/icon/service_3.svg" alt="">
-                           <h4>Design&
-                              Build</h4>
-                           <p>Lorem ipsum dolor sit amet consectetur elit seiusmod tempor incididunt</p>
+                           <?php echo("<h4>" . $con19 . "</h4>"); 
+                           echo("<p>" . $dec4 . "</p>"); ?>
                         </div>
                      </div>
                      <div class="col-lg-6 col-sm-6">
                         <div class="single_service_text">
                            <img src="img/icon/service_4.svg" alt="">
-                           <h4>Design&
-                              Build</h4>
-                           <p>Lorem ipsum dolor sit amet consectetur elit seiusmod tempor incididunt</p>
+                           <?php echo("<h4>" . $con20 . "</h4>"); 
+                           echo("<p>" . $dec5 . "</p>"); ?>
                         </div>
                      </div>
                   </div>
@@ -376,12 +353,8 @@
             </div>
             <div class="col-lg-4 col-sm-10">
                <div class="service_text">
-                  <h2>Hello City We are
-                     leader in <span> Services.</span></h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit,
-                     sed do eiusmodtemporincididunt u labore et dolore magna aliqua.
-                     Quis ipsum pendisse ultrices gravida. Risus commodo viverra
-                     maecenas accumsan lacus vel </p>
+                  <?php echo("<h2>" . $title6 . "</h2>"); 
+                  echo("<p>" . $dec6 . "</p>"); ?>
                   <a href="service.html" class="btn_1">learn more</a>
                </div>
             </div>
@@ -473,7 +446,7 @@
          <div class="row">
             <div class="col-md-7 col-lg-5">
                <div class="blog_part_tittle">
-                  <h2>our <span>blog</span> </h2>
+                  <?php echo("<h2>" . $title7 . "</h2>"); ?>
                </div>
             </div>
          </div>
@@ -486,8 +459,7 @@
                   <div class="single_appartment_content">
                      <p><a href="#">Apartment</a> / March 20, 2019</p>
                      <a href="blog.html">
-                        <h4>Doee lights without darkness that said
-                           good deep years very.</h4>
+                        <?php echo("<h4>" . $subtitle4 . "</h4>"); ?>
                      </a>
                      <ul class="list-unstyled">
                         <li><a href=""> <span class="ti-comment"></span> </a> 2 comment</li>
@@ -503,7 +475,7 @@
                         <div class="media-body align-self-center">
                            <p><a href="#">Apartment</a> / March 20, 2019</p>
                            <a href="blog.html">
-                              <h5 class="mt-0"> lights without darkness that said.</h5>
+                              <?php echo("<h5 class='mt-0'>" . $subtitle5 . "</h5>"); ?>
                            </a>
                            <ul class="list-unstyled">
                               <li><a href=""> <span class="ti-time"></span> </a> Mar 12</li>
@@ -517,7 +489,7 @@
                         <div class="media-body align-self-center">
                            <p><a href="#">Apartment</a> / March 20, 2019</p>
                            <a href="blog.html">
-                              <h5 class="mt-0"> lights without darkness that said.</h5>
+                              <?php echo("<h5 class='mt-0'>" . $subtitle6 . "</h5>"); ?>
                            </a>
                            <ul class="list-unstyled">
                               <li><a href=""> <span class="ti-time"></span> </a> Mar 12</li>
@@ -534,83 +506,7 @@
    <!--::blog_part end::-->
 
    <!--::footer_part start::-->
-   <footer class="footer_part">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12">
-               <div class="footer_logo">
-                     <a href="index.html" class="footer_logo_iner"> <img src="img/footer_logo.png" alt="#"> </a>
-               </div>
-            </div>
-
-            <div class="col-sm-6 col-lg-3">
-               <div class="single_footer_part">
-                  <h4>About Us</h4>
-                  <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open</p>
-                  <div class="footer_icon social_icon">
-                     <ul class="list-unstyled">
-                        <li><a href="#" class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#" class="single_social_icon"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#" class="single_social_icon"><i class="fas fa-globe"></i></a></li>
-                        <li><a href="#" class="single_social_icon"><i class="fab fa-behance"></i></a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-               <div class="single_footer_part">
-                  <h4>Contact Info</h4>
-                  <p>Address : Your address goes
-                     here, your demo address.</p>
-                  <p>Phone : +8880 44338899</p>
-                  <p>Email : info@colorlib.com</p>
-               </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-               <div class="single_footer_part">
-                  <h4>Important Link</h4>
-                  <ul class="list-unstyled">
-                     <li><a href=""> WHMCS-bridge</a></li>
-                     <li><a href="">Search Domain</a></li>
-                     <li><a href="">My Account</a></li>
-                     <li><a href="">Shopping Cart</a></li>
-                     <li><a href="">Our Shop</a></li>
-                  </ul>
-               </div>
-            </div>
-            <div class="col-sm-6 col-lg-3">
-               <div class="single_footer_part">
-                  <h4>Newsletter</h4>
-                  <p>Heaven fruitful doesn't over lesser in days. Appear creeping seasons deve behold bearing days open
-                  </p>
-                  <div id="mc_embed_signup">
-                     <form target="_blank"
-                        action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                        method="get" class="subscribe_form relative mail_part" required>
-                        <input type="email" name="email" id="newsletter-form-email" placeholder="Email Address"
-                           class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email Address '"
-                           required="" type="email">
-                        <button type="submit" name="submit" id="newsletter-submit"
-                           class="email_icon newsletter-submit button-contactForm"><i
-                              class="far fa-paper-plane"></i></button>
-                        <div class="mt-10 info"></div>
-                     </form>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <hr>
-         <div class="row">
-            <div class="col-lg-12">
-               <div class="copyright_text text-center">
-                  <P><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></P>
-               </div>
-            </div>
-         </div>
-      </div>
-   </footer>
+  <?php include("footer.php") ?>
    <!--::footer_part end::-->
 
    <!-- jquery plugins here-->
