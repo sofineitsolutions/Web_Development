@@ -33,12 +33,12 @@
                                     <ul>
                                         <?php echo("<li><a href='index.php'>" . $h1 . "</a></li>"); ?> 
                                         <?php echo("<li><a href='about.php'>" . $h2 . "</a></li>"); ?>
-                                        <?php echo("<li><a href='service.php>" . $h3 . "</a></li>"); ?>
-                                        <?php echo("<li><a href='project.php>project</a></li>
-                                        <li><a href="blog.html">blog</a></li>
-                                        <li><a href="single-blog.html">single blog</a></li>
-                                        <li><a href="elements.html">elements</a></li>
-                                        <li><a href="contact.html">contact</a></li>
+                                        <?php echo("<li><a href='service.php'>" . $h3 . "</a></li>"); ?>
+                                        <?php echo("<li><a href='project.php'>" . $h4 . "</a></li>"); ?>
+                                        <?php echo("<li><a href='blog.php'>" . $h5 . "</a></li>"); ?>
+                                        <?php echo("<li><a href='single-blog.php'>" . $h6 . "</a></li>"); ?>
+                                        <?php echo("<li><a href='elements.php'>" . $h7 . "</a></li>"); ?>
+                                        <?php echo("<li><a href='contact.php'>" . $h8 . "</a></li>"); ?>
                                     </ul>
                                 </div>
                             </div>
