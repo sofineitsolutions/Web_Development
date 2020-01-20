@@ -4,5 +4,5 @@
 
 shivani - flush,daren,foody,gym2 <br>
 priyanka - airspace,site,opium <br>
-sakshi - banker,ararat,dreamrs <br>
+sakshi - banker,ararat,dreamrs,marga <br>
 mansi - daren , logistico,appetizer <br>
