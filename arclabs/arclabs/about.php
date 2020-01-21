@@ -34,6 +34,7 @@
 
 	<!-- Start Header Area -->
 	<?php include("header.php"); ?>
+	<?php include("variable2.php"); ?>
 	<!-- End Header Area -->
 
 	<!-- Start top-section Area -->
@@ -42,8 +43,8 @@
 		<div class="container">
 			<div class="row justify-content-between align-items-center text-center banner-content">
 				<div class="col-lg-12">
-					<h1 class="text-white">About Us</h1>
-					<p>Days so us evening for herb bearing lesser man female night</p>
+					<?php echo("<h1 class='text-white'>" . $title1 . "</h1>");
+					echo("<p>" . $subtitle1 . "</p>");  ?>
 				</div>
 			</div>
 		</div>
@@ -57,29 +58,29 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="feature-item">
 						<i class="fi flaticon-compass"></i>
-						<h4>Creative Design</h4>
-						<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc </p>
+						<?php echo("<h4>" . $con1 . "</h4>");
+						echo("<p>" . $dec1 . "</p>");  ?>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="feature-item">
 						<i class="fi flaticon-desk"></i>
-						<h4>Experienced Style</h4>
-						<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc </p>
+						<?php echo("<h4>" . $con2 . "</h4>");
+						echo("<p>" . $dec2 . "</p>"); ?>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="feature-item">
 						<i class="fi flaticon-bathroom"></i>
-						<h4>Product Research</h4>
-						<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc </p>
+						<?php echo("<h4>" . $con3 . "</h4>");
+						echo("<p>" . $dec3 . "</p>"); ?>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="feature-item">
 						<i class="fi flaticon-beach"></i>
-						<h4>Affordable Price</h4>
-						<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc </p>
+						<?php echo("<h4>" . $con4 . "</h4>"); 
+						echo("<p>" . $dec4 . "</p>"); ?>
 					</div>
 				</div>
 			</div>
@@ -96,14 +97,11 @@
 				</div>
 				<div class="col-lg-5 col-md-12 about-right">
 					<div class="section-title text-left">
-						<h4>About Us</h4>
-						<h2>We are world <br /> number one Company</h2>
+						<?php echo("<h4>" . $title2 . "</h4>");
+						echo("<h2>" . $subtitle2 . "</h2>"); ?>
 					</div>
 					<div>
-						<p>
-							Face male he light it moveth darkness winged eveni seas after life every gathering is forth two kind lesser i
-							from seas him open him From creepeth after, life is above image from replenish behold great
-						</p>
+						<?php echo("<p>" . $dec5 . "</p>"); ?>
 					</div>
 					<a href="#" class="primary-btn">Read More</a>
 				</div>
@@ -118,8 +116,8 @@
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-12">
 					<div class="section-title text-center">
-						<h4>Testimonials</h4>
-						<h2>Happy Clients</h2>
+						<?php echo("<h4>" . $title3 . "</h4>"); 
+						echo("<h2>" . $subtitle3 . "</h2>"); ?>
 					</div>
 				</div>
 			</div>
@@ -130,12 +128,10 @@
 							<img class="" src="img/testimonial/t1.png" alt="">
 						</div>
 						<div class="desc">
-							<p>
-								Give dry stars form. Us called an won't winged had land cru abundantly land Midst
-							</p>
-							<h4>Danyel Yarde</h4>
+							<?php echo("<p>" . $dec6 . "</p>");
+							echo("<h4>" . $name1 . "</h4>"); ?>
 							<div class="bottom">
-								<p>CEO & Founder</p>
+								<?php echo("<p>" . $post1 . "</p>"); ?>
 							</div>
 						</div>
 					</div>
@@ -144,12 +140,10 @@
 							<img class="" src="img/testimonial/t2.png" alt="">
 						</div>
 						<div class="desc">
-							<p>
-								Give dry stars form. Us called an won't winged had land cru abundantly land Midst
-							</p>
-							<h4>Manel djuice</h4>
+							<?php echo("<p>" . $dec7 . "</p>");
+							echo("<h4>" . $name2 . "</h4>"); ?>
 							<div class="bottom">
-								<p>CEO & Founder</p>
+								<?php echo("<p>" . $post2 . "</p>"); ?>
 							</div>
 						</div>
 					</div>
@@ -158,12 +152,10 @@
 							<img class="" src="img/testimonial/t3.png" alt="">
 						</div>
 						<div class="desc">
-							<p>
-								Give dry stars form. Us called an won't winged had land cru abundantly land Midst
-							</p>
-							<h4>Mark Alviro Wiens</h4>
+							<?php echo("<p>" . $dec8 . "</p>");
+							echo("<h4>" . $name3 . "</h4>"); ?>
 							<div class="bottom">
-								<p>CEO & Founder</p>
+								<?php echo("<p>" . $post3 . "</p>"); ?>
 							</div>
 						</div>
 					</div>
@@ -172,12 +164,10 @@
 							<img class="" src="img/testimonial/t2.png" alt="">
 						</div>
 						<div class="desc">
-							<p>
-								Give dry stars form. Us called an won't winged had land cru abundantly land Midst
-							</p>
-							<h4>Manel djuice</h4>
+							<?php echo("<p>" . $dec9 . "</p>"); 
+							echo("<h4>" . $name4 . "</h4>"); ?>
 							<div class="bottom">
-								<p>CEO & Founder</p>
+								<?php echo("<p>" . $post4 . "</p>"); ?>
 							</div>
 						</div>
 					</div>
@@ -186,12 +176,10 @@
 							<img class="" src="img/testimonial/t1.png" alt="">
 						</div>
 						<div class="desc">
-							<p>
-								Give dry stars form. Us called an won't winged had land cru abundantly land Midst
-							</p>
-							<h4>Mark Alviro Wiens</h4>
+							<?php echo("<p>" . $dec10 . "</p>");
+							echo("<h4>" . $name5 . "</h4>");  ?>
 							<div class="bottom">
-								<p>CEO & Founder</p>
+								<?php echo("<p>" . $post5 . "</p>"); ?>
 							</div>
 						</div>
 					</div>
@@ -228,80 +216,7 @@
 	<!-- End brands Area -->
 
 	<!-- start footer Area -->
-	<footer class="footer-area section-gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Top Products</h4>
-					<ul>
-						<li><a href="#">Managed Website</a></li>
-						<li><a href="#">Manage Reputation</a></li>
-						<li><a href="#">Power Tools</a></li>
-						<li><a href="#">Marketing Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Quick Links</h4>
-					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Features</h4>
-					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Resources</h4>
-					<ul>
-						<li><a href="#">Guides</a></li>
-						<li><a href="#">Research</a></li>
-						<li><a href="#">Experts</a></li>
-						<li><a href="#">Agencies</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-4 col-md-6 single-footer-widget">
-					<h4>Newsletter</h4>
-					<p>You can trust us. we only send promo offers,</p>
-					<div class="form-wrap" id="mc_embed_signup">
-						<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-						 method="get" class="form-inline">
-							<input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'"
-							 required="" type="email" />
-							<button class="click-btn btn btn-default">
-								<span>subscribe</span>
-							</button>
-							<div style="position: absolute; left: -5000px;">
-								<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text" />
-							</div>
-
-							<div class="info"></div>
-						</form>
-					</div>
-				</div>
-			</div>
-			<div class="row footer-bottom d-flex justify-content-between">
-				<p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				</p>
-				<div class="col-lg-4 col-sm-12 footer-social">
-					<a href="#"><i class="fa fa-facebook-f"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-dribbble"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<?php include("footer.php"); ?>
 	<!-- End footer Area -->
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>

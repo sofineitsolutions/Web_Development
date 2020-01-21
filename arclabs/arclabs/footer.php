@@ -38,7 +38,7 @@
 				<div class="col-lg-2 col-md-6 single-footer-widget">
 					<?php echo("<h4>" . $title2 . "</h4>"); ?>
 					<ul>
-						echo("<li><a href='#'>" . $con5 . "</a></li>");
+						<?php echo("<li><a href='#'>" . $con5 . "</a></li>");
 						echo("<li><a href='#'>" . $con6 . "</a></li>");
 						echo("<li><a href='#'>" . $con7 . "</a></li>"); 
 						echo("<li><a href='#'>" . $con8 . "</a></li>"); ?>
