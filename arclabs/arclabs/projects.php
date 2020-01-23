@@ -34,6 +34,7 @@
 
 	<!-- Start Header Area -->
 	<?php include("header.php"); ?>
+	<?php include("variable4.php"); ?>
 	<!-- End Header Area -->
 
 	<!-- Start top-section Area -->
@@ -42,8 +43,8 @@
 		<div class="container">
 			<div class="row justify-content-between align-items-center text-center banner-content">
 				<div class="col-lg-12">
-					<h1 class="text-white">Projects</h1>
-					<p>Days so us evening for herb bearing lesser man female night</p>
+					<?php echo("<h1 class='text-white'>" . $title1 . "</h1>");
+					echo("<p>" . $subtitle1 . "</p>"); ?>
 				</div>
 			</div>
 		</div>
@@ -56,18 +57,18 @@
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-8">
 					<div class="section-title text-center">
-						<h4>Recent Work</h4>
-						<h2>View Our Project</h2>
+						<?php echo("<h4>" . $title2 . "</h4>");
+						echo("<h2>" . $subtitle2 . "</h2>"); ?>
 					</div>
 				</div>
 				<div class="col-lg-12">
 					<div class="filters mb-5">
 						<ul>
-							<li class="active" data-filter=".all">All</li>
-							<li data-filter=".popular">Popular</li>
-							<li data-filter=".latest">Latest</li>
-							<li data-filter=".following">Following</li>
-							<li data-filter=".upcoming">Upcoming</li>
+							<?php echo("<li class='active' data-filter='.all'>" . $con1 . "</li>"); ?>
+							<?php echo("<li data-filter='.popular'>" . $con2 . "</li>"); ?>
+							<?php echo("<li data-filter='.latest'>" . $con3 . "</li>"); ?>
+							<?php echo("<li data-filter='.following'>"  .$con4 . "</li>"); ?>
+							<?php echo("<li data-filter='.upcoming'>" . $con5 . "</li>"); ?>
 						</ul>
 					</div>
 				</div>
@@ -83,8 +84,8 @@
 									<img class="image img-fluid" src="img/projects/p1.png" alt="">
 								</div>
 								<div class="middle">
-									<h4>Dell Villa, New York</h4>
-									<div class="cat">Architecture, Modern Design</div>
+									<?php echo("<h4>" . $con6 . "</h4>"); 
+									echo("<div class='cat'>" . $dec1 . "</div>"); ?>
 								</div>
 								<a class="overlay" href="#"></a>
 							</div>
@@ -98,8 +99,8 @@
 									<img class="image img-fluid" src="img/projects/p2.png" alt="">
 								</div>
 								<div class="middle">
-									<h4>Eedn Park, Singapore</h4>
-									<div class="cat">Architecture, Modern Design</div>
+									<?php echo("<h4>" . $con7 . "</h4>");
+									echo("<div class='cat'>" . $dec2 . "</div>"); ?>
 								</div>
 								<a class="overlay" href="#"></a>
 							</div>
@@ -113,8 +114,8 @@
 									<img class="image img-fluid" src="img/projects/p3.png" alt="">
 								</div>
 								<div class="middle">
-									<h4>Sky Build, Paris</h4>
-									<div class="cat">Architecture, Modern Design</div>
+									<?php echo("<h4>" . $con8 . "</h4>");
+									echo("<div class='cat'>" . $dec3 . "</div>"); ?>
 								</div>
 								<a class="overlay" href="#"></a>
 							</div>
@@ -128,8 +129,8 @@
 									<img class="image img-fluid" src="img/projects/p4.png" alt="">
 								</div>
 								<div class="middle">
-									<h4>Dell Villa, New York</h4>
-									<div class="cat">Architecture, Modern Design</div>
+									<?php echo("<h4>" . $con9 . "</h4>");
+									echo("<div class='cat'>" . $dec4 . "</div>"); ?>
 								</div>
 								<a class="overlay" href="#"></a>
 							</div>
@@ -143,80 +144,7 @@
 	<!-- End Project Area -->
 
 	<!-- start footer Area -->
-	<footer class="footer-area section-gap">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Top Products</h4>
-					<ul>
-						<li><a href="#">Managed Website</a></li>
-						<li><a href="#">Manage Reputation</a></li>
-						<li><a href="#">Power Tools</a></li>
-						<li><a href="#">Marketing Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Quick Links</h4>
-					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Features</h4>
-					<ul>
-						<li><a href="#">Jobs</a></li>
-						<li><a href="#">Brand Assets</a></li>
-						<li><a href="#">Investor Relations</a></li>
-						<li><a href="#">Terms of Service</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-2 col-md-6 single-footer-widget">
-					<h4>Resources</h4>
-					<ul>
-						<li><a href="#">Guides</a></li>
-						<li><a href="#">Research</a></li>
-						<li><a href="#">Experts</a></li>
-						<li><a href="#">Agencies</a></li>
-					</ul>
-				</div>
-				<div class="col-lg-4 col-md-6 single-footer-widget">
-					<h4>Newsletter</h4>
-					<p>You can trust us. we only send promo offers,</p>
-					<div class="form-wrap" id="mc_embed_signup">
-						<form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-						 method="get" class="form-inline">
-							<input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'"
-							 required="" type="email" />
-							<button class="click-btn btn btn-default">
-								<span>subscribe</span>
-							</button>
-							<div style="position: absolute; left: -5000px;">
-								<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text" />
-							</div>
-
-							<div class="info"></div>
-						</form>
-					</div>
-				</div>
-			</div>
-			<div class="row footer-bottom d-flex justify-content-between">
-				<p class="col-lg-8 col-sm-12 footer-text m-0 text-white">
-					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-				</p>
-				<div class="col-lg-4 col-sm-12 footer-social">
-					<a href="#"><i class="fa fa-facebook-f"></i></a>
-					<a href="#"><i class="fa fa-twitter"></i></a>
-					<a href="#"><i class="fa fa-dribbble"></i></a>
-					<a href="#"><i class="fa fa-linkedin"></i></a>
-				</div>
-			</div>
-		</div>
-	</footer>
+	<?php include("footer.php"); ?>
 	<!-- End footer Area -->
 
 	<script src="js/vendor/jquery-2.2.4.min.js"></script>
