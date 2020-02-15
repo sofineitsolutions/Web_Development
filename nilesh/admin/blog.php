@@ -5,35 +5,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="../stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="../stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff" rel="../stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="../css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
     
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/magnific-popup.css">
 
-    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="../css/aos.css">
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="../css/ionicons.min.css">
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="../css/jquery.timepicker.css">
 
     
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/flaticon.css">
+    <link rel="stylesheet" href="../css/icomoon.css">
+    <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
   <?php include("variable.php");?>
 	<div id="colorlib-page">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
-        <?php echo	"<h1 id='colorlib-logo'><a href='index.php'><span class='img' style='background-image: url(images/nauthor.jpg);'></span>"
+        <?php echo	"<h1 id='colorlib-logo'><a href='index.php'><span class='img' style='background-image: url(../images/nauthor.jpg);'></span>"
         .$a."</a></h1>";?>
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
@@ -76,7 +76,7 @@
 	    				<div class="row">
 			    			<div class="col-md-12">
 			    				<div class="blog-entry ftco-animate d-md-flex">
-										<a href="single.html" class="img img-2" style="background-image: url(images/p1.jpg);"></a>
+										<a href="single.html" class="img img-2" style="background-image: url(../images/p1.jpg);"></a>
 										<div class="text text-2 p-4">
 				            			<?php echo"<h3 class='mb-2'><a href='single.html'>".$b6."</a></h3>";?>
 				            			<div class="meta-wrap">
@@ -93,7 +93,7 @@
 			    			</div>
 			    			<div class="col-md-12">
 			    				<div class="blog-entry ftco-animate d-md-flex">
-										<a href="single.html" class="img img-2" style="background-image: url(images/p2.jpg);"></a>
+										<a href="single.html" class="img img-2" style="background-image: url(../images/p2.jpg);"></a>
 										<div class="text text-2 p-4">
                                         <?php echo"<h3 class='mb-2'><a href='single.html'>".$b6."</a></h3>";?>
 				              	<div class="meta-wrap">
@@ -110,7 +110,7 @@
 			    			</div>
 			    			<div class="col-md-12">
 			    				<div class="blog-entry ftco-animate d-md-flex">
-										<a href="single.html" class="img img-2" style="background-image: url(images/p3.jpg);"></a>
+										<a href="single.html" class="img img-2" style="background-image: url(../images/p3.jpg);"></a>
 										<div class="text text-2 p-4">
                                         <?php echo"<h3 class='mb-2'><a href='single.html'>".$b6."</a></h3>";?>
 				              			<div class="meta-wrap">
@@ -127,7 +127,7 @@
 			    			</div>
 			    			<div class="col-md-12">
 			    				<div class="blog-entry ftco-animate d-md-flex">
-										<a href="single.html" class="img img-2" style="background-image: url(images/p4.jpg);"></a>
+										<a href="single.html" class="img img-2" style="background-image: url(../images/p4.jpg);"></a>
 										<div class="text text-2 p-4">
                                         <?php echo"<h3 class='mb-2'><a href='single.html'>".$b6."</a></h3>";?>
 				              <div class="meta-wrap">
@@ -144,7 +144,7 @@
 			    			</div>
 			    			<div class="col-md-12">
 			    				<div class="blog-entry ftco-animate d-md-flex">
-										<a href="single.html" class="img img-2" style="background-image: url(images/p5.jpg);"></a>
+										<a href="single.html" class="img img-2" style="background-image: url(../images/p5.jpg);"></a>
 										<div class="text text-2 p-4">
                                         <?php echo"<h3 class='mb-2'><a href='single.html'>".$b6."</a></h3>";?>
 				              <div class="meta-wrap">
@@ -161,7 +161,7 @@
 			    			</div>
 			    			<div class="col-md-12">
 			    				<div class="blog-entry ftco-animate d-md-flex">
-										<a href="single.html" class="img img-2" style="background-image: url(images/p6.jpg);"></a>
+										<a href="single.html" class="img img-2" style="background-image: url(../images/p6.jpg);"></a>
 										<div class="text text-2 p-4">
                                         <?php echo"<h3 class='mb-2'><a href='single.html'>".$b6."</a></h3>";?>
 				              <div class="meta-wrap">
@@ -178,7 +178,7 @@
 			    			</div>
 			    			<div class="col-md-12">
 			    				<div class="blog-entry ftco-animate d-md-flex">
-								<a href="single.html" class="img img-2" style="background-image: url(images/p7.jpg);"></a>
+								<a href="single.html" class="img img-2" style="background-image: url(../images/p7.jpg);"></a>
 								<div class="text text-2 p-4">
                                 <?php echo"<h3 class='mb-2'><a href='single.html'>".$b6."</a></h3>";?>
 				              	<div class="meta-wrap">
@@ -195,7 +195,7 @@
 			    			</div>
 			    			<div class="col-md-12">
 			    				<div class="blog-entry ftco-animate d-md-flex">
-										<a href="single.html" class="img img-2" style="background-image: url(images/p8.jpg);"></a>
+										<a href="single.html" class="img img-2" style="background-image: url(../images/p8.jpg);"></a>
 										<div class="text text-2 p-4">
                                         <?php echo"<h3 class='mb-2'><a href='single.html'>".$b6."</a></h3>";?>
 				              <div class="meta-wrap">
@@ -249,7 +249,7 @@
 	            <div class="sidebar-box ftco-animate">
 	            <?php echo  "<h3 class='sidebar-heading'>".$d6."</h3>";?>
 	              <div class="block-21 mb-4 d-flex">
-	                <a class="blog-img mr-4" style="background-image: url(images/p1.jpg);"></a>
+	                <a class="blog-img mr-4" style="background-image: url(../images/p1.jpg);"></a>
 	                <div class="text">
 	                <?php echo  "<h3 class='heading'><a href='#'>".$d7."</a></h3>";?>
 	                  <div class="meta">
@@ -260,7 +260,7 @@
 	                </div>
 	              </div>
 	              <div class="block-21 mb-4 d-flex">
-	                <a class="blog-img mr-4" style="background-image: url(images/p2.jpg);"></a>
+	                <a class="blog-img mr-4" style="background-image: url(../images/p2.jpg);"></a>
 	                <div class="text">
 	                <?php echo"<h3 class='heading'><a href='#'>".$d7."</a></h3>";?>
 	                  <div class="meta">
@@ -271,7 +271,7 @@
 	                </div>
 	              </div>
 	              <div class="block-21 mb-4 d-flex">
-	                <a class="blog-img mr-4" style="background-image: url(images/p3.jpg);"></a>
+	                <a class="blog-img mr-4" style="background-image: url(../images/p3.jpg);"></a>
 	                <div class="text">
 					<?php echo"<h3 class='heading'><a href='#'>".$d7."</a></h3>";?>
 	                  <div class="meta">
@@ -295,7 +295,7 @@
 				 <?php echo "<a href='#' class='tag-cloud-link'>".$e9."</a>";?>
 	              </ul>
 	            </div>
-							<div class="sidebar-box subs-wrap img" style="background-image: url(images/bg_1.jpg);">
+							<div class="sidebar-box subs-wrap img" style="background-image: url(../images/bg_1.jpg);">
 								<div class="overlay"></div>
 							<?php echo"<h3 class='mb-4 sidebar-heading'>".$e10."</h3>";
 							echo"<p class='mb-4'>".$f1."</p>";?>
@@ -332,12 +332,12 @@
 	            <div class="ftco-footer-widget mb-4 ml-md-4">
 	            <?php echo  "<h2 class='ftco-heading-2'>".$g7."</h2>";?>
 	              <ul class="list-unstyled photo">
-				  <li><a href="#" class="img" style="background-image: url(images/p1.jpg);"></a></li>
-	                <li><a href="#" class="img" style="background-image: url(images/p2.jpg);"></a></li>
-	                <li><a href="#" class="img" style="background-image: url(images/p3.jpg);"></a></li>
-	                <li><a href="#" class="img" style="background-image: url(images/p4.jpg);"></a></li>
-	                <li><a href="#" class="img" style="background-image: url(images/p5.jpg);"></a></li>
-	                <li><a href="#" class="img" style="background-image: url(images/p6.jpg);"></a></li>
+				  <li><a href="#" class="img" style="background-image: url(../images/p1.jpg);"></a></li>
+	                <li><a href="#" class="img" style="background-image: url(../images/p2.jpg);"></a></li>
+	                <li><a href="#" class="img" style="background-image: url(../images/p3.jpg);"></a></li>
+	                <li><a href="#" class="img" style="background-image: url(../images/p4.jpg);"></a></li>
+	                <li><a href="#" class="img" style="background-image: url(../images/p5.jpg);"></a></li>
+	                <li><a href="#" class="img" style="background-image: url(../images/p6.jpg);"></a></li>
 	              </ul>
 	            </div>
 	          </div>

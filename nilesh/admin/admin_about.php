@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="../stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="../stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff" rel="../stylesheet">
+    <link href="../https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="../stylesheet">
+    <link href="../https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="../stylesheet">
+    <link href="../https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff" rel="../stylesheet">
 
     <link rel="stylesheet" href="../css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="../css/animate.css">
@@ -23,32 +23,33 @@
     <link rel="stylesheet" href="../css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="../css/jquery.timepicker.css">
 
+    
     <link rel="stylesheet" href="../css/flaticon.css">
     <link rel="stylesheet" href="../css/icomoon.css">
     <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
-  <?php include("variable3.php");
-  include("header.php");
-  include("footer.php");?>
+	<?php include("variable2.php");
+	include("header.php");
+	include("footer.php");?>
 	<div id="colorlib-page">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
-		<?php echo	"<h1 id='colorlib-logo'><a href='index.php'><span class='img' style='background-image: url(images/nauthor.jpg);'></span>"
-        .$Name."</a></h1>";?>
+        <?php echo	"<h1 id='colorlib-logo'><a href='../index.php'><span class='img' style='background-image: url(../images/nauthor.jpg);'></span>" .$Name."</a></h1>";?>
 			<nav id="colorlib-main-menu" role="navigation">
-				<ul>
-				<?php echo	"<li class='colorlib-active'><a href='index.php'>".$Home."</a></li>";
-				 echo"<li><a href='collection.php'>".$Collection."</a></li>";
+				
+                <ul>
+                <?php echo	"<li class='colorlib-active'><a href='home.php'>".$Home."</a></li>";
+				//  echo"<li><a href='../collection.php'>".$c."</a></li>";
 				 echo"<li><a href='about.php'>".$About."</a></li>";
 				 echo"<li><a href='services.php'>".$Services."</a></li>";
-				 echo"<li><a href='blog.php'>".$Blog."</a></li>";
-				 echo"<li><a href='contact.php'>".$Contact."</a></li>";?>
+				 echo"<li><a href='blog.php'>".$Blog."</a></li>";?>
+				<!-- //  echo"<li><a href='../contact.php'>".$g."</a></li>";?> -->
 				</ul>
 			</nav>
 
 			<div class="colorlib-footer">
-            <!-- <?php echo	"<h3>".$h."</h3>";?> -->
+		
 				<div class="d-flex justify-content-center">
 					<form action="#" class="colorlib-subscribe-form">
             <div class="form-group d-flex">
@@ -64,94 +65,65 @@
 				<div class="container">
 					<div class="row no-gutters slider-text justify-content-center align-items-center">
 	          <div class="col-md-8 ftco-animate">
-	        <?php echo "<p class='breadcrumbs'><span class='mr-2'><a href='index.html'>".$Home."</a></span> <span>".$Services."</span></p>";
-	           echo "<h1 class='bread'>".$Services1."</h1>";?>
+			  <?php echo "<p class='breadcrumbs'><span class='mr-2'><a href='../index.php'>".$Home."</a></span> 
+			 <span class='mr-2'><a href='../contact.php'>".$Contact."</a></span> </p>";?>
+	            <h1 class="bread">Admin</h1>
 	          </div>
 	        </div>
 				</div>
 			</section>
-			<section class="ftco-section">
+			<section class="ftco-section contact-section">
 	      <div class="container">
-	        <div class="row">
-	          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-	            <div class="media block-6 services py-4 d-block">
-	              <div class="d-flex justify-content-start">
-	              	<div class="icon d-flex align-items-center justify-content-center">
-	              		<span class="flaticon-big-lens"></span>
-	              	</div>
+	       
+	        <div class="row block-9">
+	          <div class="col-md-6 d-flex">
+	            <form action="insert2.php" method="post" class="bg-light p-5 contact-form">
+	              <div class="form-group">
+	                <input type="text" class="form-control" name="name" placeholder="Enter Your Name">
 	              </div>
-	              <div class="media-body p-2 mt-2">
-	             <?php echo "<h3 class='heading mb-3'>".$event1."</h3>";
-	              echo  "<p>".$des1."</p>";?>
+				  <div class="form-group">
+	                <input type="text" class="form-control"  name="m2" placeholder="Nice to meet you">
 	              </div>
-	            </div>      
+				  <div class="form-group">
+	                <input type="text" class="form-control"  name="name3" placeholder="Enter Your name">
+	              </div>
+				  <div class="form-group">
+	                <input type="text" class="form-control"  name="des" placeholder="Enter Description">
+	              </div>
+				  <div class="form-group">
+	                <input type="text" class="form-control" name="twitter" placeholder="Enter twitter link ">
+	              </div>
+				  <div class="form-group">
+	                <input type="text" class="form-control"  name="facebook" placeholder="Enter facebook link">
+	              </div>
+				  <div class="form-group">
+	                <input type="text" class="form-control"  name="instagram" placeholder="Enter instagram link">
+	              </div>
+				  <div class="form-group">
+	                <input type="text" class="form-control"  name="theme1" placeholder="Enter theme name1">
+	              </div>
+				  <div class="form-group">
+	                <input type="text" class="form-control" name="count1" placeholder="Enter count  ">
+	              </div>
+				  <div class="form-group">
+	                <input type="text" class="form-control"  name="theme2" placeholder="Enter theme name2">
+	              </div>
+				  <div class="form-group">
+	                <input type="text" class="form-control"  name="theme3" placeholder="Enter theme name3">
+	              </div>
+				  <div class="form-group">
+	                <input type="text" class="form-control"  name="theme4" placeholder="Enter theme name4">
+	              </div>
+				  <div class="form-group">
+	                <input type="text" class="form-control" name="follow" placeholder="Enter follow name">
+	              </div>
+	              <div class="form-group">
+	                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+	              </div>
+	            </form>
 	          </div>
-	          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-	            <div class="media block-6 services py-4 d-block">
-	              <div class="d-flex justify-content-start">
-	              	<div class="icon d-flex align-items-center justify-content-center">
-	              		<span class="flaticon-printing-photo"></span>
-	              	</div>
-	              </div>
-	              <div class="media-body p-2 mt-2">
-	             <?php echo "<h3 class='heading mb-3'>".$event2."</h3>";
-	                echo  "<p>".$des2."</p>";?>
-	              </div>
-	            </div>      
-	          </div>
-	          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-	            <div class="media block-6 services py-4 d-block">
-	              <div class="d-flex justify-content-start">
-	              	<div class="icon d-flex align-items-center justify-content-center">
-	              		<span class="flaticon-focusing-target"></span>
-	              	</div>
-	              </div>
-	              <div class="media-body p-2 mt-2">
-	               <?php echo "<h3 class='heading mb-3'>".$event3."</h3>";
-                    echo  "<p>".$des3."</p>";?>
-	              </div>
-	            </div>      
-	          </div>
-	          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-	            <div class="media block-6 services py-4 d-block">
-	              <div class="d-flex justify-content-start">
-	              	<div class="icon d-flex align-items-center justify-content-center">
-	              		<span class="flaticon-camera"></span>
-	              	</div>
-	              </div>
-	              <div class="media-body p-2 mt-2">
-                  <?php echo "<h3 class='heading mb-3'>".$event4."</h3>";
-	                echo  "<p>".$des4."</p>";?>
-	              </div>
-	            </div>    
-	          </div>
-	          <div class="col-md-4 d-flex align-sel Searchf-stretch ftco-animate">
-	            <div class="media block-6 services py-4 d-block">
-	              <div class="d-flex justify-content-start">
-	              	<div class="icon d-flex align-items-center justify-content-center">
-	              		<span class="flaticon-polaroid-pictures"></span>
-	              	</div>
-	              </div>
-	              <div class="media-body p-2 mt-2">
-                  <?php echo "<h3 class='heading mb-3'>".$event5."</h3>";
-	                echo  "<p>".$des5."</p>";?>
-	              </div>
-	            </div>      
-	          </div>
-	          <div class="col-md-4 d-flex align-self-stretch ftco-animate">
-	            <div class="media block-6 services py-4 d-block">
-	              <div class="d-flex justify-content-start">
-	              	<div class="icon d-flex align-items-center justify-content-center">
-	              		<span class="flaticon-film"></span>
-              	</div>
-              </div>
-              <div class="media-body p-2 mt-2">
-              <?php echo "<h3 class='heading mb-3'>".$event6."</h3>";
-	                echo  "<p>".$des6."</p>";?>
-              </div>
-            </div>
-          </div>
-        </div>
+	        </div>
+	      </div>
 	    </section>
 	    <footer class="ftco-footer ftco-bg-dark ftco-section">
 	      <div class="container px-md-5">
@@ -169,7 +141,7 @@
 	              </ul>
 	            </div>
 	          </div>
-			  <div class="col-md">
+	          <div class="col-md">
 	             <div class="ftco-footer-widget mb-4">
 				 <?php echo  "<h2 class='ftco-heading-2'>".$achievement."</h2>";?>
 	              <ul class="list-unstyled categories">
@@ -211,25 +183,23 @@
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/jquery.easing.1.3.js"></script>
+  <script src="../js/jquery.waypoints.min.js"></script>
+  <script src="../js/jquery.stellar.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/jquery.magnific-popup.min.js"></script>
+  <script src="../js/aos.js"></script>
+  <script src="../js/jquery.animateNumber.min.js"></script>
+  <script src="../js/bootstrap-datepicker.js"></script>
+  <script src="../js/jquery.timepicker.min.js"></script>
+  <script src="../js/scrollax.min.js"></script>
+  <script src="../https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="../js/google-map.js"></script>
+  <script src="../js/main.js"></script>
     
   </body>
 </html>
