@@ -49,7 +49,7 @@
                                     <div class="d-flex">
                                 </div>
                                 <div>
-                                <TEXTAREA name="des1" ROWS=3 COLS=40><?php echo $des1; ?></TEXTAREA>
+                                <?php echo("<TEXTAREA name='des1' ROWS=3 COLS=40>" . $des1 . "</TEXTAREA>"); ?>
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control" id="name" name="title2" value="<?php echo $title2;?>">
