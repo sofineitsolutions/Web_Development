@@ -28,7 +28,7 @@
     include("variable4.php");?>
      <!-- bradcam_area -->
      <div class="bradcam_area">
-             <div class="single_bradcam  d-flex align-items-center bradcam_bg_2 overlay">
+            <div class="single_bradcam  d-flex align-items-center bradcam_bg_2 overlay">
                      <div class="container">
                          <div class="row align-items-center justify-content-center">
                              <div class="col-xl-12">
@@ -38,10 +38,9 @@
                              </div>
                          </div>
                      </div>
-               </div>
+            </div>
      </div>
      <!-- bradcam_area end -->
-
    <!--================Blog Area =================-->
    <section class="blog_area single-post-area section-padding">
       <div class="container">
@@ -359,7 +358,7 @@
                            <a href="#">design</a>
                         </li>
                         <li>
-                           <a href="#">illustration</a>
+                        <a href="#">illustration</a>
                         </li>
                      </ul>
                   </aside>
@@ -415,7 +414,7 @@
       </div>
    </section>
    <!--================ Blog Area end =================-->
-<?php include("../f.php");?>
+   <?php include("../f.php");?>
    <!-- JS here -->
    <script src="../js/vendor/modernizr-3.5.0.min.js"></script>
    <script src="../js/vendor/jquery-1.12.4.min.js"></script>
