@@ -31,41 +31,178 @@
 					<input type="text" class="form-control" name="db_title3" required="required"/>
 				</div>
 				<div class="form-group">
-					<label>title</label>
+					<label>content</label>
 					<input type="text" class="form-control" name="db_con1" required="required"/>
 				</div>
 				<div class="form-group">
-					<label>title</label>
+					<label>description</label>
 					<input type="text" class="form-control" name="db_dec1" required="required"/>
 				</div>
 				<div class="form-group">
-					<label>title</label>
+					<label>description</label>
 					<input type="text" class="form-control" name="db_dec2" required="required"/>
 				</div>
 				<div class="form-group">
-					<label>title</label>
+					<label>description</label>
 					<input type="text" class="form-control" name="db_dec3" required="required"/>
 				</div>
 				<div class="form-group">
-					<label>title</label>
+					<label>description</label>
 					<input type="text" class="form-control" name="db_dec4" required="required"/>
 				</div>
 				<div class="form-group">
-					<label>title</label>
+					<label>content</label>
 					<input type="text" class="form-control" name="db_con2" required="required"/>
 				</div>
 				<div class="form-group">
-					<label>title</label>
+					<label>content</label>
 					<input type="text" class="form-control" name="db_con3" required="required"/>
 				</div>
 				<div class="form-group">
-					<label>title</label>
+					<label>content</label>
 					<input type="text" class="form-control" name="db_con4" required="required"/>
 				</div>
 				<div class="form-group">
 					<label>title</label>
 					<input type="text" class="form-control" name="db_title4" required="required"/>
 				</div>
+				<div class="form-group">
+					<label>Subtitle</label>
+					<input type="text" class="form-control" name="db_subtitle1" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>description</label>
+					<input type="text" class="form-control" name="db_dec5" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>title</label>
+					<input type="text" class="form-control" name="db_title5" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>Subtitle</label>
+					<input type="text" class="form-control" name="db_subtitle2" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>content</label>
+					<input type="text" class="form-control" name="db_con5" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>content</label>
+					<input type="text" class="form-control" name="db_con6" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>content</label>
+					<input type="text" class="form-control" name="db_con7" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>content</label>
+					<input type="text" class="form-control" name="db_con8" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>content</label>
+					<input type="text" class="form-control" name="db_con9" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>content</label>
+					<input type="text" class="form-control" name="db_con10" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>description</label>
+					<input type="text" class="form-control" name="db_dec6" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>description</label>
+					<input type="text" class="form-control" name="db_dec7" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>description</label>
+					<input type="text" class="form-control" name="db_dec8" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>description</label>
+					<input type="text" class="form-control" name="db_dec9" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>content</label>
+					<input type="text" class="form-control" name="db_con11" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>content</label>
+					<input type="text" class="form-control" name="db_con12" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>content</label>
+					<input type="text" class="form-control" name="db_con13" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>title</label>
+					<input type="text" class="form-control" name="db_title6" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>Subtitle</label>
+					<input type="text" class="form-control" name="db_subtitle3" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>description</label>
+					<input type="text" class="form-control" name="db_dec10" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>description</label>
+					<input type="text" class="form-control" name="db_dec11" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>description</label>
+					<input type="text" class="form-control" name="db_dec12" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>description</label>
+					<input type="text" class="form-control" name="db_dec13" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>description</label>
+					<input type="text" class="form-control" name="db_dec14" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>name</label>
+					<input type="text" class="form-control" name="db_name1" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>name</label>
+					<input type="text" class="form-control" name="db_name2" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>name</label>
+					<input type="text" class="form-control" name="db_name3" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>name</label>
+					<input type="text" class="form-control" name="db_name4" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>name</label>
+					<input type="text" class="form-control" name="db_name5" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>post</label>
+					<input type="text" class="form-control" name="db_post1" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>post</label>
+					<input type="text" class="form-control" name="db_post2" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>post</label>
+					<input type="text" class="form-control" name="db_post3" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>post</label>
+					<input type="text" class="form-control" name="db_post4" required="required"/>
+				</div>
+				<div class="form-group">
+					<label>post</label>
+					<input type="text" class="form-control" name="db_post5" required="required"/>
+				</div>
+
 				
 				
 				<center><button class="btn btn-primary" name="save">Save</button></center>
